@@ -57,6 +57,11 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
+    public static Object PortUsers
+     
+    /**
+     * <p></p>
+     */
     public static Object TestENV
      
 
@@ -75,6 +80,7 @@ public class GlobalVariable {
             ProductionRequest = selectedVariables['ProductionRequest']
             WRtypes = selectedVariables['WRtypes']
             PreprodENV = selectedVariables['PreprodENV']
+            PortUsers = selectedVariables['PortUsers']
             TestENV = selectedVariables['TestENV']
             
         } catch (Exception e) {
