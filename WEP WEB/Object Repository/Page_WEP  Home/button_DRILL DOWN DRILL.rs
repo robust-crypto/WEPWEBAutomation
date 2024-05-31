@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_DRILL DOWN DRILL</name>
+   <tag></tag>
+   <elementGuidId>e106076e-9659-4bbf-8ebb-70a1904f451f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[12]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-outline-primary.ml-2.d-flex</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>CSS</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>e0aaf6e8-714d-407f-9268-f2f318be6a2f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d18766ab-8981-4047-84e9-69e0fcca7b88</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-outline-primary ml-2 d-flex</value>
+      <webElementGuid>eb23102e-c855-4f6a-8b69-0e5c1665242c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value> DRILL DOWN DRILL</value>
+      <webElementGuid>d1a732be-46ed-4198-a803-c9d7e5dff20a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vueAppContainer1&quot;)/div[@class=&quot;card h-100&quot;]/div[@class=&quot;form-horizontal mar-top flex-column d-flex h-100 justify-content-start&quot;]/div[@class=&quot;card-body h-100 d-flex flex-column pt-0 px-0&quot;]/div[@class=&quot;mt-2 px-3&quot;]/div[@class=&quot;border-top border-bottom&quot;]/div[@class=&quot;w-100 py-3&quot;]/div[@class=&quot;flex-column mt-2&quot;]/div[@class=&quot;d-flex align-items-center mt-1&quot;]/button[@class=&quot;btn btn-outline-primary ml-2 d-flex&quot;]</value>
+      <webElementGuid>48401b25-3d65-4844-b7ea-be9019966ec1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[12]</value>
+      <webElementGuid>d8041ae3-2846-4a84-8725-dec2529fdbb3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vueAppContainer1']/div[2]/div/div/div[2]/div[2]/div/div/div/button</value>
+      <webElementGuid>44c03286-b91c-470a-9e10-0775aad57733</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search by description, sort code or plant identifier'])[1]/following::button[1]</value>
+      <webElementGuid>fae1b665-4b16-4251-96bf-1d7b2be87afa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/button</value>
+      <webElementGuid>7482e597-8b39-40ad-bc56-c37f8cb49a80</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = ' DRILL DOWN DRILL' or . = ' DRILL DOWN DRILL')]</value>
+      <webElementGuid>4f4ac899-9d00-448a-8f62-20ad597434fd</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

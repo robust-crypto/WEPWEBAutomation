@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>default</name>
+   <tag></tag>
+   <defaultProfile>true</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['Pulaneam', 'Amoam']</initValue>
+      <name>PlatsUsers</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'12345'</initValue>
+      <name>Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestObject('Page_WEP  Home/div_Maintenance Request  Maintenance request')</initValue>
+      <name>MaintenanceRequest</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'AmoIOB'</initValue>
+      <name>IOBUser2</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestObject('Page_WEP  Home/div_Malfunction  Malfunction')</initValue>
+      <name>Malfunction</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestObject('Page_WEP  Home/div_Operations Request  Operations Request')</initValue>
+      <name>OperationRequest</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>findTestObject('Page_WEP  Home/div_Production Request  Production Request')</initValue>
+      <name>ProductionRequest</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[findTestObject('Page_WEP  Home/div_Maintenance Request  Maintenance request'), findTestObject('Page_WEP  Home/div_Malfunction  Malfunction'), findTestObject('Page_WEP  Home/div_Operations Request  Operations Request'), findTestObject('Page_WEP  Home/div_Production Request  Production Request')]</initValue>
+      <name>WRtypes</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
