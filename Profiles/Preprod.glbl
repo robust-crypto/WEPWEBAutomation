@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Preprod</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'wep-preprod.ea.angloamerican.com'</initValue>
+      <name>PreprodENV</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['Amoam', 'Pulaneam']</initValue>
+      <name>PlatsUsers</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'12345'</initValue>
+      <name>Password</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>
