@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_NOCO</name>
+   <tag></tag>
+   <elementGuidId>e393ad8e-ed8f-4f8a-a34b-a473cbe31e28</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='info']/div/div[3]/div[2]/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>bbd2c542-f562-4425-ba63-5d4e4300c191</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>expandable-label mb-0 w-100 leftalign</value>
+      <webElementGuid>6d9bc803-f25f-4a9b-bd20-48384b4cd903</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>NOCO</value>
+      <webElementGuid>02102ac4-e852-4628-ac93-40d9e482d29f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;info&quot;)/div[@class=&quot;overflow-auto form-container px-3&quot;]/div[@class=&quot;row align-items-start py-1 pl-3&quot;]/div[@class=&quot;col-8&quot;]/label[@class=&quot;expandable-label mb-0 w-100 leftalign&quot;]</value>
+      <webElementGuid>fe57abf0-f333-4be7-8d16-0f7a95ca444a</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='info']/div/div[3]/div[2]/label</value>
+      <webElementGuid>0c6f53e3-907a-4958-afa4-379ceee822d1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='System Status'])[1]/following::label[1]</value>
+      <webElementGuid>2500c64e-a16b-4649-ae40-bc6a54a2b5f0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NCD'])[1]/following::label[2]</value>
+      <webElementGuid>5e29b945-b2a8-443c-ba29-e479977d53cb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reported By'])[1]/preceding::label[1]</value>
+      <webElementGuid>7792c941-dbcd-4ee9-9a02-3a45ff7dba94</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='A PREPROD'])[1]/preceding::label[2]</value>
+      <webElementGuid>e0ebc20a-8a91-4f72-9584-21e6ed3c9b00</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='NOCO']/parent::*</value>
+      <webElementGuid>fca15592-c5f1-477a-a999-0a5b39aa4bb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/label</value>
+      <webElementGuid>adc27be4-dade-4182-b2e1-94715e062dde</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'NOCO' or . = 'NOCO')]</value>
+      <webElementGuid>74e61ae6-0c34-4e2b-9170-4031366a21d2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

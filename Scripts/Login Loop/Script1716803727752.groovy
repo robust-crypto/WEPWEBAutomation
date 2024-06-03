@@ -19,6 +19,8 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.openBrowser('')
+
 WebUI.navigateToUrl(GlobalVariable.PreprodENV)
 
 WebUI.maximizeWindow()
@@ -33,6 +35,8 @@ for (int i = 0; i < 2; i++) {
         'iGDxf8hSRT4=')
 
     WebUI.click(findTestObject('Object Repository/Page_Anglo EA Identity  Identity/button_Login'))
+
+    WebUI.callTestCase(findTestCase('Edit Work Request'), [:], FailureHandling.STOP_ON_FAILURE)
 
     WebUI.callTestCase(findTestCase('Work Request'), [:], FailureHandling.STOP_ON_FAILURE)
 
