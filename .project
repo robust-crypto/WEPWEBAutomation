@@ -35,6 +35,7 @@
 			</matcher>
 		</filter>
 		<filter>
+<<<<<<< HEAD
 			<id>1717398690104</id>
 			<name></name>
 			<type>10</type>
@@ -45,6 +46,18 @@
 		</filter>
 		<filter>
 			<id>1717398690116</id>
+=======
+			<id>1717160746075</id>
+			<name></name>
+			<type>10</type>
+			<matcher>
+				<id>org.eclipse.core.resources.regexFilterMatcher</id>
+				<arguments>.*\.svn$</arguments>
+			</matcher>
+		</filter>
+		<filter>
+			<id>1717160746100</id>
+>>>>>>> branch 'main' of https://github.com/robust-crypto/WEPWEBAutomation.git
 			<name></name>
 			<type>6</type>
 			<matcher>
