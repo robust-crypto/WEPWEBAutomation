@@ -16,4 +16,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.By as By
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import java.util.Date
+import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.chrome.ChromeDriver as WebElement
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
+	WebUI.click(findTestObject('Object Repository/Work Orders/Page_WEP  Home/SideBar Minimizer'))
+	WebDriver driver =DriverFactory.getWebDriver()
+	def aa= driver.findElement(By.xpath("//li[@class='nav-item nav-dropdown'][1]/a[@class='nav-link aa-primary nav-dropdown-toggle hide-before w-100 cursorPointer']"))
+	aa.click()
+	
+	
+	WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/a_Work Board'))
 
