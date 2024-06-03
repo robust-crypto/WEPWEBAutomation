@@ -16,35 +16,20 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-
-WebUI.openBrowser('')
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.PreprodENV)
-
-WebUI.maximizeWindow()
-
-
-for (int i = 0; i < 2; i++) {
-    WebUI.setText(findTestObject('Object Repository/Page_Anglo EA Identity  Identity/input_Work Execution Platform_Username'), 
-        GlobalVariable.PlatsUsers[i])
-
-    WebUI.click(findTestObject('Object Repository/Page_Anglo EA Identity  Identity/button_Next'))
-
-    WebUI.setEncryptedText(findTestObject('Object Repository/Page_Anglo EA Identity  Identity/input_Work Execution Platform_Password'), 
-        'iGDxf8hSRT4=')
-
-    WebUI.click(findTestObject('Object Repository/Page_Anglo EA Identity  Identity/button_Login'))
-
-    WebUI.callTestCase(findTestCase('Edit Work Request'), [:], FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.callTestCase(findTestCase('Work Request'), [:], FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.click(findTestObject('Object Repository/Page_WEP  Home/ProfileMenu'))
-
-    WebUI.click(findTestObject('Object Repository/Page_WEP  Home/a_Logout'))
-}
-
-WebUI.closeBrowser()
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.By as By
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import java.util.Date
+import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.chrome.ChromeDriver as WebElement
+import java.time.LocalDateTime
+import java.time.format.DateTimeFormatter
+	WebUI.click(findTestObject('Object Repository/Work Orders/Page_WEP  Home/SideBar Minimizer'))
+	WebDriver driver =DriverFactory.getWebDriver()
+	def aa= driver.findElement(By.xpath("//li[@class='nav-item nav-dropdown'][1]/a[@class='nav-link aa-primary nav-dropdown-toggle hide-before w-100 cursorPointer']"))
+	aa.click()
+	
+	
+	WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/a_Work Board'))
 
