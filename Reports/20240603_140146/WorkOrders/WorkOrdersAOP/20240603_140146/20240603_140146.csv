@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+WorkOrdersAOP,Chrome 125.0.0.0,,,03-06-2024 14:01:54,03-06-2024 14:02:52,"58,452s",ERROR
+,,,,,,,
+Test Cases/Login Work Orders,Chrome 125.0.0.0,,,03-06-2024 14:01:54,03-06-2024 14:02:20,"26,535s",ERROR
+"openBrowser("""")",Chrome 125.0.0.0,,,03-06-2024 14:01:54,03-06-2024 14:01:58,"3,518s",PASSED
+navigateToUrl(PreprodENV),Chrome 125.0.0.0,,,03-06-2024 14:01:58,03-06-2024 14:02:03,"5,174s",PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,03-06-2024 14:02:03,03-06-2024 14:02:03,"0,404s",PASSED
+"for ([i = 0, i < 1, (i++)])",Chrome 125.0.0.0,,,03-06-2024 14:02:03,03-06-2024 14:02:20,"16,919s",ERROR
+,,,,,,,
+Test Cases/Work Request,Chrome 125.0.0.0,,,03-06-2024 14:02:20,03-06-2024 14:02:52,"31,671s",FAILED
+"for ([i = 0, i < 4, (i++)])",Chrome 125.0.0.0,,,03-06-2024 14:02:21,03-06-2024 14:02:52,"31,374s",FAILED

@@ -33,7 +33,9 @@ WebUI.navigateToUrl(GlobalVariable.PreprodENV)
 WebUI.maximizeWindow()
 
 
-for (int i = 0; i < 1; i++) {
+for (int i = 0; i < 1; i++)
+	
+	 {
     WebUI.setText(findTestObject('Object Repository/Page_Anglo EA Identity  Identity/input_Work Execution Platform_Username'), 
         GlobalVariable.PlatsUsers[i])
 
@@ -52,10 +54,10 @@ for (int i = 0; i < 1; i++) {
 	
     WebUI.callTestCase(findTestCase('Work Orders'), [:], FailureHandling.STOP_ON_FAILURE)
 
-   WebUI.click(findTestObject('Object Repository/Page_WEP  Home/ProfileMenu'))
+  // WebUI.click(findTestObject('Object Repository/Page_WEP  Home/ProfileMenu'))
 
-   WebUI.click(findTestObject('Object Repository/Page_WEP  Home/a_Logout'))
+  // WebUI.click(findTestObject('Object Repository/Page_WEP  Home/a_Logout'))
 }
 
-WebUI.closeBrowser()
+
 

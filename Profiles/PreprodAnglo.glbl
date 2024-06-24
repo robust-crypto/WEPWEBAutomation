@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GlobalVariableEntities>
    <description></description>
-   <name>Preprod</name>
+   <name>PreprodAnglo</name>
    <tag></tag>
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>['Amoam', 'Pulaneam']</initValue>
+      <initValue>['Pulaneam', 'AMOAM']</initValue>
       <name>PlatsUsers</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

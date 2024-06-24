@@ -41,8 +41,18 @@ for (int i = 0; i < 4; i++) {
 
         WebUI.click(findTestObject('Page_WEP  Home/i_Malfunction start date and time_fa fa-calendar'))
 
-        WebUI.click(findTestObject('Page_WEP  Home/Page_WEP  Home/td_30'))
-
+       // WebUI.click(findTestObject('Page_WEP  Home/Page_WEP  Home/td_30'))
+		WebDriver driver =DriverFactory.getWebDriver()
+		
+	   def mALFUNCTION= driver.findElement(By.xpath("//input[@id='malfunctionStartDateTime']"))
+	   
+	  mALFUNCTION.clear()
+	  LocalDateTime fDateTime = LocalDateTime.now()
+	  //LocalDateTime fDateTime = LocalDateTime.now().plusYears(5).plusMonths(1).plusDays(1);
+	  DateTimeFormatter FutureDate_formatter = DateTimeFormatter.ofPattern("dd/MM/yyyy")
+	  def FutureDateTime = fDateTime.format(FutureDate_formatter).toString()
+	   
+	  mALFUNCTION.sendKeys(FutureDateTime)
         WebUI.click(findTestObject('Object Repository/Page_WEP  Home/button_NEXT_1'))
     }
     
