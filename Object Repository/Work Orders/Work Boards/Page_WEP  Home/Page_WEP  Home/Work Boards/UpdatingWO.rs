@@ -1,20 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>SideBar Minimizer</name>
+   <name>UpdatingWO</name>
    <tag></tag>
-   <elementGuidId>d8a80be1-640c-4b26-8f5d-3532be5b01eb</elementGuidId>
+   <elementGuidId>ab385195-960c-44ab-b709-fca5c145f98f</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value></value>
-      </entry>
-      <entry>
          <key>XPATH</key>
-         <value>//button[@class='sidebar-minimizer brand-minimizer']</value>
+         <value>//div[@class='check-erp-top-text d-flex align-items-center']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
 </WebElementEntity>

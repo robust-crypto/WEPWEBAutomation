@@ -6,11 +6,11 @@
    <elementGuidId>d06ce5b7-5d2f-4f9c-9dca-f05c8ded986b</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>BASIC</key>
-         <value>//div[@id='vueAppContainer1']/div[2]/div/div/div/div[2]/div/div</value>
+         <key>XPATH</key>
+         <value>//button[@class='sidebar-minimizer brand-minimizer']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
+         <key>BASIC</key>
          <value>//div[@id='vueAppContainer1']/div[2]/div/div/div/div[2]/div/div</value>
       </entry>
    </selectorCollection>
