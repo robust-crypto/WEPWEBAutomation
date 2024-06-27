@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Notification 14453702</name>
+   <tag></tag>
+   <elementGuidId>ebb071fd-5499-430c-ace6-d8e5ff16d235</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='vueApprovalBulk']/div/div/div/div/div[4]/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>f7ece81d-fbc5-4a26-b898-9955c8ce9145</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-12 flex-column align-items-start pl-0 mb-1</value>
+      <webElementGuid>e2d8ae91-323f-4726-a538-23c073a9349e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Notification 14453702</value>
+      <webElementGuid>dc125da4-08b1-4691-9e18-a2bf5eec652e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vueApprovalBulk&quot;)/div[@class=&quot;card h-100&quot;]/div[@class=&quot;form-horizontal mar-top flex-column d-flex h-100 justify-content-start&quot;]/div[@class=&quot;card-body h-100 d-flex flex-column px-0&quot;]/div[@class=&quot;overflow-auto px-3 anglo-scrollbar&quot;]/div[@class=&quot;d-flex flex-column border-bottom&quot;]/div[@class=&quot;d-flex align-items-start w-100 mt-2 pb-2&quot;]/div[@class=&quot;col-6 flex-column align-items-start px-0&quot;]/div[@class=&quot;col-12 flex-column align-items-start pl-0 mb-1&quot;]</value>
+      <webElementGuid>b82acc35-5091-48f8-9f8d-61ab08f02ce3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vueApprovalBulk']/div/div/div/div/div[4]/div/div/div[2]</value>
+      <webElementGuid>c34c6fe9-fcae-498e-bb4b-4598e0b07b05</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Medium'])[15]/following::div[1]</value>
+      <webElementGuid>e39fb9fa-4ed4-499d-b041-2e2d84ad37e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Comments'])[2]/following::div[6]</value>
+      <webElementGuid>0eedac2b-ce5f-4092-81dd-4dfae792c74b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Functional Location'])[4]/preceding::div[1]</value>
+      <webElementGuid>73c9062a-654c-4daf-8f89-d671f28a1b2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[4]/div/div/div[2]</value>
+      <webElementGuid>30fa9642-2f34-4787-8fa8-5cef51b1c213</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Notification 14453702' or . = 'Notification 14453702')]</value>
+      <webElementGuid>cbef4bd7-702d-479d-8001-d87f5fc9772e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

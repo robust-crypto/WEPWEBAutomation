@@ -16,44 +16,39 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.chrome.ChromeDriver as WebElement
+import org.openqa.selenium.By as By
+import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.click(findTestObject('Object Repository/Page_WEP  Home/a_VIEW_ALL'))
 
 WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/td'))
 
-WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/button_Notification_close aa-primary'))
-
-WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/td_1'))
-
 WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/button_EDIT'))
 
-WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/div_EDIT_am-component-loader'))
+WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/div_Description'))
 
 WebUI.setText(findTestObject('Object Repository/Page_WEP  Work Requests/input_Description_w-100 form-control round _01bf87'), 
-    'Editted Work Request')
+    'Automated My Submitted Editted WR')
 
-WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/div_EDIT_am-component-loader'))
+WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/div_Impact_multiselect__tags'))
 
 WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/span_High'))
 
-WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/div_EDIT_am-component-loader'))
+WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/div_Work Request Type_multiselect__tags'))
 
-WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/span_Operations Request'))
+WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/span_Production Request'))
 
-WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/div_EDIT_am-component-loader'))
+WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/div_Functional Location_multiselect__tags'))
 
-WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/span_AA - SENIOR ASSET MANAGER'))
+WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/span_70010202.01.01.02 - TL 1SH Potable Wat_977e91'))
+
+WebUI.setText(findTestObject('Object Repository/Page_WEP  Work Requests/input_Add to long description_addtolongdescription'), 
+    'Automated Long Description ')
 
 WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/button_SAVE'))
 
-WebUI.delay(10)
-
-WebUI.verifyElementText(findTestObject('Object Repository/Page_WEP  Work Requests/div_The item was saved successfully'), 
-    'The item was saved successfully')
-
-WebUI.setText(findTestObject('Object Repository/Page_WEP  Work Requests/workRequestObject'), wrNumber)
-
-WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/xBTN'))
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/a_Pending approval'))
 

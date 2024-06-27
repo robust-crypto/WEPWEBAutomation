@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Work Request Type_multiselect__tags</name>
+   <tag></tag>
+   <elementGuidId>51f46756-0793-4ffe-ace5-7c30efdec5ed</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='workrequesttype']/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.multiselect.w-100.form-control.backg.p-0.left-modal-text.multiselect--active.multiselect--above > div.multiselect__tags</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>77b82669-2dcd-4edd-8305-a9d14435f876</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>multiselect__tags</value>
+      <webElementGuid>62246f7f-db72-472f-8622-125cd944eb66</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;workrequesttype&quot;)/div[@class=&quot;multiselect w-100 form-control backg p-0 left-modal-text multiselect--active multiselect--above&quot;]/div[@class=&quot;multiselect__tags&quot;]</value>
+      <webElementGuid>5e39d81b-4270-4660-966d-33bb28d15ca2</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='workrequesttype']/div/div[2]</value>
+      <webElementGuid>ea8535f6-f038-46c4-8b48-03bd81985746</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Request Type'])[1]/following::div[5]</value>
+      <webElementGuid>ba889924-031d-4d36-ae44-21e2ed1f43e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='High'])[3]/following::div[7]</value>
+      <webElementGuid>b3220c1e-8956-4ada-8107-e8f2b7230785</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Maintenance Request'])[3]/preceding::div[3]</value>
+      <webElementGuid>66117efa-3d52-4ff4-8a27-b76fda1d11d4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Operations Request'])[1]/preceding::div[3]</value>
+      <webElementGuid>ab43fb06-2868-49a2-83ee-3b1126db7da0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[8]/div[2]/div/div/div[2]</value>
+      <webElementGuid>6cc67fc5-daa4-4601-a2a1-4bdb9db7b65c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

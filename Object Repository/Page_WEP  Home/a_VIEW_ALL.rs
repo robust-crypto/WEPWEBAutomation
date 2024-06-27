@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='ui-view']/div/div[2]/div/div/div[3]/div[4]/a[2]</value>
+         <value>//div[@id='ui-view']/div/div/div/div/div[3]/div[4]/a[2]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>b36f9dd5-e404-4fb4-981d-7de5857456e5</webElementGuid>
+      <webElementGuid>7dcbd5eb-d954-4ff7-ba39-c66b3b379d74</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/WorkRequest/WorkRequestSapList</value>
-      <webElementGuid>38dd1fd1-9b26-4c3e-a139-0d2bd058a9cb</webElementGuid>
+      <webElementGuid>fa07a161-0990-4ec1-ac69-bcab1ae06991</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>aa-prrimary mr-2</value>
-      <webElementGuid>34614ef9-4519-46c3-8406-750892898eca</webElementGuid>
+      <webElementGuid>84d7ff06-f5f8-452c-89ee-16a89b2d01a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>VIEW_ALL</value>
-      <webElementGuid>fc983290-0c9e-4ab7-9599-a752c54d11d0</webElementGuid>
+      <webElementGuid>c1ce065c-8533-4fd2-8b26-e7294a05f067</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,15 +55,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;ui-view&quot;)/div[@class=&quot;animated fadeIn px-0 py-4&quot;]/div[@class=&quot;row mx-lg-n1&quot;]/div[@class=&quot;col-md-6 pl-3 mb-3&quot;]/div[@class=&quot;panel h-100 d-flex flex-column px-2 bg-white position-relative&quot;]/div[@class=&quot;d-flex flex-column fixed-panel-no-overflow&quot;]/div[@class=&quot;d-flex justify-content-between align-items-end mt-2 mb-2&quot;]/a[@class=&quot;aa-prrimary mr-2&quot;]</value>
-      <webElementGuid>e47483bc-45d5-4ef9-85ab-afc19886c9d7</webElementGuid>
+      <webElementGuid>d6477654-deb6-40b1-bdd1-2abfffa401a6</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='ui-view']/div/div[2]/div/div/div[3]/div[4]/a[2]</value>
-      <webElementGuid>32edc4d8-e2f2-4b8a-aec2-92a9eebc75ab</webElementGuid>
+      <value>//div[@id='ui-view']/div/div/div/div/div[3]/div[4]/a[2]</value>
+      <webElementGuid>6567a574-bf57-419b-8cb1-1cef0e41cc7e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'VIEW_ALL')]</value>
-      <webElementGuid>0bfcb272-2a80-4e96-92da-a1a7963d31b3</webElementGuid>
+      <webElementGuid>665530ff-5f46-4b2a-9353-3d41b1c52d76</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,15 +79,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='SEARCH ERP'])[1]/following::a[1]</value>
-      <webElementGuid>0a6a5bbe-c4cb-48cc-9a47-2c0134b78485</webElementGuid>
+      <webElementGuid>9e271301-0fb3-40f2-be14-70c280e5240c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Medium'])[10]/following::a[2]</value>
-      <webElementGuid>d2571d2c-e824-40e4-9611-f1607c0d308d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='High'])[4]/following::a[2]</value>
+      <webElementGuid>6eecf126-861f-48b6-9f02-4b3635502d5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='WORK REQUESTS'])[2]/preceding::a[1]</value>
-      <webElementGuid>fc54841f-9098-4da8-8656-f46efa47897f</webElementGuid>
+      <webElementGuid>373b75fb-b893-4486-bf47-c7a8d92b1e6c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pending Approval'])[1]/preceding::a[1]</value>
-      <webElementGuid>7cdc34de-69fd-4c25-b946-4f5f28aa9192</webElementGuid>
+      <webElementGuid>9758db95-b1aa-473a-990f-b71104df999a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='VIEW_ALL']/parent::*</value>
-      <webElementGuid>da7d806b-8269-42ce-b529-c7a7ef7187a0</webElementGuid>
+      <webElementGuid>90c66b6b-7f15-4029-b667-754723b38125</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>(//a[contains(@href, '/WorkRequest/WorkRequestSapList')])[2]</value>
-      <webElementGuid>e33d2d57-2c76-4b10-993b-a8eba0e9bbd8</webElementGuid>
+      <webElementGuid>1a7d6ba8-a332-473d-b56c-4ed538e12a99</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[4]/a[2]</value>
-      <webElementGuid>1dabcc8f-25f8-4755-bc5d-bc2dc61c4041</webElementGuid>
+      <webElementGuid>68898c5c-778c-4e30-8956-60a5aed13d42</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,14 +135,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//a[@href = '/WorkRequest/WorkRequestSapList' and (text() = 'VIEW_ALL' or . = 'VIEW_ALL')]</value>
-      <webElementGuid>45f716e5-2bfc-4250-91e5-8fa242b6d53b</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Medium'])[12]/following::a[2]</value>
-      <webElementGuid>e59ad4b1-534d-4f9a-92cc-ce728775224c</webElementGuid>
+      <webElementGuid>6fb026d3-c236-46bf-bcc7-7a502431d73b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -52,6 +52,16 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
+    public static Object url
+     
+    /**
+     * <p></p>
+     */
+    public static Object followOnWRtypes
+     
+    /**
+     * <p></p>
+     */
     public static Object PreprodENV
      
     /**
@@ -79,6 +89,8 @@ public class GlobalVariable {
             OperationRequest = selectedVariables['OperationRequest']
             ProductionRequest = selectedVariables['ProductionRequest']
             WRtypes = selectedVariables['WRtypes']
+            url = selectedVariables['url']
+            followOnWRtypes = selectedVariables['followOnWRtypes']
             PreprodENV = selectedVariables['PreprodENV']
             PortUsers = selectedVariables['PortUsers']
             TestENV = selectedVariables['TestENV']

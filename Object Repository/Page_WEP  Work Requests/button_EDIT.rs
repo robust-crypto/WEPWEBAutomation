@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>077d719f-0a75-4182-a8ac-ce2fa087c156</webElementGuid>
+      <webElementGuid>18ae8324-0a87-4152-bc16-703ae6bf367c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>id</name>
       <type>Main</type>
       <value>editbtn</value>
-      <webElementGuid>1eb392ea-3010-4b28-b7e6-0fb4462421b3</webElementGuid>
+      <webElementGuid>67584d47-fab7-4bcf-8705-2b48da58a1a3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-outline-primary px-2 font-weight-bold ml-1 btnResize</value>
-      <webElementGuid>485ea1b9-e7fe-4123-b5a8-d88457cf3607</webElementGuid>
+      <webElementGuid>ff44bc05-afc3-42ea-a53e-a2c783313bc2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>EDIT</value>
-      <webElementGuid>8ffb0486-c06f-436c-bed9-cb6ed7b06884</webElementGuid>
+      <webElementGuid>89382350-fc72-47d9-b624-aad2926f751b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;vueApprovalSingleContainer&quot;)/div[@class=&quot;card h-100&quot;]/div[@class=&quot;form-horizontal mar-top flex-column d-flex h-100 justify-content-start&quot;]/div[@class=&quot;card-body h-100 pt-0 px-0 pb-2 d-flex flex-column&quot;]/div[@class=&quot;justify-content-center align-items-center d-none d-sm-block centering py-2&quot;]/button[@id=&quot;editbtn&quot;]</value>
-      <webElementGuid>3b73ab95-905b-48c8-a02c-c6b3eb22a7c1</webElementGuid>
+      <webElementGuid>507498f0-6081-4d3f-aa6c-5ae95489bba4</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='editbtn']</value>
-      <webElementGuid>99930785-d730-491c-914b-af6e24122937</webElementGuid>
+      <webElementGuid>650fe751-7779-4c2b-9c26-9fade14c6b1e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='vueApprovalSingleContainer']/div/div/div/div/button</value>
-      <webElementGuid>1713ca29-5a11-418e-90e2-cc0257b1d82a</webElementGuid>
+      <webElementGuid>1cba3950-4b04-4160-a5cc-f96804e4da59</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Outstanding'])[1]/following::button[2]</value>
-      <webElementGuid>5e36a0ad-f476-45f1-8b0b-908bf0c35cf0</webElementGuid>
+      <webElementGuid>9fae5037-ff71-4871-a789-dcbf2849da79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='EDIT'])[2]/preceding::button[1]</value>
-      <webElementGuid>604aab0e-8f80-40bf-a5d4-cee26eda8999</webElementGuid>
+      <webElementGuid>a3b8a5fe-8866-401a-9503-df2aa2f648d5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Created'])[1]/preceding::button[2]</value>
-      <webElementGuid>8bcdad48-e659-4d53-8f79-18fa9376d686</webElementGuid>
+      <webElementGuid>2fcf78f1-5a0f-4443-93b9-af172f0d10bc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='EDIT']/parent::*</value>
-      <webElementGuid>89d5765a-c17f-4f60-b304-341aff066a49</webElementGuid>
+      <webElementGuid>9237833c-e1cd-47d4-8951-1c5f20c93373</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div/div/div/div/div/button</value>
-      <webElementGuid>2e9df46c-81e5-45a1-b313-0894c047f407</webElementGuid>
+      <webElementGuid>930b8def-b3d5-4ac0-90c1-783e388009f8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,6 +119,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'editbtn' and (text() = 'EDIT' or . = 'EDIT')]</value>
-      <webElementGuid>707dadea-fb44-43f4-aeb8-11c1667d1fa3</webElementGuid>
+      <webElementGuid>825a77ee-b209-4f81-a589-6cb557b5761c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

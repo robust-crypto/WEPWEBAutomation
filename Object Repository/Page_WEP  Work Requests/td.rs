@@ -7,11 +7,11 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='ui-view']/div/div/div/div/div[2]/div[2]/table/tbody/tr[6]/td[6]</value>
+         <value>//div[@id='ui-view']/div/div/div/div/div[2]/div[2]/table/tbody/tr/td[8]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>tr:nth-of-type(6) > td:nth-of-type(6)</value>
+         <value>td:nth-of-type(8)</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,110 +23,62 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>34cd6e11-2ea1-4538-b7eb-449e658531e9</webElementGuid>
+      <webElementGuid>73158732-6603-4faf-b71c-43a7dc31e550</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;ui-view&quot;)/div[@class=&quot;animated fadeIn pb-3&quot;]/div[@class=&quot;row mx-lg-n1&quot;]/div[@class=&quot;col-lg-12 px-lg-1&quot;]/div[@class=&quot;card h-100 mb-0 rounded-0&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;table-responsive-lg&quot;]/table[@class=&quot;table table-hover&quot;]/tbody[1]/tr[6]/td[6]</value>
-      <webElementGuid>c5347a6d-523c-4037-bfea-cbf0bc8945a7</webElementGuid>
+      <value>id(&quot;ui-view&quot;)/div[@class=&quot;animated fadeIn pb-3&quot;]/div[@class=&quot;row mx-lg-n1&quot;]/div[@class=&quot;col-lg-12 px-lg-1&quot;]/div[@class=&quot;card h-100 mb-0 rounded-0&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;table-responsive-lg&quot;]/table[@class=&quot;table table-hover&quot;]/tbody[1]/tr[1]/td[8]</value>
+      <webElementGuid>81c1472a-f232-40e6-8b42-a01f3a0250fa</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='ui-view']/div/div/div/div/div[2]/div[2]/table/tbody/tr[6]/td[6]</value>
-      <webElementGuid>a2e92a52-0c55-4102-80e7-a493efedbcc3</webElementGuid>
+      <value>//div[@id='ui-view']/div/div/div/div/div[2]/div[2]/table/tbody/tr/td[8]</value>
+      <webElementGuid>d147ac08-0116-40fc-af0c-70a68ac1fd60</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='RW35'])[6]/following::td[2]</value>
-      <webElementGuid>16c48da5-4d1f-4a88-a386-e5b409c7a97e</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RW35'])[1]/following::td[2]</value>
+      <webElementGuid>e13e0196-99ed-4e62-8172-54b0d28c7fb7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Breakdown'])[1]/following::td[4]</value>
-      <webElementGuid>78176925-d941-477f-981b-897cfcd2378b</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='P KUMALO'])[1]/following::td[4]</value>
+      <webElementGuid>10656622-fc4a-43b0-b454-d352f29e7859</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Auto Test Request 2'])[1]/preceding::td[2]</value>
-      <webElementGuid>669ea442-cf5f-4c22-b52a-bd3007ed590a</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Automation Malfunction'])[1]/preceding::td[1]</value>
+      <webElementGuid>96aaec34-61f4-4b23-bf43-0998a1f49382</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='TL - TUMELA LOWER SEM'])[4]/preceding::td[3]</value>
-      <webElementGuid>17cddaf0-f23b-48b9-a0be-411a057042d8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='TL'])[1]/preceding::td[2]</value>
+      <webElementGuid>90ebf168-d4b7-4c7d-ae10-7d83b749b1f2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//tr[6]/td[6]</value>
-      <webElementGuid>b256bc82-b022-499e-b027-8011e6bafb7f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='ui-view']/div/div/div/div/div[2]/div[2]/table/tbody/tr[3]/td[6]</value>
-      <webElementGuid>c2637559-1c8c-4f6f-b549-c14971c7ea91</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='RW35'])[3]/following::td[2]</value>
-      <webElementGuid>f541000d-bc13-4483-9ba4-d1e03edf751c</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Very High'])[3]/following::td[4]</value>
-      <webElementGuid>802a0bca-d592-418d-911d-01e02ad17db9</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Malfunction'])[1]/preceding::td[2]</value>
-      <webElementGuid>c1b6ba46-6cd3-4926-a6e6-68020149cfb5</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='AA - SENIOR ASSET MANAGER'])[1]/preceding::td[3]</value>
-      <webElementGuid>893fd805-ba2c-4c1f-932e-523031d48fb4</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//tr[3]/td[6]</value>
-      <webElementGuid>07158709-1d8b-4f2d-94c5-60bd2a3b85bf</webElementGuid>
+      <value>//td[8]</value>
+      <webElementGuid>eaedcc24-9c43-41f9-8ebc-1b681efb72e8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

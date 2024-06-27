@@ -17,34 +17,19 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Object Repository/Page_WEP  Home/a_VIEW_ALL 95'))
 
-WebUI.openBrowser('')
+WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/td'))
 
-WebUI.navigateToUrl(GlobalVariable.PreprodENV)
+WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/button_APPROVE'))
 
-WebUI.maximizeWindow()
+WebUI.setText(findTestObject('Object Repository/Page_WEP  Work Requests/input_Upper cost limit_uppercost (1)'), '10000')
 
+WebUI.setText(findTestObject('Object Repository/Page_WEP  Work Requests/textarea_Comments_comments (1)'), 'Automated Approval Test')
 
-for (int i = 0; i < 2; i++) {
-    WebUI.setText(findTestObject('Object Repository/Page_Anglo EA Identity  Identity/input_Work Execution Platform_Username'), 
-        GlobalVariable.PlatsUsers[i])
+WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/button_SUBMIT'))
 
-    WebUI.click(findTestObject('Object Repository/Page_Anglo EA Identity  Identity/button_Next'))
+WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/button_FINISH'))
 
-    WebUI.setEncryptedText(findTestObject('Object Repository/Page_Anglo EA Identity  Identity/input_Work Execution Platform_Password'), 
-        'iGDxf8hSRT4=')
-
-    WebUI.click(findTestObject('Object Repository/Page_Anglo EA Identity  Identity/button_Login'))
-
-    WebUI.callTestCase(findTestCase('Edit Work Request'), [:], FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.callTestCase(findTestCase('Work Request'), [:], FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.click(findTestObject('Object Repository/Page_WEP  Home/ProfileMenu'))
-
-    WebUI.click(findTestObject('Object Repository/Page_WEP  Home/a_Logout'))
-}
-
-WebUI.closeBrowser()
+WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/a_Home'))
 

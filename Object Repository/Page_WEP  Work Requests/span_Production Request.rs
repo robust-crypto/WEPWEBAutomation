@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>span</value>
-      <webElementGuid>09c0cad5-5b53-4a4e-97a9-622ecd5dc241</webElementGuid>
+      <webElementGuid>08db6493-33b0-481d-8ffc-53e21c0cdc31</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>multiselect__option multiselect__option--highlight</value>
-      <webElementGuid>8174ff9f-0ce4-4b86-942a-62455a9c8ef0</webElementGuid>
+      <webElementGuid>7214c871-780d-4d7c-a7b5-4f4175274ea1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Production Request</value>
-      <webElementGuid>37a5ed6a-fd9a-424b-9260-89b3b6c1db6c</webElementGuid>
+      <webElementGuid>af1b2ef7-7af8-48b4-a85b-c042d26346cc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;workrequesttype&quot;)/div[@class=&quot;multiselect w-100 form-control backg p-0 left-modal-text multiselect--active multiselect--above&quot;]/div[@class=&quot;multiselect__content-wrapper&quot;]/ul[@class=&quot;multiselect__content&quot;]/li[@class=&quot;multiselect__element&quot;]/span[@class=&quot;multiselect__option multiselect__option--highlight&quot;]</value>
-      <webElementGuid>3d4e3efe-d371-423f-a664-4b9f862fa49d</webElementGuid>
+      <webElementGuid>2a85feb9-c347-48c9-953a-90596d56f5b0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -55,15 +55,15 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='workrequesttype']/div/div[3]/ul/li[3]/span</value>
-      <webElementGuid>3f31feef-c2b3-452a-9a71-f0d8be2d4455</webElementGuid>
+      <webElementGuid>9c56efb1-2ab5-4bc2-b203-96ac4512fabc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Malfunction'])[2]/following::span[1]</value>
-      <webElementGuid>7c0b64d8-d5e0-4ca8-b540-a9971c6865c8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Operations Request'])[1]/following::span[1]</value>
+      <webElementGuid>c8b713a2-7c63-4ce7-a9c9-784288a30fa2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Maintenance Request'])[3]/following::span[3]</value>
-      <webElementGuid>9d190f48-f6b1-41c4-8b4a-08a0b0ae24da</webElementGuid>
+      <webElementGuid>109a89e3-ec80-4b9b-916f-b65a06bb0f19</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='No elements found. Consider changing the search query.'])[2]/preceding::span[2]</value>
-      <webElementGuid>65175850-eb7e-4b96-8ebd-d504221566ff</webElementGuid>
+      <webElementGuid>80ce6ea7-2252-47a0-9bfe-ec9f5297f57a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[8]/div[2]/div/div/div[3]/ul/li[3]/span</value>
-      <webElementGuid>e708b9e4-679a-4b16-801c-d9518cb427c6</webElementGuid>
+      <webElementGuid>7dc94066-ae8d-40d7-a60a-4a4f0f50407f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//span[(text() = 'Production Request' or . = 'Production Request')]</value>
-      <webElementGuid>aa4adf7b-45f8-4d86-939b-45f5b2142e9e</webElementGuid>
+      <webElementGuid>240c3da6-6e45-44c8-94df-0ef4473dfbeb</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
