@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>tabChecklists</name>
+   <name>WorkEndTime</name>
    <tag></tag>
-   <elementGuidId>fb43ce2d-e206-4000-8761-d589c6f630de</elementGuidId>
+   <elementGuidId>8dc38a4b-ee26-491b-b179-f111db35a0bd</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Checklists')]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>(//input[@class='form-control background-time-icon'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

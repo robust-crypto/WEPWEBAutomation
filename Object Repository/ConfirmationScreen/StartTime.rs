@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>tabChecklists</name>
+   <name>StartTime</name>
    <tag></tag>
-   <elementGuidId>fb43ce2d-e206-4000-8761-d589c6f630de</elementGuidId>
+   <elementGuidId>09b9cde6-f1c5-40cb-9425-840e96850a8d</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Checklists')]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
+         <value>(//input[@class='form-control background-time-icon'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
 </WebElementEntity>

@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>tabChecklists</name>
+   <name>toggleResheduleRemainingWork</name>
    <tag></tag>
-   <elementGuidId>fb43ce2d-e206-4000-8761-d589c6f630de</elementGuidId>
+   <elementGuidId>8721c515-f851-4fa4-a2fb-0722ddffc697</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Checklists')]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
+         <value>//label[@for='switch3']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
 </WebElementEntity>

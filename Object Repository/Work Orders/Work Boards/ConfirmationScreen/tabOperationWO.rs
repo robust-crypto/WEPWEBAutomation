@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>tabChecklists</name>
+   <name>tabOperationWO</name>
    <tag></tag>
-   <elementGuidId>fb43ce2d-e206-4000-8761-d589c6f630de</elementGuidId>
+   <elementGuidId>6dd76a59-6112-4432-8ad8-d45522edae73</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Checklists')]</value>
+         <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
-         <key>BASIC</key>
+         <key>XPATH</key>
+         <value>//a[@id='mainoperations-tab']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

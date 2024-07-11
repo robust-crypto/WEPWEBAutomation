@@ -1,19 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>tabChecklists</name>
+   <name>CloseWOPop-up</name>
    <tag></tag>
-   <elementGuidId>fb43ce2d-e206-4000-8761-d589c6f630de</elementGuidId>
+   <elementGuidId>6fd740c5-b879-4e1f-9562-0aea47b03554</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Checklists')]</value>
-      </entry>
-      <entry>
-         <key>BASIC</key>
+         <value>(//button[@data-dismiss='modal'])[3]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
-   <useRalativeImagePath>false</useRalativeImagePath>
+   <useRalativeImagePath>true</useRalativeImagePath>
 </WebElementEntity>

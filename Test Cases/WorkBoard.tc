@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Work Orders&#xd;
+Confirmations</description>
+   <name>WorkBoard</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>e8761088-edc7-46cc-afe4-0adfbbc276d2</testCaseGuid>
+</TestCaseEntity>

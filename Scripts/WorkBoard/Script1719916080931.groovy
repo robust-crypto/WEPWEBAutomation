@@ -15,52 +15,71 @@ import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.openqa.selenium.Keys
+import org.eclipse.persistence.jpa.jpql.Assert
 import org.openqa.selenium.By as By
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import java.util.Date
-import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.WebElement as WebElement1
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.chrome.ChromeDriver as WebElement
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
-
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.PreprodENV)
-
-WebUI.maximizeWindow()
-
-
-for (int i = 0; i < 1; i++)
 	
-	 {
-    WebUI.setText(findTestObject('Object Repository/Page_Anglo EA Identity  Identity/input_Work Execution Platform_Username'), 
-        GlobalVariable.PlatsUsers[i])
 
-    WebUI.click(findTestObject('Object Repository/Page_Anglo EA Identity  Identity/button_Next'))
+WebUI.click(findTestObject('Object Repository/Work Orders/Page_WEP  Home/sidebar-minimizerbtn'))
+	WebDriver driver =DriverFactory.getWebDriver()
+	def aa= driver.findElement(By.xpath("//li[@class='nav-item nav-dropdown'][2]/a[@class='nav-link aa-primary nav-dropdown-toggle hide-before w-100 cursorPointer']"))
+	aa.click()
+	
 
-    WebUI.setEncryptedText(findTestObject('Object Repository/Page_Anglo EA Identity  Identity/input_Work Execution Platform_Password'), 
-        'iGDxf8hSRT4=')
-
-    WebUI.click(findTestObject('Object Repository/Page_Anglo EA Identity  Identity/button_Login'))
-  
-
+	WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/a_Work Board'))
+	WebUI.waitForElementNotPresent(findTestObject('Object Repository/Work Orders/Work Boards/UpdatingWO'), 60)
 	
 	
+	List<WebElement> elements = driver.findElements(By.xpath("//div[@class='d-flex align-items-center ml-1 pb-2']//img[@class='ml-1 ']"))
+	
+	def aaa
+	WebElement1 operation= null
+		for (WebElement1 item : elements) {
+		
+			if ( item.getAttribute("data-original-title") == "NOT STARTED")
+			{
+				operation = item
+				item.click()
+				WebUI.waitForElementPresent(findTestObject('Object Repository/Work Orders/Work Boards/OperationElements/WOModal'), 10)
+				
+				
+						
+				break
+			}
+			
+		
+			
+	
+		}
+		
+		WebUI.callTestCase(findTestCase('PartialConfirmation'), [:], FailureHandling.STOP_ON_FAILURE)
+		
+		
+		
+		
+		
+			
+			
+	
+			
+			
+		
 	
 	
-	
-	
-   WebUI.callTestCase(findTestCase('WorkBoard'), [:], FailureHandling.STOP_ON_FAILURE)
-	
-	//WebUI.callTestCase(findTestCase('WorkWeek'), [:], FailureHandling.STOP_ON_FAILURE)
- // WebUI.click(findTestObject('Object Repository/Page_WEP  Home/ProfileMenu'))
-
-  //WebUI.click(findTestObject('Object Repository/Page_WEP  Home/a_Logout'))
-  //WebUI.closeBrowser()
-}
-
-
-
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
