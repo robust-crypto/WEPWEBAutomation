@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_OSNO</name>
+   <tag></tag>
+   <elementGuidId>9b0d3c88-5774-4101-af94-fe00d6a6e301</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='info']/div/div[3]/div[2]/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>d01abbd4-6fca-4f14-ba4f-104eb8a72627</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>expandable-label mb-0 w-100 leftalign</value>
+      <webElementGuid>c82a500b-70f0-4884-bd9e-494b23fcb4b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>OSNO</value>
+      <webElementGuid>7350ac97-50ba-49f0-9159-82d4c70e0414</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;info&quot;)/div[@class=&quot;overflow-auto form-container px-3&quot;]/div[@class=&quot;row align-items-start py-1 pl-3&quot;]/div[@class=&quot;col-8&quot;]/label[@class=&quot;expandable-label mb-0 w-100 leftalign&quot;]</value>
+      <webElementGuid>63215fcd-0e0e-45f3-a473-d432c152c196</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='info']/div/div[3]/div[2]/label</value>
+      <webElementGuid>34c6ff72-6e8d-4291-b98d-df5028226617</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='System Status'])[1]/following::label[1]</value>
+      <webElementGuid>71e5165a-0901-4026-9637-80363f3a0531</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='OPN'])[1]/following::label[2]</value>
+      <webElementGuid>142cba63-a8ae-4560-9ec4-1927ced7dbde</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reported By'])[1]/preceding::label[1]</value>
+      <webElementGuid>f29b811d-9cbe-438e-bb3e-8642121b065c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='A PREPROD'])[1]/preceding::label[2]</value>
+      <webElementGuid>c26a52b9-4312-4b04-a26d-9026f95a1361</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='OSNO']/parent::*</value>
+      <webElementGuid>b6602bb3-2257-4144-ad55-dc6ab2cae57c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[3]/div[2]/label</value>
+      <webElementGuid>bc42d95e-3d9a-4517-ba05-55ac787dc872</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//label[(text() = 'OSNO' or . = 'OSNO')]</value>
+      <webElementGuid>81bd6dda-bf06-4e69-a9ae-22aa8e6636be</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

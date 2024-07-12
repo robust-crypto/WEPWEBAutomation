@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Work Request</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>646f9956-ab81-4883-8b92-ab45db4e396b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>48af4134-5f06-4fee-8c06-35b81abea8ab</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>48af4134-5f06-4fee-8c06-35b81abea8ab</id>
+      <masked>false</masked>
+      <name>wrNumber</name>
+   </variable>
+</TestCaseEntity>

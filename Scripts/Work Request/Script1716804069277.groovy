@@ -21,9 +21,10 @@ import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.chrome.ChromeDriver as WebElement
 import org.openqa.selenium.By as By
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-import java.util.Date
-import java.time.LocalDateTime
-import java.time.format.DateTimeFormatter
+import java.util.Date as Date
+import java.time.LocalDateTime as LocalDateTime
+import java.time.format.DateTimeFormatter as DateTimeFormatter
+
 for (int i = 0; i < 4; i++) {
     WebUI.click(findTestObject('Object Repository/Page_WEP  Home/a_My Work Requests_btn btn-primary btn-icon_973753'))
 
@@ -62,51 +63,52 @@ for (int i = 0; i < 4; i++) {
 
     WebUI.click(findTestObject('Object Repository/Page_WEP  Home/button_NEXT_1'))
 
-	switch(i) {
-		case 0:
-		WebUI.setText(findTestObject('Object Repository/Page_WEP  Home/textarea_Description_descriptionimage'), 'Maintenance Request')
-		break;
-		case 1:
-		WebUI.setText(findTestObject('Object Repository/Page_WEP  Home/textarea_Description_descriptionimage'), 'Malfunction ')
-		break;
-		case 2:
-		WebUI.setText(findTestObject('Object Repository/Page_WEP  Home/textarea_Description_descriptionimage'), 'Operation Request')
-		break;
-		case 3:
-		WebUI.setText(findTestObject('Object Repository/Page_WEP  Home/textarea_Description_descriptionimage'), 'Production Request')
-		break;
-	}
-    
+    switch (i) {
+        case 0:
+            WebUI.setText(findTestObject('Object Repository/Page_WEP  Home/textarea_Description_descriptionimage'), 'Maintenance Request')
 
+            break
+        case 1:
+            WebUI.setText(findTestObject('Object Repository/Page_WEP  Home/textarea_Description_descriptionimage'), 'Malfunction ')
+
+            break
+        case 2:
+            WebUI.setText(findTestObject('Object Repository/Page_WEP  Home/textarea_Description_descriptionimage'), 'Operation Request')
+
+            break
+        case 3:
+            WebUI.setText(findTestObject('Object Repository/Page_WEP  Home/textarea_Description_descriptionimage'), 'Production Request')
+
+            break
+    }
+    
     WebUI.click(findTestObject('Object Repository/Page_WEP  Home/button_NEXT_1_2'))
 
     WebUI.click(findTestObject('Object Repository/Page_WEP  Home/button_NEXT_1'))
 
     WebUI.click(findTestObject('Object Repository/Page_WEP  Home/div_Medium  Medium'))
 
-   // WebUI.click(findTestObject('Object Repository/Page_WEP  Home/i_Required date_fa fa-calendar'))
-	//def aa = WebUI.findWebElement('Object Repository/WorkRequests/input_Required date_selectedRequiredDate')
-	WebDriver driver =DriverFactory.getWebDriver()
-	 
-	def aa= driver.findElement(By.xpath("//input[@id='selectedRequiredDate']"))
-	
-   aa.clear()
-   LocalDateTime fDateTime = LocalDateTime.now().plusDays(15);
-   //LocalDateTime fDateTime = LocalDateTime.now().plusYears(5).plusMonths(1).plusDays(1);
-   DateTimeFormatter FutureDate_formatter = DateTimeFormatter.ofPattern("dd/MMM/yyyy")
-   def FutureDateTime = fDateTime.format(FutureDate_formatter).toString()
-	
-   aa.sendKeys(FutureDateTime)
-   
-    //WebUI.click(findTestObject('Object Repository/Page_WEP  Home/td_27'))
+    // WebUI.click(findTestObject('Object Repository/Page_WEP  Home/i_Required date_fa fa-calendar'))
+    //def aa = WebUI.findWebElement('Object Repository/WorkRequests/input_Required date_selectedRequiredDate')
+    WebDriver driver = DriverFactory.getWebDriver()
 
+    def aa = driver.findElement(By.xpath('//input[@id=\'selectedRequiredDate\']'))
+
+    aa.clear()
+
+    LocalDateTime fDateTime = LocalDateTime.now().plusDays(15)
+
+    //LocalDateTime fDateTime = LocalDateTime.now().plusYears(5).plusMonths(1).plusDays(1);
+    DateTimeFormatter FutureDate_formatter = DateTimeFormatter.ofPattern('dd/MMM/yyyy')
+
+    def FutureDateTime = fDateTime.format(FutureDate_formatter).toString()
+
+    aa.sendKeys(FutureDateTime)
+
+    //WebUI.click(findTestObject('Object Repository/Page_WEP  Home/td_27'))
     WebUI.click(findTestObject('Page_WEP  Home/button_NEXT_1'))
 
-	
-   
-   
     //WebUI.click(findTestObject('Object Repository/Page_WEP  Home/button_ACKNOWLEDGE'))
-
     WebUI.click(findTestObject('Object Repository/Page_WEP  Home/button_SUBMIT'))
 
     WebUI.delay(20)

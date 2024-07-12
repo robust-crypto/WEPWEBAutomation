@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>malfunctionStartDateTime</name>
+   <tag></tag>
+   <elementGuidId>88a39238-c1c0-4a4d-876d-bf123125e7a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//input[@id='malfunctionStartDateTime']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-calendar</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>6e4ecbb2-70fc-400b-8336-12f6fa9e24cf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-calendar</value>
+      <webElementGuid>67d90168-6d84-4859-84dd-2f5db23f1dff</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vueAppContainer1&quot;)/div[@class=&quot;card h-100&quot;]/div[@class=&quot;form-horizontal mar-top flex-column d-flex h-100 justify-content-start&quot;]/div[@class=&quot;card-body h-100 d-flex flex-column pt-0 px-0&quot;]/div[@class=&quot;flex-column justify-content-center align-items-start px-3&quot;]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;flex-column align-items-start col-6 pl-0&quot;]/div[@class=&quot;d-flex align-items-center aa-outlines-blue&quot;]/label[@class=&quot;date-icon d-flex align-items-center pr-2 mb-0&quot;]/i[@class=&quot;fa fa-calendar&quot;]</value>
+      <webElementGuid>7aae6da9-8037-409c-9615-15177246009e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//input[@id='malfunctionStartDateTime']</value>
+      <webElementGuid>c5e00d4b-fd16-48c5-95ac-4f228f8fb156</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value></value>
+      <webElementGuid>43f640d0-9b09-49dd-b4e4-2aad9e8e6a54</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
