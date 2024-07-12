@@ -17,19 +17,18 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Page_WEP  Home/Pending Approval View ALL'))
+WebUI.click(findTestObject('Object Repository/Work Requests/Page_WEP  Home/a_SEARCH ERP'))
 
-WebUI.click(findTestObject('Page_WEP  Work Requests/First Work Request Row'))
+WebUI.click(findTestObject('Page_WEP  Work Requests/WCDropDown'))
 
-WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/button_REJECT'))
+WebUI.click(findTestObject('Object Repository/Work Requests/Page_WEP  Work Requests/Tumela Lower SM WC item'))
 
-WebUI.setText(findTestObject('Object Repository/Page_WEP  Work Requests/Reason for Cancellation'), 'Rejection Test ')
+WebUI.click(findTestObject('Object Repository/Work Requests/Page_WEP  Work Requests/mostRecentRadio'))
 
-WebUI.click(findTestObject('Work Requests/Page_WEP  Work Requests/SUBMIT Button'))
+WebUI.click(findTestObject('Object Repository/Work Requests/Page_WEP  Work Requests/Search Button'))
 
-WebUI.verifyElementText(findTestObject('Page_WEP  Work Requests/span_Successfully Rejected'), 'Successfully Rejected')
+WebUI.verifyElementPresent(findTestObject('Object Repository/Work Requests/Page_WEP  Work Requests/returnedWorkRequests'), 
+    0)
 
-WebUI.click(findTestObject('Work Requests/Page_WEP  Work Requests/Page_WEP  Work Requests/FINISH'))
-
-WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/Home Navigation'))
+WebUI.click(findTestObject('Page_WEP  Work Requests/Home Navigation'))
 

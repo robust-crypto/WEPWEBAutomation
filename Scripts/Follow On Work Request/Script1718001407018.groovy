@@ -19,12 +19,16 @@ import org.openqa.selenium.Keys as Keys
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.chrome.ChromeDriver as WebElement
+import internal.GlobalVariable as GlobalVariable
+import org.openqa.selenium.Keys as Keys
+import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.WebDriver as WebDriver
+import org.openqa.selenium.chrome.ChromeDriver as WebElement
 import org.openqa.selenium.By as By
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import java.util.Date as Date
 import java.time.LocalDateTime as LocalDateTime
 import java.time.format.DateTimeFormatter as DateTimeFormatter
-import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 
 
 
@@ -48,8 +52,8 @@ for (int i = 0; i < 2; i++) {
 		WebUI.delay(10)
         WebUI.click(findTestObject('Work Requests/button_NEXT_1'))
 
-        WebUI.click(GlobalVariable.followOnWRtypes[i //LocalDateTime fDateTime = LocalDateTime.now().plusYears(5).plusMonths(1).plusDays(1);
-            ] //WebUI.setText(findTestObject('Work Requests/malfunctionStartDateTime'), mFutureDateTime)
+        WebUI.click(GlobalVariable.followOnWRtypes[i]
+           
             )
 			
     } else if (i == 1) {
@@ -65,11 +69,11 @@ for (int i = 0; i < 2; i++) {
 		
 		
 
-        def aa = driver.findElement(By.xpath('//input[@id=\'malfunctionStartDateTime\']'))
+         def aa = driver.findElement(By.xpath('//input[@id=\'malfunctionStartDateTime\']'))
 
         aa.clear()
 
-        LocalDateTime mDateTime = LocalDateTime.now()
+        LocalDateTime mDateTime = LocalDateTime.now().minusDays(2)
 
         DateTimeFormatter mFutureDate_formatter = DateTimeFormatter.ofPattern('yyyy/MM/dd HH:mm a')
 
@@ -90,11 +94,11 @@ for (int i = 0; i < 2; i++) {
 
     switch (i) {
         case 0:
-            WebUI.setText(findTestObject('Work Requests//textarea_Description_descriptionimage'), 'Maintenance Request')
+            WebUI.setText(findTestObject('Work Requests//textarea_Description_descriptionimage'), 'Automated Maintenance Request Follow On')
 
             break
         case 1:
-            WebUI.setText(findTestObject('Work Requests//textarea_Description_descriptionimage'), 'Malfunction ')
+            WebUI.setText(findTestObject('Work Requests//textarea_Description_descriptionimage'), 'Automated Malfunction Request Follow On')
 
             break
     }
@@ -105,103 +109,25 @@ for (int i = 0; i < 2; i++) {
 
     WebUI.click(findTestObject('Work Requests/div_Medium  Medium'))
 
-    def bb = driver.findElement(By.xpath('//input[@id=\'selectedRequiredDate\']'))
+   def bb = driver.findElement(By.xpath('//input[@id=\'selectedRequiredDate\']'))
 
     bb.clear()
-
+	WebUI.delay(3)
     LocalDateTime fDateTime = LocalDateTime.now().plusDays(15)
 
     //LocalDateTime fDateTime = LocalDateTime.now().plusYears(5).plusMonths(1).plusDays(1);
-    DateTimeFormatter FutureDate_formatter = DateTimeFormatter.ofPattern('dd/MMM/yyyy')
+    DateTimeFormatter fFutureDate_formatter = DateTimeFormatter.ofPattern("d MMMM y")
 
-    def FutureDateTime = fDateTime.format(FutureDate_formatter).toString()
-
-    bb.sendKeys(FutureDateTime)
-
+    def fFutureDateTime = fDateTime.format(fFutureDate_formatter).toString()
+	
+    bb.sendKeys(fFutureDateTime)
+	WebUI.delay(3)
     WebUI.click(findTestObject('Work Requests/button_NEXT_1'))
 
-    //WebUI.click(findTestObject('Object Repository/Page_WEP  Home/button_ACKNOWLEDGE'))
+
     WebUI.click(findTestObject('Work Requests/button_SUBMIT'))
 
     WebUI.delay(20)
 
     WebUI.click(findTestObject('Work Requests/button_FINISH'))
 }
-
-WebUI.click(findTestObject('Work Requests/a_My Work Requests_btn btn-primary btn-icon_973753'))
-
-WebUI.click(findTestObject('Object Repository/Page_WEP  Home/button_NEXT'))
-
-WebUI.click(GlobalVariable.WRtypes[i])
-
-if (i == 0) {
-    WebUI.click(findTestObject('Work Requests/button_NEXT_1'))
-
-    WebUI.click(GlobalVariable.WRtypes[i //LocalDateTime fDateTime = LocalDateTime.now().plusYears(5).plusMonths(1).plusDays(1);
-        ] //WebUI.setText(findTestObject('Work Requests/malfunctionStartDateTime'), mFutureDateTime)
-        )
-} else if (i == 1) {
-    WebUI.click(findTestObject('Work Requests/button_NEXT_1'))
-
-    def aa = driver.findElement(By.xpath('//input[@id=\'malfunctionStartDateTime\']'))
-
-    aa.clear()
-
-    LocalDateTime mDateTime = LocalDateTime.now()
-
-    DateTimeFormatter mFutureDate_formatter = DateTimeFormatter.ofPattern('yyyy/MM/dd HH:mm a')
-
-    def mFutureDateTime = mDateTime.format(mFutureDate_formatter).toString()
-
-    aa.sendKeys(mFutureDateTime)
-
-    WebUI.delay(5)
-
-    WebUI.click(findTestObject('Work Requests/button_NEXT_1'))
-}
-
-WebUI.click(findTestObject('Work Requests/button_DRILL DOWN DRILL'))
-
-WebUI.click(findTestObject('Work Requests/img_Tumela Lower 1 Shaft UG_mr-2 border-left pl-2'))
-
-WebUI.click(findTestObject('Work Requests/button_NEXT_1'))
-
-switch (i) {
-    case 0:
-        WebUI.setText(findTestObject('Work Requests//textarea_Description_descriptionimage'), 'Maintenance Request Follow On')
-
-        break
-    case 1:
-        WebUI.setText(findTestObject('Work Requests//textarea_Description_descriptionimage'), 'Malfunction Follow On')
-
-        break
-}
-
-WebUI.click(findTestObject('Work Requests/button_NEXT_1_2'))
-
-WebUI.click(findTestObject('Work Requests/button_NEXT_1'))
-
-WebUI.click(findTestObject('Work Requests/div_Medium  Medium'))
-
-def bb = driver.findElement(By.xpath('//input[@id=\'selectedRequiredDate\']'))
-
-bb.clear()
-
-LocalDateTime fDateTime = LocalDateTime.now().plusDays(15)
-
-//LocalDateTime fDateTime = LocalDateTime.now().plusYears(5).plusMonths(1).plusDays(1);
-DateTimeFormatter FutureDate_formatter = DateTimeFormatter.ofPattern('dd/MMM/yyyy')
-
-def FutureDateTime = fDateTime.format(FutureDate_formatter).toString()
-
-bb.sendKeys(FutureDateTime)
-
-WebUI.click(findTestObject('Work Requests/button_NEXT_1'))
-
-//WebUI.click(findTestObject('Object Repository/Page_WEP  Home/button_ACKNOWLEDGE'))
-WebUI.click(findTestObject('Work Requests/button_SUBMIT'))
-
-WebUI.delay(20)
-
-WebUI.click(findTestObject('Work Requests/button_FINISH'))
-

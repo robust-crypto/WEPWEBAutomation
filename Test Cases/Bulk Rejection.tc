@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Bulk Approval</name>
+   <name>Bulk Rejection</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>40710f1a-6acd-47b0-8da4-49e6631502d2</testCaseGuid>
+   <testCaseGuid>efbb7340-32e6-44f7-b6fa-6d3efa60bc99</testCaseGuid>
    <variableLinks>
       <testDataLinkId></testDataLinkId>
       <type>DEFAULT</type>

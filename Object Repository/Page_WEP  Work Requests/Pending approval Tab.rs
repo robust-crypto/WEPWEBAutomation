@@ -1,17 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_APPROVE</name>
+   <name>Pending approval Tab</name>
    <tag></tag>
-   <elementGuidId>245fb3a8-9f75-4e4b-80bf-eca5e025444b</elementGuidId>
+   <elementGuidId>4b6ccd58-c8da-4eba-95cf-1709c6db6de7</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='approvebtn']</value>
+         <value>//div[@id='page-content']/nav/ul/li[3]/a</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#approvebtn</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,103 +21,111 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>button</value>
-      <webElementGuid>0407c548-35d9-4dc3-89d4-57ca81fc0fd4</webElementGuid>
+      <value>a</value>
+      <webElementGuid>45ea14c4-0abd-47ba-a411-2c1aa41ee5d5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>href</name>
       <type>Main</type>
-      <value>approvebtn</value>
-      <webElementGuid>092b8ea4-0c18-4069-a7cf-0691bac91281</webElementGuid>
+      <value>/workrequest/WorkRequestApprovalList</value>
+      <webElementGuid>428dcb36-b7cc-4353-a77b-b1c75d40b2e1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-outline-primary px-2 font-weight-bold btnResize</value>
-      <webElementGuid>75aa1a8b-f251-454b-a498-2c7fbaf50582</webElementGuid>
+      <value>nav-link</value>
+      <webElementGuid>2db19aea-cbd8-439f-868f-6451bf4d2528</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>APPROVE</value>
-      <webElementGuid>4ee572c8-0b5e-4460-b226-11402e039765</webElementGuid>
+      <value>Pending approval</value>
+      <webElementGuid>f4fea118-7327-41bc-aa8a-d10e3af9f1c1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;vueApprovalSingleContainer&quot;)/div[@class=&quot;card h-100&quot;]/div[@class=&quot;form-horizontal mar-top flex-column d-flex h-100 justify-content-start&quot;]/div[@class=&quot;card-body h-100 pt-0 px-0 pb-2 d-flex flex-column&quot;]/div[@class=&quot;justify-content-center align-items-center d-none d-sm-block centering py-2&quot;]/button[@id=&quot;approvebtn&quot;]</value>
-      <webElementGuid>9e0a3751-bd3b-4788-9120-865a10d38251</webElementGuid>
+      <value>id(&quot;page-content&quot;)/nav[@class=&quot;navbar navbar-expand-lg navbar-light pb-0 align-items-end&quot;]/ul[@class=&quot;navbar-nav mr-auto&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
+      <webElementGuid>1e299743-1bdc-445d-aa9e-cc116b39eee1</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//button[@id='approvebtn']</value>
-      <webElementGuid>1334d502-8952-49b4-a614-ac60ac1e7e88</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='vueApprovalSingleContainer']/div/div/div/div/button</value>
-      <webElementGuid>733eb9ff-d213-40af-876a-d98f1a3ca950</webElementGuid>
+      <value>//div[@id='page-content']/nav/ul/li[3]/a</value>
+      <webElementGuid>fe1846d2-93f3-4289-b969-ca834752037d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Pending approval')])[2]</value>
+      <webElementGuid>5e4a3065-f104-4ac7-845e-f7f72b6514f1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Outstanding'])[1]/following::button[2]</value>
-      <webElementGuid>88d655ae-6507-4831-bfab-bbc51da4792d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search ERP'])[3]/following::a[1]</value>
+      <webElementGuid>37711b14-d82b-4315-87d1-2aade04e4c75</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='REJECT'])[1]/preceding::button[1]</value>
-      <webElementGuid>d05cec35-70ed-405b-bd26-2950f150de40</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Requests'])[2]/following::a[3]</value>
+      <webElementGuid>a1d72408-eb6e-43c7-bf57-5acf46b554ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='EDIT'])[1]/preceding::button[2]</value>
-      <webElementGuid>2d66e273-990b-4fe0-9a98-343e3f0f5fd8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Raised'])[1]/preceding::a[1]</value>
+      <webElementGuid>f50264c9-6c1f-4a06-b646-4797b14ff68c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='APPROVE']/parent::*</value>
-      <webElementGuid>3b4b4bb7-001e-4977-b55a-1f7db25805e8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Impact'])[1]/preceding::a[1]</value>
+      <webElementGuid>4a15c127-adf7-4e1e-97c8-b36a61bb9cb4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/workrequest/WorkRequestApprovalList')]</value>
+      <webElementGuid>07509053-b946-44d6-805d-78806dfab19d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div/div/div/div/div/button</value>
-      <webElementGuid>e9bc9e40-9fda-4908-8d67-7e0eca9d359a</webElementGuid>
+      <value>//main/div/nav/ul/li[3]/a</value>
+      <webElementGuid>e5dd6dde-675e-42c9-a135-116e34b27d71</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@id = 'approvebtn' and (text() = 'APPROVE' or . = 'APPROVE')]</value>
-      <webElementGuid>f442671a-15ea-42e2-8fa5-3cc5792891c7</webElementGuid>
+      <value>//a[@href = '/workrequest/WorkRequestApprovalList' and (text() = 'Pending approval' or . = 'Pending approval')]</value>
+      <webElementGuid>45582b12-a73b-4e57-b57e-218b7ab96add</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

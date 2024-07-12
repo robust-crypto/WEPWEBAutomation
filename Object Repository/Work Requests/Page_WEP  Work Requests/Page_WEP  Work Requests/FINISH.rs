@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>button_APPROVE</name>
+   <name>FINISH</name>
    <tag></tag>
-   <elementGuidId>245fb3a8-9f75-4e4b-80bf-eca5e025444b</elementGuidId>
+   <elementGuidId>b9025bb5-8169-4772-953d-4dca6e546bfb</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='approvebtn']</value>
+         <value>//div[@id='workRequestSapSummaryModalResult']/div/div/div[3]/button</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#approvebtn</value>
+         <value>button.btn.btn-primary.px-5.font-weight-bold</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,102 +23,102 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0407c548-35d9-4dc3-89d4-57ca81fc0fd4</webElementGuid>
+      <webElementGuid>eac23dc5-db95-45d5-be6d-653bcc383083</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>true</isSelected>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>id</name>
+      <name>data-dismiss</name>
       <type>Main</type>
-      <value>approvebtn</value>
-      <webElementGuid>092b8ea4-0c18-4069-a7cf-0691bac91281</webElementGuid>
+      <value>modal</value>
+      <webElementGuid>05bb4c66-94b5-4290-8c99-aa924c9ca7d3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>class</name>
       <type>Main</type>
-      <value>btn btn-outline-primary px-2 font-weight-bold btnResize</value>
-      <webElementGuid>75aa1a8b-f251-454b-a498-2c7fbaf50582</webElementGuid>
+      <value>btn btn-primary px-5 font-weight-bold</value>
+      <webElementGuid>6faf6621-ed25-4735-87b9-b71e50025f83</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>text</name>
       <type>Main</type>
-      <value>APPROVE</value>
-      <webElementGuid>4ee572c8-0b5e-4460-b226-11402e039765</webElementGuid>
+      <value>FINISH</value>
+      <webElementGuid>9bc5a4e3-f647-46f9-a63e-251e6698b00c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;vueApprovalSingleContainer&quot;)/div[@class=&quot;card h-100&quot;]/div[@class=&quot;form-horizontal mar-top flex-column d-flex h-100 justify-content-start&quot;]/div[@class=&quot;card-body h-100 pt-0 px-0 pb-2 d-flex flex-column&quot;]/div[@class=&quot;justify-content-center align-items-center d-none d-sm-block centering py-2&quot;]/button[@id=&quot;approvebtn&quot;]</value>
-      <webElementGuid>9e0a3751-bd3b-4788-9120-865a10d38251</webElementGuid>
+      <value>id(&quot;workRequestSapSummaryModalResult&quot;)/div[@class=&quot;modal-dialog modal-lg&quot;]/div[@class=&quot;modal-content rounded-0&quot;]/div[@class=&quot;modal-footer&quot;]/button[@class=&quot;btn btn-primary px-5 font-weight-bold&quot;]</value>
+      <webElementGuid>a7433c5a-9059-4766-8de4-d7980aaf5d79</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
-      <type>Main</type>
-      <value>//button[@id='approvebtn']</value>
-      <webElementGuid>1334d502-8952-49b4-a614-ac60ac1e7e88</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='vueApprovalSingleContainer']/div/div/div/div/button</value>
-      <webElementGuid>733eb9ff-d213-40af-876a-d98f1a3ca950</webElementGuid>
+      <value>//div[@id='workRequestSapSummaryModalResult']/div/div/div[3]/button</value>
+      <webElementGuid>177cb586-7718-4289-afe0-e73e8191ccdf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Outstanding'])[1]/following::button[2]</value>
-      <webElementGuid>88d655ae-6507-4831-bfab-bbc51da4792d</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Request 15052946'])[2]/following::button[1]</value>
+      <webElementGuid>cb326c49-367f-439f-9bcc-0d1aa5463494</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='REJECT'])[1]/preceding::button[1]</value>
-      <webElementGuid>d05cec35-70ed-405b-bd26-2950f150de40</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Successfully Rejected'])[2]/following::button[1]</value>
+      <webElementGuid>d08fec49-154e-42ac-b072-dab8dd20e006</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='EDIT'])[1]/preceding::button[2]</value>
-      <webElementGuid>2d66e273-990b-4fe0-9a98-343e3f0f5fd8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Approval'])[1]/preceding::button[1]</value>
+      <webElementGuid>d27fde51-b142-4674-8cb2-4b95378f5945</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//*/text()[normalize-space(.)='APPROVE']/parent::*</value>
-      <webElementGuid>3b4b4bb7-001e-4977-b55a-1f7db25805e8</webElementGuid>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reject Work Request'])[1]/preceding::button[2]</value>
+      <webElementGuid>22574714-ec02-4d14-8f84-48ca22410fa0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='FINISH']/parent::*</value>
+      <webElementGuid>9e88d41b-5080-417d-81bd-d1cf397bbcec</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div/div/div/div/div/button</value>
-      <webElementGuid>e9bc9e40-9fda-4908-8d67-7e0eca9d359a</webElementGuid>
+      <value>//div[3]/div/div/div[3]/button</value>
+      <webElementGuid>c7855154-16cd-41bc-afd6-c0b6c47f2fc4</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//button[@id = 'approvebtn' and (text() = 'APPROVE' or . = 'APPROVE')]</value>
-      <webElementGuid>f442671a-15ea-42e2-8fa5-3cc5792891c7</webElementGuid>
+      <value>//button[(text() = 'FINISH' or . = 'FINISH')]</value>
+      <webElementGuid>153dd639-6c0d-42f4-9fcd-565e01078359</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

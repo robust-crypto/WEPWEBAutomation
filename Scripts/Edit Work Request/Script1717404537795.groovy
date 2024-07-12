@@ -24,13 +24,13 @@ import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 
 WebUI.click(findTestObject('Object Repository/Page_WEP  Home/a_VIEW_ALL'))
 
-WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/td'))
+WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/First Work Request Row'))
 
 WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/button_EDIT'))
 
 WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/div_Description'))
 
-WebUI.setText(findTestObject('Object Repository/Page_WEP  Work Requests/input_Description_w-100 form-control round _01bf87'), 
+WebUI.setText(findTestObject('Object Repository/Page_WEP  Work Requests/uppercost4'), 
     'Automated My Submitted Editted WR')
 
 WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/div_Impact_multiselect__tags'))
@@ -41,7 +41,7 @@ WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/div_Work R
 
 WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/span_Production Request'))
 
-WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/div_Functional Location_multiselect__tags'))
+WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/WCDropDown'))
 
 WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/span_70010202.01.01.02 - TL 1SH Potable Wat_977e91'))
 
@@ -50,5 +50,5 @@ WebUI.setText(findTestObject('Object Repository/Page_WEP  Work Requests/input_Ad
 
 WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/button_SAVE'))
 
-WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/a_Pending approval'))
+WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/Pending approval Tab'))
 

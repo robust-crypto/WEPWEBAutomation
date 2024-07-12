@@ -33,15 +33,7 @@ for (int i = 0; i < 2; i++) {
 
     WebUI.click(findTestObject('Object Repository/Work Requests/button_Login'))
 
-    WebUI.callTestCase(findTestCase('Raise Work Request'), [:], FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.callTestCase(findTestCase('Edit Work Request'), [('wrNumber') : ''], FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.callTestCase(findTestCase('Pending Approvals'), [:], FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.callTestCase(findTestCase('Reject Work Request'), [:], FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.callTestCase(findTestCase('Approve Work Request'), [:], FailureHandling.STOP_ON_FAILURE)
+    WebUI.callTestCase(findTestCase('Search ERP Work Center'), [:], FailureHandling.STOP_ON_FAILURE)
 
     WebUI.click(findTestObject('Work Requests/ProfileMenu'))
 

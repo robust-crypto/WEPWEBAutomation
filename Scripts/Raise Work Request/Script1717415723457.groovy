@@ -98,12 +98,12 @@ for (int i = 0; i < 4; i++) {
     LocalDateTime fDateTime = LocalDateTime.now().plusDays(15)
 
     //LocalDateTime fDateTime = LocalDateTime.now().plusYears(5).plusMonths(1).plusDays(1);
-    DateTimeFormatter FutureDate_formatter = DateTimeFormatter.ofPattern('dd/MMM/yyyy')
+    DateTimeFormatter FutureDate_formatter = DateTimeFormatter.ofPattern('d MMMM y')
 
     def FutureDateTime = fDateTime.format(FutureDate_formatter).toString()
-
+	WebUI.delay(10)
     bb.sendKeys(FutureDateTime)
-
+	WebUI.delay(3)
     WebUI.click(findTestObject('Work Requests/button_NEXT_1'))
 
     

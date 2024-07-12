@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Work Request 4</name>
+   <tag></tag>
+   <elementGuidId>c6ec2dcb-befd-4a94-a75a-4d97542c463c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr:nth-of-type(4) > td:nth-of-type(5)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ui-view']/div/div/div/div/div[2]/div[2]/table/tbody/tr[4]/td[5]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>e90505a6-d6a2-4743-a6a1-0347bc0db029</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                                                    15052903
+                                                </value>
+      <webElementGuid>03a41aee-6ab8-435c-90e6-612205a8f95e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ui-view&quot;)/div[@class=&quot;animated fadeIn pb-3&quot;]/div[@class=&quot;row mx-lg-n1&quot;]/div[@class=&quot;col-lg-12 px-lg-1&quot;]/div[@class=&quot;card h-100 mb-0 rounded-0&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;table-responsive-lg&quot;]/table[@class=&quot;table table-hover&quot;]/tbody[1]/tr[4]/td[5]</value>
+      <webElementGuid>e3e518e9-b8b8-4fb0-9dca-4a6b00404b7b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ui-view']/div/div/div/div/div[2]/div[2]/table/tbody/tr[4]/td[5]</value>
+      <webElementGuid>b1fff37a-f6d9-493c-969e-400ee052c135</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='P KUMALO'])[4]/following::td[1]</value>
+      <webElementGuid>37230e06-5343-43b4-a7a9-26845710ccaa</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Medium'])[5]/following::td[5]</value>
+      <webElementGuid>2cdff5be-6df2-4571-b184-cbd1aca85f2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='RW35'])[4]/preceding::td[1]</value>
+      <webElementGuid>1f800398-f865-4e24-98d7-e2b28a5deef8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Automation Maintenance Request'])[1]/preceding::td[4]</value>
+      <webElementGuid>ee15003f-4af1-4fa5-a60b-fcfcf0e407d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='15052903']/parent::*</value>
+      <webElementGuid>e6582184-e54f-4a19-a0f0-d3457ddb825e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//tr[4]/td[5]</value>
+      <webElementGuid>c7f45f27-14ad-45f9-81c4-c2dfaf498a25</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = '
+                                                    15052903
+                                                ' or . = '
+                                                    15052903
+                                                ')]</value>
+      <webElementGuid>3927dc58-98c2-4ff8-a44b-95b69d8d5a19</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

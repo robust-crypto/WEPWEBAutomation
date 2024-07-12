@@ -16,7 +16,6 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 
 WebUI.openBrowser('')
 
@@ -52,33 +51,25 @@ WebUI.executeJavaScript("document.getElementById('$WRNumber3').click()", [], Fai
 
 WebUI.executeJavaScript("document.getElementById('$WRNumber4').click()", [], FailureHandling.STOP_ON_FAILURE)
 
-WebUI.click(findTestObject('Work Requests/Page_WEP  Work Requests/Page_WEP  Work Requests/bulkAPPROVE'))
+WebUI.click(findTestObject('Page_WEP  Work Requests/bulkREJECT'))
 
-WebUI.setText(findTestObject('Page_WEP  Work Requests/uppercost1'), '100000')
+WebUI.setText(findTestObject('Page_WEP  Work Requests/rejectionComment1'), 'Automated Bulk Rejection')
 
-WebUI.setText(findTestObject('Page_WEP  Work Requests/approvalComment1'), 'Automated Bulk Approval')
+WebUI.setText(findTestObject('Page_WEP  Work Requests/rejectionComment2'), 'Automated Bulk Rejection')
 
-WebUI.setText(findTestObject('Page_WEP  Work Requests/uppercost2'), '10000')
+WebUI.setText(findTestObject('Page_WEP  Work Requests/rejectionComment3'), 'Automated Bulk Rejection')
 
-WebUI.setText(findTestObject('Page_WEP  Work Requests/approvalComment2'), 'Automated Bulk Approval')
-
-WebUI.setText(findTestObject('Page_WEP  Work Requests/uppercost3'), '10000')
-
-WebUI.setText(findTestObject('Page_WEP  Work Requests/approvalComment3'), 'Automated Bulk Approval')
-
-WebUI.setText(findTestObject('Page_WEP  Work Requests/uppercost4'), '10000')
-
-WebUI.setText(findTestObject('Page_WEP  Work Requests/approvalComment4'), 'Automated Bulk Approval')
+WebUI.setText(findTestObject('Page_WEP  Work Requests/rejectionComment4'), 'Automated Bulk Rejection')
 
 WebUI.click(findTestObject('Page_WEP  Work Requests/approvalSUBMIT'))
 
-WebUI.verifyElementText(findTestObject('Page_WEP  Work Requests/Successfully approved1'), 'Successfully approved')
+WebUI.verifyElementText(findTestObject('Page_WEP  Work Requests/Successfully Rejected1'), 'Successfully Rejected')
 
-WebUI.verifyElementText(findTestObject('Page_WEP  Work Requests/Successfully approved2'), 'Successfully approved')
+WebUI.verifyElementText(findTestObject('Page_WEP  Work Requests/Successfully Rejected2'), 'Successfully Rejected')
 
-WebUI.verifyElementText(findTestObject('Page_WEP  Work Requests/Successfully approved3'), 'Successfully approved')
+WebUI.verifyElementText(findTestObject('Page_WEP  Work Requests/Successfully Rejected3'), 'Successfully Rejected')
 
-WebUI.verifyElementText(findTestObject('Page_WEP  Work Requests/Successfully approved4'), 'Successfully approved')
+WebUI.verifyElementText(findTestObject('Page_WEP  Work Requests/Successfully Rejected4'), 'Successfully Rejected')
 
 WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/button_FINISH'))
 

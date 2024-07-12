@@ -17,9 +17,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Object Repository/Page_WEP  Home/a_VIEW_ALL 95'))
+WebUI.click(findTestObject('Object Repository/Page_WEP  Home/Pending Approval View ALL'))
 
-WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/td'))
+WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/First Work Request Row'))
 
 WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/button_APPROVE'))
 
@@ -27,9 +27,9 @@ WebUI.setText(findTestObject('Object Repository/Page_WEP  Work Requests/input_Up
 
 WebUI.setText(findTestObject('Object Repository/Page_WEP  Work Requests/textarea_Comments_comments (1)'), 'Automated Approval Test')
 
-WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/button_SUBMIT'))
+WebUI.click(findTestObject('Work Requests/Page_WEP  Work Requests/SUBMIT Button'))
 
-WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/button_FINISH'))
+WebUI.click(findTestObject('Work Requests/Page_WEP  Work Requests/Page_WEP  Work Requests/FINISH'))
 
-WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/a_Home'))
+WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/Home Navigation'))
 

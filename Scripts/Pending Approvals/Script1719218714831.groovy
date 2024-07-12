@@ -17,7 +17,7 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.click(findTestObject('Page_WEP  Work Requests/td'))
+WebUI.click(findTestObject('Page_WEP  Work Requests/First Work Request Row'))
 
 while (WebUI.verifyElementText(findTestObject('Object Repository/Page_WEP  Work Requests/b_Outstanding'), 'Outstanding') != 
 true) {
@@ -44,7 +44,7 @@ WebUI.click(findTestObject('Page_WEP  Work Requests/div_Work Request Type_multis
 
 WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/span_Operations Request'))
 
-WebUI.click(findTestObject('Page_WEP  Work Requests/div_Functional Location_multiselect__tags'))
+WebUI.click(findTestObject('Page_WEP  Work Requests/WCDropDown'))
 
 WebUI.click(findTestObject('Object Repository/Page_WEP  Work Requests/span_70010202.01.02.03 - TL 1SH Compressed _5115a5'))
 
@@ -59,5 +59,5 @@ WebUI.verifyElementText(findTestObject('Page_WEP  Work Requests/div_The item was
 
 WebUI.click(findTestObject('Page_WEP  Work Requests/img'))
 
-WebUI.click(findTestObject('Page_WEP  Work Requests/a_Home'))
+WebUI.click(findTestObject('Page_WEP  Work Requests/Home Navigation'))
 
