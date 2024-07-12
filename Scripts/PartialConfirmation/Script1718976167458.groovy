@@ -33,66 +33,6 @@ StartWork()
 
 
 
-WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/tabPRT'))
-
-try
-{
-	
-
-if (WebUI.verifyElementPresent(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/tabPRTDoc'), 20,FailureHandling.OPTIONAL))
-{
-		WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/tabChecklists'))
-		
-		
-		
-		WebDriver driver =DriverFactory.getWebDriver()
-		WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/tabChecklists'))
-		//TestObjects cklts =WebUI.findWebElements(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/OperationChecklists/lblAttchType'), 50)
-		List<WebElement> elements = driver.findElements(By.xpath("//div[@class='px-0 d-flex flex-column border-bottom pb-3 bg-white']"))
-		
-	 
-			for (WebElement1 item : elements) {
-			
-				WebElement1 type=item.findElement(By.xpath("//label[@class='expandable-label mb-1 attachment-type']"))
-				
-				
-				
-				if (type.getText() == "Work Instruction  " )
-				{
-					
-					item.findElement(By.xpath("//div[@class='d-flex flex-column justify-content-start align-items-end px-0 flex-grow-1']//a[@class='aa-primary cursorPointer fontSize12 font-weight-bold mt-2']")).click()
-					
-					driver.findElement(By.xpath("//span[@aria-label='Close']")).click()
-					WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/a_Details'))
-					
-					
-					break
-				}
-				//else if  (type.getText() == "Work Execution Document (WED)  " )
-				//{
-					
-					
-					//item.findElement(By.xpath("//div[@class='d-flex flex-column justify-content-start align-items-end px-0 flex-grow-1']"))
-					
-				}
-	
-		
-		
-	
-}
-else if( WebUI.verifyElementNotPresent(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/tabPRTDoc'), 20,FailureHandling.OPTIONAL))
-{
-	WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/a_Details'))
-}
-
-}
-catch(StepFailedException ex) {
-	println(ex.message)
-}
-catch(StepFailedException ex)
-{
-	
-}
 
 ///Save a Checklist
 
