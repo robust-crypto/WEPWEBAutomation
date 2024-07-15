@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_My Work Requests_btn btn-primary btn-icon_973753 (1)</name>
+   <tag></tag>
+   <elementGuidId>c6a6383a-89d7-4374-8eae-29b062ad1fe2</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ui-view']/div/div/div/div/div[2]/div[2]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-primary.btn-icon.btn-circle.rounded-circle</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>60caa9d6-ebcc-4f7d-b4a1-0eb650b144d3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>#</value>
+      <webElementGuid>b0d86d79-f7f5-4b8d-bef9-0c711b6aad54</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary btn-icon btn-circle rounded-circle</value>
+      <webElementGuid>042c995b-3fcb-4a46-9a52-7751985c40c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ui-view&quot;)/div[@class=&quot;animated fadeIn px-0 py-4&quot;]/div[@class=&quot;row mx-lg-n1&quot;]/div[@class=&quot;col-md-6 pl-3 mb-3&quot;]/div[@class=&quot;panel h-100 d-flex flex-column px-2 bg-white position-relative&quot;]/div[@class=&quot;d-flex justify-content-between align-items-center mt-2 pb-2&quot;]/div[@class=&quot;p-1&quot;]/a[@class=&quot;btn btn-primary btn-icon btn-circle rounded-circle&quot;]</value>
+      <webElementGuid>a699c631-d799-4704-b822-f0b2b639a691</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ui-view']/div/div/div/div/div[2]/div[2]/a</value>
+      <webElementGuid>88cb11d9-9855-478c-b8fb-8185552ce703</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My Work Requests'])[2]/following::a[1]</value>
+      <webElementGuid>ac4539bb-46aa-4a6c-b340-5c1799dd031c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='My submitted Work Requests'])[1]/following::a[1]</value>
+      <webElementGuid>6c16e48a-8807-4248-a07f-1449d9367050</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Submitted in the'])[1]/preceding::a[1]</value>
+      <webElementGuid>5e5f052a-410e-4e8a-86fe-68b3b97cde0d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Last 7 Days'])[1]/preceding::a[1]</value>
+      <webElementGuid>d0a9049e-b864-4b30-b477-fa6aebd9c43c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '#')])[8]</value>
+      <webElementGuid>485e66a7-be8b-4a25-96f5-1fc9ab311df0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a</value>
+      <webElementGuid>2bd091b0-f2f2-4b33-b115-625e5b05e731</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '#']</value>
+      <webElementGuid>a9f3e2af-7b88-460d-b1f0-349c5cbf6b5b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

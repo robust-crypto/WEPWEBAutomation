@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_VEHH1 - MAIN VOE BARLOWORLD WORKSHOP</name>
+   <tag></tag>
+   <elementGuidId>d213e18a-c3c2-47f5-9ea7-fe282b0d0155</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='vueAppContainer1']/div[2]/div/div/div[2]/div[3]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>82f9398e-8c50-49c1-a2c4-1899dd9b0f1e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-12 px-0</value>
+      <webElementGuid>f814f758-bfe6-4aa4-aad6-92a7ae373180</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>VEHH1 - MAIN VOE BARLOWORLD WORKSHOP</value>
+      <webElementGuid>14cecc18-77a8-4196-b3a4-bfcc3d137244</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vueAppContainer1&quot;)/div[@class=&quot;card h-100&quot;]/div[@class=&quot;form-horizontal mar-top flex-column d-flex h-100 justify-content-start&quot;]/div[@class=&quot;card-body h-100 d-flex flex-column pt-0 px-0&quot;]/div[@class=&quot;overflow-auto px-3&quot;]/div[@class=&quot;d-flex wiz-list-item c-pointer border-bottom&quot;]/div[@class=&quot;col-12 px-0&quot;]</value>
+      <webElementGuid>091e2b9f-0bac-4bc6-b6a9-141ab4dfcf90</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vueAppContainer1']/div[2]/div/div/div[2]/div[3]/div</value>
+      <webElementGuid>ff0eb1b0-ea7b-4355-99df-1190c71dd33c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='CONDITION MONITORING VENETIA'])[1]/following::div[2]</value>
+      <webElementGuid>7ad3eed4-6506-4c4a-8b4b-5a662c90a053</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VOP'])[1]/following::div[2]</value>
+      <webElementGuid>8798fc6a-2942-4fdc-9f74-0b939e49c8bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div[2]/div[3]/div</value>
+      <webElementGuid>80ce663b-7a25-40a0-86c8-a5d1798d7bd6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'VEHH1 - MAIN VOE BARLOWORLD WORKSHOP' or . = 'VEHH1 - MAIN VOE BARLOWORLD WORKSHOP')]</value>
+      <webElementGuid>e13c6a6a-f69f-4dbb-bda2-c17fb8e29a49</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

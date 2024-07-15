@@ -19,14 +19,13 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.PreprodENV)
+WebUI.navigateToUrl(GlobalVariable.DeBeersPreprod)
 
 WebUI.maximizeWindow()
 
-
 for (int i = 0; i < 2; i++) {
     WebUI.setText(findTestObject('Object Repository/Page_Anglo EA Identity  Identity/input_Work Execution Platform_Username'), 
-        GlobalVariable.PlatsUsers[i])
+        GlobalVariable.DeBeersUsers[i])
 
     WebUI.click(findTestObject('Object Repository/Page_Anglo EA Identity  Identity/button_Next'))
 
@@ -37,9 +36,9 @@ for (int i = 0; i < 2; i++) {
 
     WebUI.callTestCase(findTestCase('Work Request'), [:], FailureHandling.STOP_ON_FAILURE)
 
-    WebUI.click(findTestObject('Object Repository/Page_WEP  Home/ProfileMenu'))
+    WebUI.click(findTestObject('Object Repository/Page_WEP Home DeBeers/ProfileMenu'))
 
-    WebUI.click(findTestObject('Object Repository/Page_WEP  Home/a_Logout'))
+    WebUI.click(findTestObject('Object Repository/Page_WEP Home DeBeers/a_Logout'))
 }
 
 WebUI.closeBrowser()

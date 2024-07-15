@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Thank you for your valuable input. Tog_edd0b6</name>
+   <tag></tag>
+   <elementGuidId>2aae4b80-ce4c-4506-9586-af830efff601</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='vueAppContainer1']/div[2]/div/div/div[2]/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.aa-p-dark</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>5527eed2-233f-487a-977a-26bf57b3c845</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>aa-p-dark</value>
+      <webElementGuid>5919f23b-8d95-4f1a-83f4-5a2135d13212</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Thank you for your valuable input. Together through the operating Model, we can ensure that we always do the Right Work, at the Right Time, and in the Right Way!</value>
+      <webElementGuid>5de85afe-9aff-4ff4-aa4f-d449c82ac969</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vueAppContainer1&quot;)/div[@class=&quot;card h-100&quot;]/div[@class=&quot;form-horizontal mar-top flex-column d-flex h-100 justify-content-start&quot;]/div[@class=&quot;card-body h-100 d-flex flex-column pt-0 px-0&quot;]/div[@class=&quot;d-flex justify-content-center h-100 over-flow-auto&quot;]/div[@class=&quot;col-12 col-md-12 flex-column align-items-center justify-content-center&quot;]/div[@class=&quot;d-flex justify-content-center my-2&quot;]/span[@class=&quot;aa-p-dark&quot;]</value>
+      <webElementGuid>e1ed2967-ffd1-4140-a55d-2e5d8b549921</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vueAppContainer1']/div[2]/div/div/div[2]/div/div/span</value>
+      <webElementGuid>1148015b-b3ab-4900-9881-4865d6bfa1ba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ERP Submitted'])[1]/following::span[1]</value>
+      <webElementGuid>a0ee98c2-3aad-464a-b54e-fb1fe46e62b9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Raise New SAP Work Request'])[1]/following::span[1]</value>
+      <webElementGuid>3d3f3101-bf72-4874-a053-eaecb035bb4a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your Work Request number is'])[1]/preceding::span[1]</value>
+      <webElementGuid>27d6b0a8-8012-4b7d-93ed-f0608640c298</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BACK'])[1]/preceding::span[1]</value>
+      <webElementGuid>c11805ab-316b-44e8-96d9-2cb34275576a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Thank you for your valuable input. Together through the operating Model, we can ensure that we always do the Right Work, at the Right Time, and in the Right Way!']/parent::*</value>
+      <webElementGuid>3a0a2bd7-7761-4f0e-b47b-1a29df042a3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/span</value>
+      <webElementGuid>3cd24d07-bd8c-4b11-94ad-51ffb462c32b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Thank you for your valuable input. Together through the operating Model, we can ensure that we always do the Right Work, at the Right Time, and in the Right Way!' or . = 'Thank you for your valuable input. Together through the operating Model, we can ensure that we always do the Right Work, at the Right Time, and in the Right Way!')]</value>
+      <webElementGuid>c66aff44-a577-4a27-84fd-302a44f60069</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

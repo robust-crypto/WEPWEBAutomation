@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Malfunction start date and time_fa fa-calendar cl</name>
+   <tag></tag>
+   <elementGuidId>88a39238-c1c0-4a4d-876d-bf123125e7a6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-calendar</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='vueAppContainer1']/div[2]/div/div/div[2]/div/div/div/label/i</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>619fbc3c-8c6f-4748-9de3-ccdd7bf6c4fe</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-calendar</value>
+      <webElementGuid>5690c640-d8cd-447c-8bda-a4856d3a23e3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vueAppContainer1&quot;)/div[@class=&quot;card h-100&quot;]/div[@class=&quot;form-horizontal mar-top flex-column d-flex h-100 justify-content-start&quot;]/div[@class=&quot;card-body h-100 d-flex flex-column pt-0 px-0&quot;]/div[@class=&quot;flex-column justify-content-center align-items-start px-3&quot;]/div[@class=&quot;d-flex&quot;]/div[@class=&quot;flex-column align-items-start col-6 pl-0&quot;]/div[@class=&quot;d-flex align-items-center aa-outlines-blue&quot;]/label[@class=&quot;date-icon d-flex align-items-center pr-2 mb-0&quot;]/i[@class=&quot;fa fa-calendar&quot;]</value>
+      <webElementGuid>e35b16ef-5c6f-4998-95fb-604cbd15afb3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vueAppContainer1']/div[2]/div/div/div[2]/div/div/div/label/i</value>
+      <webElementGuid>fdaccbd6-dd75-41c1-bcbf-e5f82c47d2bb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//label/i</value>
+      <webElementGuid>3b2fcefc-0c23-4059-895f-39894a3c35a1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>b40dc6e8-7256-48df-a089-aec097cc94fe</webElementGuid>
+      <webElementGuid>6218f4fe-5449-4bb0-8754-6c455a27008a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>id</name>
       <type>Main</type>
       <value>password-field</value>
-      <webElementGuid>bdc11217-6d93-43cf-8c24-d297a839159a</webElementGuid>
+      <webElementGuid>8c8cb714-5644-437d-95e1-abb148750b1d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>type</name>
       <type>Main</type>
       <value>password</value>
-      <webElementGuid>cc0ef644-9473-4b01-afab-02a30c318cf1</webElementGuid>
+      <webElementGuid>f46c6947-ae6e-4f63-8598-a3daa8d45da2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Your password</value>
-      <webElementGuid>16cd2f85-f743-42d9-b919-0fa903bfca9f</webElementGuid>
+      <webElementGuid>05035234-346d-4ccd-b3d2-cc81cd69a303</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>autofocus</name>
       <type>Main</type>
       <value>autofocus</value>
-      <webElementGuid>842b75ba-1c7a-49c1-8e13-8f963d32e6b2</webElementGuid>
+      <webElementGuid>bb61cc70-7f6d-454f-b7ac-0f6205d18745</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>required</name>
       <type>Main</type>
       <value>required</value>
-      <webElementGuid>055c15e3-69ab-4317-9fa3-c2c1b49bbe4e</webElementGuid>
+      <webElementGuid>6e2140e2-5285-4baf-8845-92a8019308ca</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>autocomplete</name>
       <type>Main</type>
       <value>off</value>
-      <webElementGuid>b506050c-db70-492a-86e9-ffa1dcfcb257</webElementGuid>
+      <webElementGuid>a6d0609d-e34d-4ca9-9232-f2aaad000578</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>data-val</name>
       <type>Main</type>
       <value>true</value>
-      <webElementGuid>642f4d99-00f7-4c41-b96f-b75b17feeab5</webElementGuid>
+      <webElementGuid>0096c543-b7e3-44a1-a374-a441744bc2a9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>data-val-required</name>
       <type>Main</type>
       <value>The Password field is required.</value>
-      <webElementGuid>4f04edf4-7fe7-45dc-99b7-2b0ea75e2fe9</webElementGuid>
+      <webElementGuid>c97738e4-7642-4040-aa78-6ac6e9cc84ae</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -95,7 +95,7 @@
       <name>name</name>
       <type>Main</type>
       <value>Password</value>
-      <webElementGuid>a4ec19f7-9567-4fc5-a9c2-dd48af079d79</webElementGuid>
+      <webElementGuid>59a943da-b1cf-472e-9187-a5b8ab703f47</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control password-input parsley-success</value>
-      <webElementGuid>3cb4e48e-e8b3-45cb-ae22-38efd3e088a1</webElementGuid>
+      <webElementGuid>6792ca00-1a73-4fa5-861c-b16b1bc95693</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>data-parsley-id</name>
       <type>Main</type>
       <value>7</value>
-      <webElementGuid>41877198-3c46-465f-aab4-3c6f6ba3d7f3</webElementGuid>
+      <webElementGuid>2ffdf0b9-d833-4ac8-88bd-8f2c06c4afcf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;password-field&quot;)</value>
-      <webElementGuid>79901f4f-f647-4121-b7af-b7e4346d8284</webElementGuid>
+      <webElementGuid>682dcb18-a236-4eed-8dfe-227e99961368</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -127,7 +127,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='password-field']</value>
-      <webElementGuid>2945f92a-0b02-4154-91fb-da3cc7fd89ed</webElementGuid>
+      <webElementGuid>20a440e9-2cc1-4b1a-87ab-dd3abe700a63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,7 +135,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='divPassword']/div[2]/input</value>
-      <webElementGuid>5e7a3e7e-f166-4095-8e1d-68a885d804e0</webElementGuid>
+      <webElementGuid>dfd7edf6-088d-4cdd-840f-2105cdbb7251</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,7 +143,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/input</value>
-      <webElementGuid>abbf57a7-dd65-434c-addf-e691554453d3</webElementGuid>
+      <webElementGuid>cc2b24ff-0da3-4121-8d8f-6b024adb226d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -151,6 +151,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'password-field' and @type = 'password' and @placeholder = 'Your password' and @name = 'Password']</value>
-      <webElementGuid>da8d3681-e968-461b-887a-c8999132ddcc</webElementGuid>
+      <webElementGuid>aa6ec459-a70b-4b1c-b3db-15c5ac353d5f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
