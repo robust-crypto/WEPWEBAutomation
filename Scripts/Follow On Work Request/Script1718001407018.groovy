@@ -32,7 +32,7 @@ for (int i = 0; i < 2; i++) {
 
     WebUI.click(findTestObject('Work Requests/button_NEXT'))
 
-	WebUI.click(GlobalVariable.followOnWRtypes[0])
+	WebUI.click(GlobalVariable.followOnWRtypes[i])
 
     if (i == 0) {
         WebUI.executeJavaScript('document.getElementById(\'followOnWorkRequestID\').click()', [], FailureHandling.STOP_ON_FAILURE)
