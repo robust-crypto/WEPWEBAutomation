@@ -31,7 +31,14 @@ WebUI.navigateToUrl(GlobalVariable.PlatsUsers)
 
 WebUI.maximizeWindow()
 
+<<<<<<< HEAD
 for (int i = 0; i < 1; i++) {
+=======
+
+for (int i = 0; i < 1; i++)
+	
+	 {
+>>>>>>> branch 'main' of https://github.com/robust-crypto/WEPWEBAutomation.git
     WebUI.setText(findTestObject('Object Repository/Page_Anglo EA Identity  Identity/input_Work Execution Platform_Username'), 
         GlobalVariable.PlatsUsers[1])
 
@@ -42,12 +49,30 @@ for (int i = 0; i < 1; i++) {
 
     WebUI.click(findTestObject('Object Repository/Page_Anglo EA Identity  Identity/button_Login'))
 
+<<<<<<< HEAD
     WebUI.callTestCase(findTestCase('Work Orders'), [:], FailureHandling.STOP_ON_FAILURE)
+=======
+	
+	
+	
+	
+	
+	
+   WebUI.callTestCase(findTestCase('WorkBoard'), [:], FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.callTestCase(findTestCase('WorkWeek'), [:], FailureHandling.STOP_ON_FAILURE)
+  WebUI.click(findTestObject('Object Repository/Page_WEP  Home/ProfileMenu'))
+>>>>>>> branch 'main' of https://github.com/robust-crypto/WEPWEBAutomation.git
 
+<<<<<<< HEAD
     WebUI.click(findTestObject('Object Repository/Page_WEP Home DeBeers/ProfileMenu'))
 
     WebUI.click(findTestObject('Object Repository/Page_WEP Home DeBeers/a_Logout'))
+=======
+  WebUI.click(findTestObject('Object Repository/Page_WEP  Home/a_Logout'))
+  WebUI.closeBrowser()
+>>>>>>> branch 'main' of https://github.com/robust-crypto/WEPWEBAutomation.git
 }
 
-WebUI.closeBrowser()
+
 

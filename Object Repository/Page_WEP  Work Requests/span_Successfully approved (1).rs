@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Successfully approved (1)</name>
+   <tag></tag>
+   <elementGuidId>d8651626-234f-4c7d-af62-c35f4378baca</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='vueAppWorkRequestResultContainerResult']/div/div/div/div/div/div/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.aa-primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>967823c9-efb1-4793-84f7-f73a48fefa7f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>aa-primary</value>
+      <webElementGuid>a37ab183-c3b4-4cd6-81c9-d8872eec0eea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Successfully approved</value>
+      <webElementGuid>1a82919d-d7b0-4f70-bd80-57661d58aac5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vueAppWorkRequestResultContainerResult&quot;)/div[@class=&quot;card h-100&quot;]/div[@class=&quot;form-horizontal mar-top flex-column d-flex h-100 justify-content-start anglo-scrollbar&quot;]/div[@class=&quot;card-body h-100 d-flex flex-column&quot;]/div[@class=&quot;container d-none d-sm-block&quot;]/div[@class=&quot;flex-column align-items-center&quot;]/div[@class=&quot;d-flex justify-content-center mb-4&quot;]/span[@class=&quot;aa-primary&quot;]</value>
+      <webElementGuid>84002d69-e61a-4db2-8876-1aa2f61b747c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vueAppWorkRequestResultContainerResult']/div/div/div/div/div/div/span</value>
+      <webElementGuid>0babf312-a2ca-4322-9ca5-730921281961</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Request'])[1]/following::span[1]</value>
+      <webElementGuid>7525baa0-3e8d-430c-af79-288a1661b011</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Raise New SAP Work Request'])[1]/following::span[1]</value>
+      <webElementGuid>8b80a3e4-de6d-4097-bdec-13987e544476</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Request 14453553'])[1]/preceding::span[1]</value>
+      <webElementGuid>5723cda0-53e2-4a0c-859d-bc8ebd109f76</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Successfully approved'])[2]/preceding::span[1]</value>
+      <webElementGuid>545e9890-30ef-4fb9-ac93-259cd8fa67e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Successfully approved']/parent::*</value>
+      <webElementGuid>eafbafcb-1fd6-4ed2-b8ed-a3c16cd5ebb9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div/div/div/span</value>
+      <webElementGuid>7574cb10-1332-4d45-9aec-7ec4cbc9f2a0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Successfully approved' or . = 'Successfully approved')]</value>
+      <webElementGuid>50c83187-e939-4d43-acc9-4acbc0be42ea</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

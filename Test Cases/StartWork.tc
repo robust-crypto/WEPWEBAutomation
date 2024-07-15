@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Start work on an operation</description>
+   <name>StartWork</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>eb2e1d48-f661-4135-9291-ab22fea124c6</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_High</name>
+   <tag></tag>
+   <elementGuidId>543ccd35-97f1-405b-902c-1fdffe248465</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='workrequestimpact']/div/div[3]/ul/li/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.multiselect__option.multiselect__option--highlight</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>fcfbb30d-2ef8-457b-9e05-3221b5dd3c3b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>multiselect__option multiselect__option--highlight</value>
+      <webElementGuid>9856e023-a9ab-4b56-b34f-ad0b3984c461</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>High</value>
+      <webElementGuid>5d658624-e49c-4c60-9f2c-3cb220a8a587</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;workrequestimpact&quot;)/div[@class=&quot;multiselect w-100 form-control backg p-0 left-modal-text multiselect--active multiselect--above&quot;]/div[@class=&quot;multiselect__content-wrapper&quot;]/ul[@class=&quot;multiselect__content&quot;]/li[@class=&quot;multiselect__element&quot;]/span[@class=&quot;multiselect__option multiselect__option--highlight&quot;]</value>
+      <webElementGuid>2862e69a-d0cf-4686-a5ab-2e5c2ee072ba</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='workrequestimpact']/div/div[3]/ul/li/span</value>
+      <webElementGuid>d7366826-9f61-4525-a7ce-a70db0015915</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Impact'])[3]/following::span[1]</value>
+      <webElementGuid>3efb3fb0-051d-4018-aa19-50c9feb8cbeb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[2]/following::span[1]</value>
+      <webElementGuid>3e0f9262-4f9f-457e-be1a-81d3bcc0abcf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Low'])[2]/preceding::span[2]</value>
+      <webElementGuid>35d70eff-0a79-4cf9-a053-5088a3bbaf74</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li/span</value>
+      <webElementGuid>8c2628bc-e071-4b2d-b577-04d533f9b84e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'High' or . = 'High')]</value>
+      <webElementGuid>62da4fe7-0bb4-4620-a01d-26a342a63444</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

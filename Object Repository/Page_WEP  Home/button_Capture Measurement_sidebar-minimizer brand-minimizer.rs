@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>button_Capture Measurement_sidebar-minimizer brand-minimizer</name>
+   <tag></tag>
+   <elementGuidId>8ba0e885-0bad-4009-92cc-e70f21ba7580</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.sidebar-minimizer.brand-minimizer</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>(//button[@type='button'])[4]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>319098b5-1e53-4222-852a-b9b2592c6ef0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>sidebar-minimizer brand-minimizer</value>
+      <webElementGuid>15d9fd6c-a7dc-4e91-9690-c99381554097</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>onclick</name>
+      <type>Main</type>
+      <value>SetSessionValue()</value>
+      <webElementGuid>8380a10a-df6d-45d1-a4df-ac4d8452d452</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>d9219f23-3947-469e-9dc6-0d2e2cf068b4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[@class=&quot;app header-fixed sidebar-fixed aside-menu-fixed sidebar-lg-show brand-minimized sidebar-minimized     pace-done pace-done&quot;]/div[@class=&quot;app-body anglo-scrollbar&quot;]/div[@class=&quot;sidebar&quot;]/div[@class=&quot;sidebar-bottom-wrapper&quot;]/button[@class=&quot;sidebar-minimizer brand-minimizer&quot;]</value>
+      <webElementGuid>f89c7a84-1b9a-4d03-a209-e9fbc993d48c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[4]</value>
+      <webElementGuid>f00eea61-e242-400b-bcc5-e568816d2267</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//button[3]</value>
+      <webElementGuid>b7552b01-fa9a-4bb4-95af-2ec16029f862</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button']</value>
+      <webElementGuid>e83bab1c-e11a-474c-9a56-04ad42db9c03</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

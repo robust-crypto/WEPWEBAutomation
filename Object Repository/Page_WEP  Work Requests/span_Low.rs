@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Low</name>
+   <tag></tag>
+   <elementGuidId>17e81796-ccce-499e-9856-168bddb4a47d</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='workrequestimpact']/div/div[3]/ul/li[2]/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.multiselect__option.multiselect__option--highlight</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>e18f7cfe-54a3-461a-896f-29032fc88e20</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>multiselect__option multiselect__option--highlight</value>
+      <webElementGuid>a9252034-7f5f-4965-8e49-4893d681174e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Low</value>
+      <webElementGuid>e6c9c933-5ed1-4602-a339-51d40ea99e65</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;workrequestimpact&quot;)/div[@class=&quot;multiselect w-100 form-control backg p-0 left-modal-text multiselect--active multiselect--above&quot;]/div[@class=&quot;multiselect__content-wrapper&quot;]/ul[@class=&quot;multiselect__content&quot;]/li[@class=&quot;multiselect__element&quot;]/span[@class=&quot;multiselect__option multiselect__option--highlight&quot;]</value>
+      <webElementGuid>573330a0-5206-4f48-aa4e-4dfe9f4a5b4f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='workrequestimpact']/div/div[3]/ul/li[2]/span</value>
+      <webElementGuid>2d8f4420-a10e-4bcc-8872-430f382633bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='High'])[1]/following::span[1]</value>
+      <webElementGuid>60a2a1ab-3b6d-45d5-80b2-258f9c8ec644</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Impact'])[3]/following::span[3]</value>
+      <webElementGuid>ed2c69db-4902-4c8e-a20a-8c1a18cb6692</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No elements found. Consider changing the search query.'])[1]/preceding::span[2]</value>
+      <webElementGuid>8fcf0c14-184c-49a5-9dd5-9f8041760cde</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[2]/span</value>
+      <webElementGuid>6b38774c-ff76-47e5-b2c7-05ab6f45de8f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Low' or . = 'Low')]</value>
+      <webElementGuid>3825f28f-6f61-4174-9e0c-e315c8aaa83f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
