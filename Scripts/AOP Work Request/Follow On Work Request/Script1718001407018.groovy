@@ -117,9 +117,10 @@ for (int i = 0; i < 2; i++) {
 
             break
         case 3:
+		//low
             WebUI.click(findTestObject('Work Requests/Page_WEP  Home/div_Low  Low'))
 
-            //low
+          
             break
     }
     

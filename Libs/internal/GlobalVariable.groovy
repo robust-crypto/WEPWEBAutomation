@@ -12,6 +12,11 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
+    public static Object PreprodENV
+     
+    /**
+     * <p></p>
+     */
     public static Object PlatsUsers
      
     /**
@@ -22,27 +27,7 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object MaintenanceRequest
-     
-    /**
-     * <p></p>
-     */
-    public static Object IOBUser2
-     
-    /**
-     * <p></p>
-     */
-    public static Object Malfunction
-     
-    /**
-     * <p></p>
-     */
-    public static Object OperationRequest
-     
-    /**
-     * <p></p>
-     */
-    public static Object ProductionRequest
+    public static Object PortUsers
      
     /**
      * <p></p>
@@ -52,22 +37,7 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object url
-     
-    /**
-     * <p></p>
-     */
     public static Object followOnWRtypes
-     
-    /**
-     * <p></p>
-     */
-    public static Object PreprodENV
-     
-    /**
-     * <p></p>
-     */
-    public static Object PortUsers
      
     /**
      * <p></p>
@@ -81,18 +51,12 @@ public class GlobalVariable {
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
             selectedVariables += TestCaseMain.getParsedValues(RunConfiguration.getOverridingParameters(), selectedVariables)
     
+            PreprodENV = selectedVariables['PreprodENV']
             PlatsUsers = selectedVariables['PlatsUsers']
             Password = selectedVariables['Password']
-            MaintenanceRequest = selectedVariables['MaintenanceRequest']
-            IOBUser2 = selectedVariables['IOBUser2']
-            Malfunction = selectedVariables['Malfunction']
-            OperationRequest = selectedVariables['OperationRequest']
-            ProductionRequest = selectedVariables['ProductionRequest']
-            WRtypes = selectedVariables['WRtypes']
-            url = selectedVariables['url']
-            followOnWRtypes = selectedVariables['followOnWRtypes']
-            PreprodENV = selectedVariables['PreprodENV']
             PortUsers = selectedVariables['PortUsers']
+            WRtypes = selectedVariables['WRtypes']
+            followOnWRtypes = selectedVariables['followOnWRtypes']
             TestENV = selectedVariables['TestENV']
             
         } catch (Exception e) {

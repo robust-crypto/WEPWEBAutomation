@@ -17,28 +17,3 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
-
-WebUI.navigateToUrl(GlobalVariable.PreprodENV)
-
-WebUI.maximizeWindow()
-
-for (int i = 0; i < 2; i++) {
-    WebUI.setText(findTestObject('Page_Anglo EA Identity  Identity/input_Work Execution Platform_Username'), GlobalVariable.PlatsUsers[
-        i])
-
-    WebUI.click(findTestObject('Page_Anglo EA Identity  Identity/button_Next'))
-
-    WebUI.setEncryptedText(findTestObject('Page_Anglo EA Identity  Identity/input_Work Execution Platform_Password'), 'iGDxf8hSRT4=')
-
-    WebUI.click(findTestObject('Page_Anglo EA Identity  Identity/button_Login'))
-
-    WebUI.callTestCase(findTestCase('AOP Work Request/Raise Work Request'), [:], FailureHandling.STOP_ON_FAILURE)
-
-    WebUI.click(findTestObject('Work Requests/ProfileMenu'))
-
-    WebUI.click(findTestObject('Work Requests/a_Logout'))
-}
-
-WebUI.closeBrowser()
-

@@ -111,7 +111,7 @@ for (int i = 0; i < 4; i++) {
 			WebUI.click(findTestObject('Work Requests/Page_WEP  Home/div_Low  Low'))
 			break
 	}
-    WebUI.click(findTestObject('Work Requests/div_Medium  Medium'))
+  
 
     def bb = driver.findElement(By.xpath('//input[@id=\'selectedRequiredDate\']'))
 
