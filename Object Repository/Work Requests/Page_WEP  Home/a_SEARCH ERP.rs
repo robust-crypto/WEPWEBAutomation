@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_SEARCH ERP</name>
+   <tag></tag>
+   <elementGuidId>ddb1fc73-ad3c-47bc-a36e-ca19dabcbfd8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ui-view']/div/div/div/div/div[3]/div[4]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.aa-primary.mr-2</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>94d74f6d-1e72-44b2-a08c-42cfbdf22f89</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/WorkRequest/WorkRequestSapSearchERPList</value>
+      <webElementGuid>c88576a9-a4fd-428f-bd0e-6269083a9177</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>aa-primary mr-2</value>
+      <webElementGuid>ab7a3888-de47-4040-bebe-1ee7ddf0c222</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SEARCH ERP</value>
+      <webElementGuid>e5d99490-5d5d-48da-a613-ad7a64c8f9bd</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ui-view&quot;)/div[@class=&quot;animated fadeIn px-0 py-4&quot;]/div[@class=&quot;row mx-lg-n1&quot;]/div[@class=&quot;col-md-6 pl-3 mb-3&quot;]/div[@class=&quot;panel h-100 d-flex flex-column px-2 bg-white position-relative&quot;]/div[@class=&quot;d-flex flex-column fixed-panel-no-overflow&quot;]/div[@class=&quot;d-flex justify-content-between align-items-end mt-2 mb-2&quot;]/a[@class=&quot;aa-primary mr-2&quot;]</value>
+      <webElementGuid>fc28602b-8f98-4c23-b9de-fbe160d90ef4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ui-view']/div/div/div/div/div[3]/div[4]/a</value>
+      <webElementGuid>0a25fc10-3a17-4e9d-81ce-ee11a003a26b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'SEARCH ERP')]</value>
+      <webElementGuid>0e62e7d0-c79f-4b89-b05c-782ce1e93ef4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Medium'])[8]/following::a[1]</value>
+      <webElementGuid>4b36435b-9aa0-4667-be35-38dd8480e956</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Automation Production Request'])[2]/following::a[1]</value>
+      <webElementGuid>3fdabfb7-3c80-44e1-a3fa-f02b91aeed7a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VIEW_ALL'])[1]/preceding::a[1]</value>
+      <webElementGuid>571e0bfe-812c-4140-bf5b-4d8cd6e65c09</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='WORK REQUESTS'])[2]/preceding::a[2]</value>
+      <webElementGuid>dcb83057-d865-4371-9e22-ca68199540a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='SEARCH ERP']/parent::*</value>
+      <webElementGuid>2f47e705-a3e2-47c7-b6cb-5c8b737a9ce7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/WorkRequest/WorkRequestSapSearchERPList')])[2]</value>
+      <webElementGuid>ab3a73c2-1d0c-4ed8-96c5-a57987ae6ac8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/a</value>
+      <webElementGuid>28a9ff43-50c4-4226-8fa2-b26affdeffdf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/WorkRequest/WorkRequestSapSearchERPList' and (text() = 'SEARCH ERP' or . = 'SEARCH ERP')]</value>
+      <webElementGuid>9b42df25-35f0-4154-b036-f04d048cf7b2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

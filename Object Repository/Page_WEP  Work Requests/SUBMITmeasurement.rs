@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>SUBMITmeasurement</name>
+   <tag></tag>
+   <elementGuidId>b765b07a-d154-4103-940a-56264635777e</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>button.btn.btn-primary.pr-lg-5.pl-lg-5</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-content']/div[2]/div/div/div[5]/div[2]/button</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>button</value>
+      <webElementGuid>aabe6eca-1b26-424a-b7ed-dbdb6553db9c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary pr-lg-5 pl-lg-5</value>
+      <webElementGuid>b4b0c6ef-069b-46b2-a2b6-9b79a3eb05f1</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>SUBMIT</value>
+      <webElementGuid>892dd1ef-f426-4326-82e6-a7902595ac25</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-content&quot;)/div[@class=&quot;col&quot;]/div[@class=&quot;card mr-lg-4 ml-lg-3 rounded-0&quot;]/div[@class=&quot;card-body ml-3 mr-3&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;float-right&quot;]/button[@class=&quot;btn btn-primary pr-lg-5 pl-lg-5&quot;]</value>
+      <webElementGuid>435157af-d14d-4345-9719-b8fe27b1e5d8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-content']/div[2]/div/div/div[5]/div[2]/button</value>
+      <webElementGuid>6cfe2055-95ed-4108-80fa-f1fa6f15e58e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BACK'])[1]/following::button[1]</value>
+      <webElementGuid>f222da2b-2397-4baf-b331-a4cbb5a089a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No Records Found'])[1]/following::button[2]</value>
+      <webElementGuid>6417970d-509a-4273-b853-c4f853e5d2e8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Functional Location Search'])[1]/preceding::button[1]</value>
+      <webElementGuid>5b572a82-b089-46a6-a9dd-40525a3680c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Functional Location'])[1]/preceding::button[2]</value>
+      <webElementGuid>bb6ae7a8-a58b-4f42-a360-4a544faa6716</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='SUBMIT']/parent::*</value>
+      <webElementGuid>4bd13af5-1f5a-4cf1-a27b-23148023dfa6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/button</value>
+      <webElementGuid>e280ee64-9d75-49d6-9aa1-e1d381533e99</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[(text() = 'SUBMIT' or . = 'SUBMIT')]</value>
+      <webElementGuid>bcf2506d-5347-4e75-8ab5-3a087181f7a2</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

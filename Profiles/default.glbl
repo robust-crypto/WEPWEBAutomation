@@ -46,7 +46,11 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
+<<<<<<< HEAD
       <initValue>'wep-preprod.ea.angloamerican.com'</initValue>
+=======
+      <initValue>'https://wep-preprod.ea.angloamerican.com/'</initValue>
+>>>>>>> branch 'main' of https://github.com/robust-crypto/WEPWEBAutomation.git
       <name>url</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+WorkOrdersAOP,Chrome 125.0.0.0,,,03-06-2024 14:03:48,03-06-2024 14:04:22,"33,583s",ERROR
+,,,,,,,
+Test Cases/Login Work Orders,Chrome 125.0.0.0,,,03-06-2024 14:03:49,03-06-2024 14:04:19,"30,015s",ERROR
+"openBrowser("""")",Chrome 125.0.0.0,,,03-06-2024 14:03:49,03-06-2024 14:03:53,"3,737s",PASSED
+navigateToUrl(PreprodENV),Chrome 125.0.0.0,,,03-06-2024 14:03:53,03-06-2024 14:03:59,"6,353s",PASSED
+maximizeWindow(),Chrome 125.0.0.0,,,03-06-2024 14:03:59,03-06-2024 14:03:59,"0,099s",PASSED
+"for ([i = 0, i < 1, (i++)])",Chrome 125.0.0.0,,,03-06-2024 14:03:59,03-06-2024 14:04:19,"19,223s",ERROR
+,,,,,,,
+Test Cases/Work Orders,Chrome 125.0.0.0,"Work Orders
+Confirmations",,03-06-2024 14:04:19,03-06-2024 14:04:22,"3,326s",ERROR
+"click(findTestObject(""Object Repository/Work Orders/Page_WEP  Home/SideBar Minimizer""))",Chrome 125.0.0.0,,,03-06-2024 14:04:19,03-06-2024 14:04:21,"2,760s",PASSED
+driver = getWebDriver(),Chrome 125.0.0.0,,,03-06-2024 14:04:21,03-06-2024 14:04:21,"0,001s",PASSED
+"aa = driver.findElement(By.xpath(""//li[@class='nav-item nav-dropdown'][1]/a[@class='nav-link aa-primary nav-dropdown-toggle hide-before w-100 cursorPointer']""))",Chrome 125.0.0.0,,,03-06-2024 14:04:21,03-06-2024 14:04:22,"0,531s",ERROR
