@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CloseWOPop-up</name>
+   <name>BulkSignOffpop-up</name>
    <tag></tag>
-   <elementGuidId>3890c49d-d452-4880-9e8a-40b663aa9696</elementGuidId>
+   <elementGuidId>a8a74d59-2125-4c5e-84ba-61a4efe15ed0</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@class='close aa-primary mx-0 px-0'])[1]</value>
+         <value>(//div[@class='modal-content rounded-0'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

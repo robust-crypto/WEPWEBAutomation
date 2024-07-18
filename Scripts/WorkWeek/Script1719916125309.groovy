@@ -47,25 +47,50 @@ WebDriver driver =DriverFactory.getWebDriver()
 
 List<WebElement> elements = driver.findElements(By.xpath("//img[@class='mt-1 col-1 px-0']"))
 
-def aaa
-WebElement1 operation= null
+
 	for (WebElement1 item : elements) {
 	
 		if ( item.getAttribute("data-original-title") == "NOT STARTED")
-		{
-			operation = item
-			item.click()
+		{ WebUI.delay(5)
 			
+			
+			
+			
+			
+			
+			
+			
+			item.click()
+			//WebUI.executeJavaScript('document.getElementById(\'checkFullyCompleted\').click()', [], FailureHandling.STOP_ON_FAILURE)
 			
 			WebUI.waitForElementPresent(findTestObject('Object Repository/Work Orders/Work Boards/OperationElements/WOModal'), 10)
-			
-			
-			
-			//	WebUI.verifyElementPresent(findTestObject('Object Repository/Work Orders/Work Boards/OperationElements/ContinueToStartWork'), 2)
-			//	WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/OperationElements/StartWorkYes'))
+		
+			if (WebUI.getText(findTestObject('Object Repository/MyTeamsWork/lblOperationContolKey'))== "PMIN") {
+						
+					
+					WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/OperationElements/StartWorkButton'))
+					
+					
+					
+					
+				
+					WebUI.verifyElementPresent(findTestObject('Object Repository/Work Orders/Work Boards/OperationElements/ContinueToStartWork'),
+						2)
+				
+					WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/OperationElements/StartWorkYes'))
+				
+					break
+					}
+					else if (WebUI.getText(findTestObject('Object Repository/MyTeamsWork/lblOperationContolKey'))== "PMES") {
+						
+						
+						WebUI.click(findTestObject('Object Repository/ConfirmationScreen/CloseWOPop-up'))
+						continue
+						
+					}
 		
 					
-			break
+			
 		}
 		
 	

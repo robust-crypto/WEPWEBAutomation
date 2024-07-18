@@ -72,6 +72,31 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
+    public static Object SearchErpVerifyWCAM
+     
+    /**
+     * <p></p>
+     */
+    public static Object FlocSearhcERPAM
+     
+    /**
+     * <p></p>
+     */
+    public static Object SearchERPflocAM
+     
+    /**
+     * <p></p>
+     */
+    public static Object SearchERPwcCodeDescriprionAM
+     
+    /**
+     * <p></p>
+     */
+    public static Object SearchERPWONumberAM
+     
+    /**
+     * <p></p>
+     */
     public static Object TestENV
      
 
@@ -93,6 +118,11 @@ public class GlobalVariable {
             followOnWRtypes = selectedVariables['followOnWRtypes']
             PreprodENV = selectedVariables['PreprodENV']
             PortUsers = selectedVariables['PortUsers']
+            SearchErpVerifyWCAM = selectedVariables['SearchErpVerifyWCAM']
+            FlocSearhcERPAM = selectedVariables['FlocSearhcERPAM']
+            SearchERPflocAM = selectedVariables['SearchERPflocAM']
+            SearchERPwcCodeDescriprionAM = selectedVariables['SearchERPwcCodeDescriprionAM']
+            SearchERPWONumberAM = selectedVariables['SearchERPWONumberAM']
             TestENV = selectedVariables['TestENV']
             
         } catch (Exception e) {

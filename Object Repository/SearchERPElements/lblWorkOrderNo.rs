@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CloseWOPop-up</name>
+   <name>lblWorkOrderNo</name>
    <tag></tag>
-   <elementGuidId>3890c49d-d452-4880-9e8a-40b663aa9696</elementGuidId>
+   <elementGuidId>b704b4c4-3657-45fd-93dd-f33be4ad75d3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@class='close aa-primary mx-0 px-0'])[1]</value>
+         <value>//span[@id='modalworkorderno']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CloseWOPop-up</name>
+   <name>flocNumberDrillDown</name>
    <tag></tag>
-   <elementGuidId>3890c49d-d452-4880-9e8a-40b663aa9696</elementGuidId>
+   <elementGuidId>42dbfa67-5e58-4af3-9f38-b6d623d2ac20</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@class='close aa-primary mx-0 px-0'])[1]</value>
+         <value>//div[@class='mb-0 aa-primary flex-grow-1']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

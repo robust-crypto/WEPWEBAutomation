@@ -28,13 +28,13 @@ import java.time.LocalDateTime as LocalDateTime
 import java.time.format.DateTimeFormatter as DateTimeFormatter
 import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 
-StartWork()
+//StartWork()
 //Start A ckl 
 
 
 
 
-///Save a Checklist
+///che
 
 
 
@@ -64,7 +64,7 @@ WebUI.verifyEqual(ConfirmationNumber, 1)
 void WorkCompletedConfirmation() {
     WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/linkAddconfirmationfromfeedbacktab'))
 
-    Confirmationdata('24', 'Work will not be Completed Automation comments', 'Work will not be Completed')
+    Confirmationdata('24', 'Work will not be Completed Automation comments', 'Work Completed')
 	RaiseFollowONwrAOP()
     verifyConfirmation()
 
@@ -109,8 +109,8 @@ void Confirmationdata(def number, def Comments, def type) {
 		
 		
         WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/toggleWorkCompleted'))
+		WebUI.executeJavaScript('document.getElementById(\'checkFullyCompleted\').click()', [], FailureHandling.STOP_ON_FAILURE)
 		
-		//WebUI.executeJavaScript('arguments[0].click();',checkFullyCompleted [])
     } else if (type == 'Reshedule Remaining') {
         WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/toggleResheduleRemainingWork'))
     } else if (type == 'Work will not be Completed') {
@@ -182,7 +182,20 @@ def verifyConfirmation() {
 }
 
 void StartWork() {
+	
+	
+	
+	if (WebUI.getText('Object Repository/MyTeamsWork/lblOperationContolKey')== "PMES") {
+			
+		
+		
+		
+		}
     WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/OperationElements/StartWorkButton'))
+	
+	
+	
+	
 
     WebUI.verifyElementPresent(findTestObject('Object Repository/Work Orders/Work Boards/OperationElements/ContinueToStartWork'), 
         2)
@@ -200,7 +213,19 @@ void RaiseFollowONwrAOP ()
 	WebUI.setText(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/FollowonWR/WRDescription'),"Description M2 Follow on Automation")
 	WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/FollowonWR/radioHighImpact'))
 	WebUI.setText(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/FollowonWR/txtDetailedDescription'),"M2 Follow on Automation")
-	WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/FollowonWR/SelectWRTypes'))
+	
+	
+	
+	if (WebUI.verifyElementPresent(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/FollowonWR/SelectWRTypes'), 20,FailureHandling.OPTIONAL))
+	{
+		
+		WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/FollowonWR/SelectWRTypes'))
+	}
+	else if (WebUI.verifyElementPresent(findTestObject('Object Repository/MyTeamsWork/divWorkRequestType'), 20,FailureHandling.OPTIONAL))
+	{
+	
+		WebUI.click(findTestObject('Object Repository/MyTeamsWork/divWorkRequestType'))
+	}
 	WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/FollowonWR/WRTypeM2'))
 	//WebUI.selectOptionByLabel(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/FollowonWR/SelectWRTypes'), "M2 - Malfunction",false)
 	WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/FollowonWR/btnSubmitFollowOn'))

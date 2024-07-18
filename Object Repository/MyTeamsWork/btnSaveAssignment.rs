@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CloseWOPop-up</name>
+   <name>btnSaveAssignment</name>
    <tag></tag>
-   <elementGuidId>3890c49d-d452-4880-9e8a-40b663aa9696</elementGuidId>
+   <elementGuidId>f39ff6f6-ea4e-433e-bb27-be8972da1883</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@class='close aa-primary mx-0 px-0'])[1]</value>
+         <value>//button[@class='btn btn-outline-primary border-0 px-3']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

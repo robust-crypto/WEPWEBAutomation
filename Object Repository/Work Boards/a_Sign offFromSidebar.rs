@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>a_Sign off</name>
+   <name>a_Sign offFromSidebar</name>
    <tag></tag>
    <elementGuidId>206f8082-a6a6-4168-867c-b92543908926</elementGuidId>
    <selectorCollection>

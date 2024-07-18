@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>CloseWOPop-up</name>
+   <name>DigitalSignBulkSignOff</name>
    <tag></tag>
-   <elementGuidId>3890c49d-d452-4880-9e8a-40b663aa9696</elementGuidId>
+   <elementGuidId>546a64fd-08d4-4082-8795-03f939205547</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@class='close aa-primary mx-0 px-0'])[1]</value>
+         <value>//label[@for='switch6']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

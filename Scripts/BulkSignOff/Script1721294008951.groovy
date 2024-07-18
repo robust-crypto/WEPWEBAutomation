@@ -16,56 +16,43 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
+import org.eclipse.persistence.jpa.jpql.Assert
 import org.openqa.selenium.By as By
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import java.util.Date
-import org.openqa.selenium.WebElement as WebElement
+import org.openqa.selenium.WebElement as WebElement1
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.chrome.ChromeDriver as WebElement
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
-WebUI.openBrowser('')
 
-WebUI.navigateToUrl(GlobalVariable.PreprodENV)
+WebUI.click(findTestObject('Object Repository/Work Boards/SignOffTab'))
 
-WebUI.maximizeWindow()
+WebUI.delay(5)
+WebDriver driver =DriverFactory.getWebDriver()
 
-
-for (int i = 0; i < 2; i++)
-	
-	 {
-    WebUI.setText(findTestObject('Object Repository/Page_Anglo EA Identity  Identity/input_Work Execution Platform_Username'), 
-        GlobalVariable.PlatsUsers[i])
-
-    WebUI.click(findTestObject('Object Repository/Page_Anglo EA Identity  Identity/button_Next'))
-
-    WebUI.setEncryptedText(findTestObject('Object Repository/Page_Anglo EA Identity  Identity/input_Work Execution Platform_Password'), 
-        'iGDxf8hSRT4=')
-
-    WebUI.click(findTestObject('Object Repository/Page_Anglo EA Identity  Identity/button_Login'))
-  
-
-	
-	
-	
-
-	
-	
-  WebUI.callTestCase(findTestCase('WorkBoard'), [:], FailureHandling.STOP_ON_FAILURE)
-	
-  WebUI.callTestCase(findTestCase('WorkWeek'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.executeJavaScript('document.getElementById(\'selectAllCheckbox\').click()', [], FailureHandling.STOP_ON_FAILURE)
    
-   
-   WebUI.callTestCase(findTestCase('MyTeamsWork'), [:], FailureHandling.STOP_ON_FAILURE)
-  WebUI.callTestCase(findTestCase('SearchERPWO'), [:], FailureHandling.STOP_ON_FAILURE)
-	//WebUI.callTestCase(findTestCase('BulkSignoff'), [:], FailureHandling.STOP_ON_FAILURE)
- // WebUI.click(findTestObject('Object Repository/Page_WEP  Home/ProfileMenu'))
+	WebUI.click(findTestObject('Object Repository/Work Boards/SignOffBulkBTN'))
+	WebUI.waitForElementPresent(findTestObject('Object Repository/Work Boards/BulkSignOffpop-up'),5)
+	
+	List<WebElement> elements = driver.findElements(By.xpath("//textarea[@class='form-control w-100 bold subTabsTitle']"))
 
-//WebUI.click(findTestObject('Object Repository/Page_WEP  Home/a_Logout'))
-// WebUI.closeBrowser()
-}
-
-
-
+	for (WebElement1 item : elements) {
+		
+		
+		
+		
+		item.sendKeys("Automation Bulk Sign off")
+		
+	}
+	
+	WebUI.click(findTestObject('Object Repository/Work Boards/DigitalSignBulkSignOff'))
+	
+	WebUI.click(findTestObject('Object Repository/Work Boards/SignOffBulkBTN'))
+	//def signedoff = findTestObject('Object Repository/Work Boards/BulkSignOfflblSuccess')
+	
+	WebUI.verifyEqual("Successfully signed off", WebUI.getText(findTestObject('Object Repository/Work Boards/BulkSignOfflblSuccess')))
+	
+	WebUI.click(findTestObject('Object Repository/Work Boards/BulkSignoffFinishBTN'))
