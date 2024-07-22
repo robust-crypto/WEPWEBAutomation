@@ -1,3 +1,34 @@
 {
-  "brokenTestObjects" : [ ]
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Anglo Checklists  Checklist/li_EQ Type Reg Test - Bulk Upload",
+      "brokenLocator": "//div[@id\u003d\u0027SelectedEquipmentTypeID_chosen\u0027]/div/ul/li[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027All\u0027])[2]/following::li[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Anglo Checklists  Checklist/li_EQ Type Reg Test - Bulk Upload_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Anglo Checklists  Checklist/li_Unki Mine (2)",
+      "brokenLocator": "//div[@id\u003d\u0027SelectedBusinessUnitSiteID_chosen\u0027]/div/ul/li[3]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027All\u0027])[2]/following::li[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Anglo Checklists  Checklist/li_Unki Mine (2)_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_Anglo Checklists  Checklist/i_Search_pli-plus",
+      "brokenLocator": "//table[@id\u003d\u0027dt-table\u0027]/tbody/tr/td/button/i",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//button/i",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Anglo Checklists  Checklist/i_Search_pli-plus_position.png"
+    }
+  ]
 }
