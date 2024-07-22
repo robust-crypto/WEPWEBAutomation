@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>b_14453499</name>
+   <tag></tag>
+   <elementGuidId>76dc666d-164d-49dc-83b2-b4a56041529b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#requestid1 > b</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[@id='requestid1']/b</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>b</value>
+      <webElementGuid>94de2ad1-a0f4-4222-89f7-990bd0d7c7b9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>14453499</value>
+      <webElementGuid>2bae3b75-32bf-4f30-8a35-c924a9eb858b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;requestid1&quot;)/b[1]</value>
+      <webElementGuid>d8561637-12e8-4042-b6a7-ec98dc3b8763</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//span[@id='requestid1']/b</value>
+      <webElementGuid>2ee6a482-ff13-468d-91e5-cad2455ed38e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Outstanding'])[1]/following::b[1]</value>
+      <webElementGuid>351adf3e-5c4d-4946-be47-595fa69bab71</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='The item was saved successfully'])[1]/preceding::b[1]</value>
+      <webElementGuid>a6ec1e5f-286f-45de-a593-43ad9fcb47e0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='EDIT'])[1]/preceding::b[1]</value>
+      <webElementGuid>5d49c07c-df09-42c2-9b80-a955b04ab742</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/span/b</value>
+      <webElementGuid>19f4eefc-1c32-44aa-9f65-d20b120d1b9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//b[(text() = '14453499' or . = '14453499')]</value>
+      <webElementGuid>fe8bf0a4-1204-47f8-ae32-7af7c16bd979</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

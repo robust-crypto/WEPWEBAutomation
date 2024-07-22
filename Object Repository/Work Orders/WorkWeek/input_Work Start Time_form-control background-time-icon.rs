@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Work Start Time_form-control background-time-icon</name>
+   <tag></tag>
+   <elementGuidId>190addf6-2349-4706-8e86-c9244f689b31</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[5]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.form-control.background-time-icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>a9a14b70-72e9-45ae-9283-1a2eaa529e36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>49995a72-ad79-40f1-83df-95a16f317b8c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control background-time-icon</value>
+      <webElementGuid>b90e142d-c380-44ea-b1c5-48d3c6392a31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>input-icon-class</name>
+      <type>Main</type>
+      <value>fa fa-clock-o form-control-feedback</value>
+      <webElementGuid>bc720c91-0c7a-4ad7-b663-730b0957bd71</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;v-pills-tabContent&quot;)/div[@class=&quot;overflow-auto form-container whiteBg anglo-scrollbar&quot;]/div[@class=&quot;px-3 whiteBg&quot;]/div[@class=&quot;p-2 actual-work-background-group&quot;]/div[@class=&quot;d-flex align-items-star pl-0&quot;]/div[@class=&quot;pl-1 align-items-end  input-group&quot;]/input[@class=&quot;form-control background-time-icon&quot;]</value>
+      <webElementGuid>6cdddff2-5372-43df-9c29-ee1dbe759288</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[5]</value>
+      <webElementGuid>5d249297-071e-4288-a341-26a3ee46d876</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='v-pills-tabContent']/div/div[2]/div[5]/div[2]/div[2]/input</value>
+      <webElementGuid>a6ca1d9a-bab2-4161-ae62-cc91abb4811e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/input</value>
+      <webElementGuid>ba93eded-2594-4ef9-a98e-fc6482bbe2a3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text']</value>
+      <webElementGuid>da52d81d-e378-4353-988f-5cfa7ece954d</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

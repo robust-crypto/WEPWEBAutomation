@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>input_Work Start Time_form-control background-calendar-icon</name>
+   <tag></tag>
+   <elementGuidId>140002ec-3a68-47a5-b2a5-e932861c96c4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(//input[@type='text'])[4]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input.form-control.background-calendar-icon</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>input</value>
+      <webElementGuid>fbd0e08d-090c-4046-8017-2966f910bd1b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>type</name>
+      <type>Main</type>
+      <value>text</value>
+      <webElementGuid>fe9e8e47-2d6c-4147-afa4-350fbe01bb81</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>form-control background-calendar-icon</value>
+      <webElementGuid>55d91524-f47a-4228-94b6-d9d85459b358</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;v-pills-tabContent&quot;)/div[@class=&quot;overflow-auto form-container whiteBg anglo-scrollbar&quot;]/div[@class=&quot;px-3 whiteBg&quot;]/div[@class=&quot;p-2 actual-work-background-group&quot;]/div[@class=&quot;d-flex align-items-star pl-0&quot;]/div[@class=&quot;pr-1 align-items-start  input-group&quot;]/input[@class=&quot;form-control background-calendar-icon&quot;]</value>
+      <webElementGuid>a9443467-fee8-4d50-9fe0-4ef2befb787b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//input[@type='text'])[4]</value>
+      <webElementGuid>46fe2856-56ca-4c01-bd9c-5067eb6e82d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='v-pills-tabContent']/div/div[2]/div[5]/div[2]/div/input</value>
+      <webElementGuid>4d90ff89-4f52-4b52-b029-76cfb4795203</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/div[2]/div/input</value>
+      <webElementGuid>72a4f77c-144a-42fa-8b8a-adcc1136c005</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//input[@type = 'text']</value>
+      <webElementGuid>464cc23c-0b8e-4492-a35a-5f8c3ecd1b09</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
