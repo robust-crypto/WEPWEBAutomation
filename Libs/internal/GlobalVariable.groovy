@@ -42,6 +42,16 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
+    public static Object PortWRtypes
+     
+    /**
+     * <p></p>
+     */
+    public static Object PortFollowOnWRTypes
+     
+    /**
+     * <p></p>
+     */
     public static Object TestENV
      
 
@@ -57,6 +67,8 @@ public class GlobalVariable {
             PortUsers = selectedVariables['PortUsers']
             WRtypes = selectedVariables['WRtypes']
             followOnWRtypes = selectedVariables['followOnWRtypes']
+            PortWRtypes = selectedVariables['PortWRtypes']
+            PortFollowOnWRTypes = selectedVariables['PortFollowOnWRTypes']
             TestENV = selectedVariables['TestENV']
             
         } catch (Exception e) {
