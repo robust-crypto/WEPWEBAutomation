@@ -50,14 +50,14 @@ for (int i = 0; i < 1; i++)
 	
 	
 
-WebUI.callTestCase(findTestCase('WorkBoard'), [:], FailureHandling.STOP_ON_FAILURE)
+WebUI.callTestCase(findTestCase('WorkOrders/WorkBoard'), [:], FailureHandling.STOP_ON_FAILURE)
 	
-  //WebUI.callTestCase(findTestCase('WorkWeek'), [:], FailureHandling.STOP_ON_FAILURE)
+  //WebUI.callTestCase(findTestCase('WorkOrders/WorkWeek'), [:], FailureHandling.STOP_ON_FAILURE)
    
    
-  //WebUI.callTestCase(findTestCase('MyTeamsWork'), [:], FailureHandling.STOP_ON_FAILURE)
-  //WebUI.callTestCase(findTestCase('SearchERPWO'), [:], FailureHandling.STOP_ON_FAILURE)
-	//WebUI.callTestCase(findTestCase('BulkSignoff'), [:], FailureHandling.STOP_ON_FAILURE)
+  //WebUI.callTestCase(findTestCase('WorkOrders/MyTeamsWork'), [:], FailureHandling.STOP_ON_FAILURE)
+  //WebUI.callTestCase(findTestCase('WorkOrders/SearchERPWO'), [:], FailureHandling.STOP_ON_FAILURE)
+	//WebUI.callTestCase(findTestCase('WorkOrders/BulkSignoff'), [:], FailureHandling.STOP_ON_FAILURE)
 	
 //WebUI.click(findTestObject('Object Repository/Page_WEP  Home/ProfileMenu'))
 

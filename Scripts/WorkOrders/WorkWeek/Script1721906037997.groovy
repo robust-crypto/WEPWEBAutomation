@@ -26,41 +26,47 @@ import org.openqa.selenium.chrome.ChromeDriver as WebElement
 import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
+public void ToggleSideMenu()
+{
+WebUI.click(findTestObject('Object Repository/Work Orders/Page_WEP  Home/sidebarmax'))
+	WebDriver driver =DriverFactory.getWebDriver()
+	def aa= driver.findElement(By.xpath("(//a[@href='/WorkOrder/WorkOrderSapList'])[2]"))
+	aa.click()
+	
+}
 
-//WebUI.click(findTestObject('Object Repository/Work Orders/Page_WEP  Home/sidebar-minimizerbtn'))
-WebDriver driver =DriverFactory.getWebDriver()
-def aa= driver.findElement(By.xpath("//a[@href='/workorder/TeamWorkBoardList']"))
-aa.click()
+//(//li[@class='nav-item nav-dropdown']/a[@class='nav-link aa-primary nav-dropdown-toggle hide-before w-100 cursorPointer'])[1]
+ToggleSideMenu()
 
-
-//WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/a_My Teams Work'))
+//WebUI.click(findTestObject('Object Repository/Work Orders/WorkWeek/a_Work Week'))
 
 WebUI.waitForElementNotPresent(findTestObject('Object Repository/Work Orders/Work Boards/UpdatingWO'), 60)
 
-WebUI.dragAndDropToObject(findTestObject('Object Repository/MyTeamsWork/OperationsDragable'), findTestObject('Object Repository/MyTeamsWork/DragTo'))
-WebUI.verifyElementPresent(findTestObject('Object Repository/MyTeamsWork/pop-upxpath'), 10, FailureHandling.STOP_ON_FAILURE)
+WebUI.click(findTestObject('Object Repository/Work Orders/WorkWeek/tglOperationWorkWeek'))
 
-def bb =  WebUI.getText(findTestObject('Object Repository/MyTeamsWork/lblContinue'))
-
-WebUI.verifyEqual(bb, "Would you like to continue?")
-
-WebUI.click(findTestObject('Object Repository/MyTeamsWork/btnSaveAssignment'))
+WebDriver driver =DriverFactory.getWebDriver()
 
 
-
-WebUI.delay(10)
-
-List<WebElement> elements = driver.findElements(By.xpath("//div[@class='smooth-dnd-draggable-wrapper']"))
+List<WebElement> elements = driver.findElements(By.xpath("//img[@class='mt-1 col-1 px-0']"))
 
 
 	for (WebElement1 item : elements) {
 	
-		
-			item.click()
-			item.findElement(By.xpath("//div[@class='d-flex']//img[@class='operation_container textAlignRight cursorPointer']")).click()
-		driver.findElement(By.xpath("//img[@class='pl-0 pr-1 cursorPointer textAlignRight marginTop5']")).click()
+		if ( item.getAttribute("data-original-title") == "NOT STARTED")
+		{ WebUI.delay(5)
 			
-		WebUI.waitForElementPresent(findTestObject('Object Repository/MyTeamsWork/WOmodal'), 10)
+			
+			
+			
+			
+			
+			
+			
+			item.click()
+			//WebUI.executeJavaScript('document.getElementById(\'checkFullyCompleted\').click()', [], FailureHandling.STOP_ON_FAILURE)
+			
+			WebUI.waitForElementPresent(findTestObject('Object Repository/Work Orders/Work Boards/OperationElements/WOModal'), 10)
+		
 			if (WebUI.getText(findTestObject('Object Repository/MyTeamsWork/lblOperationContolKey'))== "PMIN") {
 						
 					
@@ -77,21 +83,40 @@ List<WebElement> elements = driver.findElements(By.xpath("//div[@class='smooth-d
 				
 					break
 					}
-					else {
+					else if (WebUI.getText(findTestObject('Object Repository/MyTeamsWork/lblOperationContolKey'))== "PMES") {
 						
 						
 						WebUI.click(findTestObject('Object Repository/ConfirmationScreen/CloseWOPop-up'))
+						continue
 						
 					}
 		
-		
-		
+					
 			
+		}
+		
+	
+		
 
 	}
+	//WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/OperationElements/tabOperationWO'))
 	
-WebUI.callTestCase(findTestCase('PartialConfirmation'), [:], FailureHandling.STOP_ON_FAILURE)
-
-
-
+	//driver.findElement(By.xpath("//a[@id='mainoperations-tab']")).click()
+	//List<WebElement> operations = driver.findElements(By.xpath("//ul[@class='row nav nav-tabs remoBorderBottom']//img[@data-toggle='tooltip']"))
+	
+	
+	//for (WebElement1 op : operations) {
+	//	if ( op.getAttribute("data-original-title") == "NOT STARTED")
+		//{
+			
+			//op.click()
+			//break
+			
+	//	}
+		
+	//}
+	WebUI.callTestCase(findTestCase('WorkOrders/PartialConfirmation'), [:], FailureHandling.STOP_ON_FAILURE)
+	
+	
+	
 

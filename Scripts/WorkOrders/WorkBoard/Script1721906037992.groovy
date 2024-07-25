@@ -63,7 +63,7 @@ for (WebElement1 item : elements) {
 					
 					StartWork()
 					
-					WebUI.callTestCase(findTestCase('PartialConfirmation'), [:], FailureHandling.STOP_ON_FAILURE)
+					WebUI.callTestCase(findTestCase('WorkOrders/PartialConfirmation'), [:], FailureHandling.STOP_ON_FAILURE)
 					break
 		             }
 		             else	
@@ -98,7 +98,7 @@ for (WebElement1 operation : wo) {
 			5,FailureHandling.OPTIONAL)) {
 		
 				StartWork()
-				WebUI.callTestCase(findTestCase('BreakdownConfirmation'), [:], FailureHandling.STOP_ON_FAILURE)
+				WebUI.callTestCase(findTestCase('WorkOrders/BreakdownConfirmation'), [:], FailureHandling.STOP_ON_FAILURE)
 				break;
 			
 			}
