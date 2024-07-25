@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>WCDropDown</name>
+   <tag></tag>
+   <elementGuidId>3950380e-be9b-4ca0-a2dc-ba143751f187</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.multiselect__tags</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c606c6a6-764a-46e6-933e-04f7a0db604c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>multiselect__tags</value>
+      <webElementGuid>f6d6b0dd-72ba-4f48-b83b-e5476f6f100b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ui-view&quot;)/div[@class=&quot;animated fadeIn pb-3&quot;]/div[@class=&quot;row mx-lg-n1&quot;]/div[@class=&quot;col-lg-12 px-lg-1&quot;]/div[@class=&quot;card h-100 mb-0 rounded-0&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;d-sm-block d-none&quot;]/div[@class=&quot;pr-3 pl-3 pb-1 d-flex&quot;]/div[@class=&quot;pb-3 col-md-9 col-12 d-flex border-bottom&quot;]/div[@class=&quot;col-md-9 col-12&quot;]/div[@class=&quot;row form-group d-flex align-items-end flex-wrap&quot;]/div[@class=&quot;col-md-6 col-12 px-0 mr-3&quot;]/div[@class=&quot;multiselect w-100 small form-control p-0 multiselect--active&quot;]/div[@class=&quot;multiselect__tags&quot;]</value>
+      <webElementGuid>3cc2b39b-bd2e-4841-9b8e-040f617b0ab0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ui-view']/div/div/div/div/div/div/div[2]/div[2]/div/div/div/div/div[2]</value>
+      <webElementGuid>f1d59fa1-c976-4219-b91d-c82322873c81</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search Work Centre code, description or type'])[1]/following::div[3]</value>
+      <webElementGuid>24644757-3c79-4a8b-8fb9-e858ab7f7850</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Request number'])[1]/following::div[7]</value>
+      <webElementGuid>cff8a6dd-4e0b-4081-966e-0534f88ff3ce</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='A - SNR ENGINEERING MANAGER'])[1]/preceding::div[3]</value>
+      <webElementGuid>491760a8-83ad-4952-ab77-524e4edc100a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AA - SENIOR ASSET MANAGER'])[1]/preceding::div[3]</value>
+      <webElementGuid>72daafe5-3e3c-4b3e-8917-9219a862c508</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[2]/div/div/div/div/div[2]</value>
+      <webElementGuid>7b9bdb9a-86f8-4809-afba-96cba2652c47</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Bulk Approval</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>40710f1a-6acd-47b0-8da4-49e6631502d2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>11c5d47b-0610-432a-a3df-9f4fb859d7ca</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>80c47619-aa8d-48a9-a615-64519786f99c</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d3ea260a-ed7f-468c-afa2-ac95ce9205ac</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>272a55be-08e3-4376-a535-47fd136c4632</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>findTestObject('Page_WEP  Work Requests/td_15052906')</defaultValue>
+      <description></description>
+      <id>11c5d47b-0610-432a-a3df-9f4fb859d7ca</id>
+      <masked>false</masked>
+      <name>WRNumber1</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Page_WEP  Work Requests/td_15052905')</defaultValue>
+      <description></description>
+      <id>80c47619-aa8d-48a9-a615-64519786f99c</id>
+      <masked>false</masked>
+      <name>WRNumber2</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Page_WEP  Work Requests/td_15052904')</defaultValue>
+      <description></description>
+      <id>d3ea260a-ed7f-468c-afa2-ac95ce9205ac</id>
+      <masked>false</masked>
+      <name>WRNumber3</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('Page_WEP  Work Requests/td_15052903')</defaultValue>
+      <description></description>
+      <id>272a55be-08e3-4376-a535-47fd136c4632</id>
+      <masked>false</masked>
+      <name>WRNumber4</name>
+   </variable>
+</TestCaseEntity>

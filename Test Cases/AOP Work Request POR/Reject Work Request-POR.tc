@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Reject Work Request-POR</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>69ecdce1-af54-4e70-8eb6-a1a07f7c1bac</testCaseGuid>
+</TestCaseEntity>

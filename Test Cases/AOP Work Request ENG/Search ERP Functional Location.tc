@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search ERP Functional Location</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>992aa3ec-ba88-4ae0-bb81-cb7218540473</testCaseGuid>
+</TestCaseEntity>

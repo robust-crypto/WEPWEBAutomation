@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search ERP Work Request Number-SPA</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2fb9b4be-6693-44f9-830b-b827821bbea5</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>f26ce875-8862-45ab-8670-b3e3ad9c4e0c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>f26ce875-8862-45ab-8670-b3e3ad9c4e0c</id>
+      <masked>false</masked>
+      <name>captureWRNumber</name>
+   </variable>
+</TestCaseEntity>

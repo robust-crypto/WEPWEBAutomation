@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Search ERP Work Request Number-POR</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>079771ec-bc6a-470e-9326-942c4c6ec87f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8d7a21e3-5ee4-471b-843d-804cb9a96bc1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>8d7a21e3-5ee4-471b-843d-804cb9a96bc1</id>
+      <masked>false</masked>
+      <name>captureWRNumber</name>
+   </variable>
+</TestCaseEntity>
