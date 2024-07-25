@@ -30,10 +30,10 @@ WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.PreprodENV)
 
-WebUI.maximizeWindow()
+//WebUI.maximizeWindow()
 
 
-for (int i = 0; i < 2; i++)
+for (int i = 0; i < 1; i++)
 	
 	 {
     WebUI.setText(findTestObject('Object Repository/Page_Anglo EA Identity  Identity/input_Work Execution Platform_Username'), 
@@ -49,23 +49,22 @@ for (int i = 0; i < 2; i++)
 
 	
 	
-	
 
+WebUI.callTestCase(findTestCase('WorkBoard'), [:], FailureHandling.STOP_ON_FAILURE)
 	
-	
-  WebUI.callTestCase(findTestCase('WorkBoard'), [:], FailureHandling.STOP_ON_FAILURE)
-	
-  WebUI.callTestCase(findTestCase('WorkWeek'), [:], FailureHandling.STOP_ON_FAILURE)
+  //WebUI.callTestCase(findTestCase('WorkWeek'), [:], FailureHandling.STOP_ON_FAILURE)
    
    
-   WebUI.callTestCase(findTestCase('MyTeamsWork'), [:], FailureHandling.STOP_ON_FAILURE)
-  WebUI.callTestCase(findTestCase('SearchERPWO'), [:], FailureHandling.STOP_ON_FAILURE)
+  //WebUI.callTestCase(findTestCase('MyTeamsWork'), [:], FailureHandling.STOP_ON_FAILURE)
+  //WebUI.callTestCase(findTestCase('SearchERPWO'), [:], FailureHandling.STOP_ON_FAILURE)
 	//WebUI.callTestCase(findTestCase('BulkSignoff'), [:], FailureHandling.STOP_ON_FAILURE)
- // WebUI.click(findTestObject('Object Repository/Page_WEP  Home/ProfileMenu'))
+	
+//WebUI.click(findTestObject('Object Repository/Page_WEP  Home/ProfileMenu'))
 
 //WebUI.click(findTestObject('Object Repository/Page_WEP  Home/a_Logout'))
-// WebUI.closeBrowser()
+ 
 }
+//WebUI.closeBrowser()
 
 
 

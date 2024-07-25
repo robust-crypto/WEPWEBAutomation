@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ConfirmWorkBTN</name>
+   <name>Date</name>
    <tag></tag>
-   <elementGuidId>7b6336e0-231a-462f-b7bd-32f36234cb03</elementGuidId>
+   <elementGuidId>c52a0ea9-7111-451f-ab77-0da61012f265</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@class='btn btn-primary']</value>
+         <value>(//input[@class='form-control'])[1]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

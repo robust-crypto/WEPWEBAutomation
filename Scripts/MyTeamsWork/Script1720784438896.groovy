@@ -27,13 +27,13 @@ import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 
 
-WebUI.click(findTestObject('Object Repository/Work Orders/Page_WEP  Home/sidebar-minimizerbtn'))
+//WebUI.click(findTestObject('Object Repository/Work Orders/Page_WEP  Home/sidebar-minimizerbtn'))
 WebDriver driver =DriverFactory.getWebDriver()
-//def aa= driver.findElement(By.xpath("//li[@class='nav-item nav-dropdown'][2]/a[@class='nav-link aa-primary nav-dropdown-toggle hide-before w-100 cursorPointer']"))
-//a.click()
+def aa= driver.findElement(By.xpath("//a[@href='/workorder/TeamWorkBoardList']"))
+aa.click()
 
 
-WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/a_My Teams Work'))
+//WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/a_My Teams Work'))
 
 WebUI.waitForElementNotPresent(findTestObject('Object Repository/Work Orders/Work Boards/UpdatingWO'), 60)
 

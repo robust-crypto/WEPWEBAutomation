@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>['Pulaneam', 'AMOAM']</initValue>
+      <initValue>['pulaneam', 'AMOAM']</initValue>
       <name>PlatsUsers</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -48,5 +48,10 @@
       <description></description>
       <initValue>'4011243675'</initValue>
       <name>SearchERPWONumberAM</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>BU</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ConfirmWorkBTN</name>
+   <name>CauseInput</name>
    <tag></tag>
-   <elementGuidId>7b6336e0-231a-462f-b7bd-32f36234cb03</elementGuidId>
+   <elementGuidId>732e79bb-7b23-4158-94f6-c954abb92c5e</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@class='btn btn-primary']</value>
+         <value>(//div[@class='multiselect__select'])[5]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

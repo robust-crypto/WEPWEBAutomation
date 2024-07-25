@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[contains(text(),'YES')]</value>
+         <value>//button[@class='btn btn-primary confirm-yes m-0 p-0']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

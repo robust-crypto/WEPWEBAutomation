@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ConfirmWorkBTN</name>
+   <name>HighPriorityFilter</name>
    <tag></tag>
-   <elementGuidId>7b6336e0-231a-462f-b7bd-32f36234cb03</elementGuidId>
+   <elementGuidId>d99b83ce-aa75-43dc-95ff-e20799eb57ec</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@class='btn btn-primary']</value>
+         <value>//input[@class='custom-control-input cursorPointer']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

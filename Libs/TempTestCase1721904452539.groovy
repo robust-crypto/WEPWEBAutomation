@@ -18,7 +18,7 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\PULANE~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Login Work Orders\\20240718_094423\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\PULANE~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Login Work Orders\\20240725_124732\\execution.properties')
 
 TestCaseMain.beforeStart()
 

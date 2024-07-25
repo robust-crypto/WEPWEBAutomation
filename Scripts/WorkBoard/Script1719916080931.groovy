@@ -27,66 +27,132 @@ import java.time.LocalDateTime
 import java.time.format.DateTimeFormatter
 	
 
-WebUI.click(findTestObject('Object Repository/Work Orders/Page_WEP  Home/sidebar-minimizerbtn'))
-	WebDriver driver =DriverFactory.getWebDriver()
-	def aa= driver.findElement(By.xpath("//li[@class='nav-item nav-dropdown'][2]/a[@class='nav-link aa-primary nav-dropdown-toggle hide-before w-100 cursorPointer']"))
-	aa.click()
+WebDriver driver =DriverFactory.getWebDriver()
+	
+	//driver.findElement(By.xpath("(//li[@class='nav-item nav-dropdown'][1])[1]")).click()
+WebUI.click(findTestObject('Object Repository/Work Orders/Page_WEP  Home/sidebarmax'))
+WebUI.delay(5)
+	
+def aa= driver.findElement(By.xpath("//li[@class='nav-item nav-dropdown'][2]/a[@class='nav-link aa-primary nav-dropdown-toggle hide-before w-100 cursorPointer']"))
+aa.click()
+	////li[@class='nav-item nav-dropdown'][2]/a[@class='nav-link aa-primary nav-dropdown-toggle hide-before w-100 cursorPointer']
+	//(//li[@class='nav-item nav-dropdown'])[6]
+	
+	
+WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/a_Work Board'))
+WebUI.waitForElementNotPresent(findTestObject('Object Repository/Work Orders/Work Boards/UpdatingWO'), 60)
+	
+	
+List<WebElement> elements = driver.findElements(By.xpath("//div[@class='d-flex align-items-center ml-1 pb-2']//img[@class='ml-1 ']"))
 	
 
-	WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/a_Work Board'))
-	WebUI.waitForElementNotPresent(findTestObject('Object Repository/Work Orders/Work Boards/UpdatingWO'), 60)
-	
-	
-	List<WebElement> elements = driver.findElements(By.xpath("//div[@class='d-flex align-items-center ml-1 pb-2']//img[@class='ml-1 ']"))
-	
-	def aaa
-	WebElement1 operation= null
-		for (WebElement1 item : elements) {
+for (WebElement1 item : elements) {
 		
-			if ( item.getAttribute("data-original-title") == "NOT STARTED")
-			{
+	if ( item.getAttribute("data-original-title") == "NOT STARTED")
+		{
 				operation = item
 				item.click()
-				WebUI.waitForElementPresent(findTestObject('Object Repository/Work Orders/Work Boards/OperationElements/WOModal'), 10)
+				WebUI.waitForElementPresent(findTestObject('Object Repository/Work Orders/Work Boards/OperationElements/WOModal'), 60)
 				
 				
-				if (WebUI.getText(findTestObject('Object Repository/MyTeamsWork/lblOperationContolKey'))== "PMIN") {
-						
+				if (WebUI.getText(findTestObject('Object Repository/MyTeamsWork/lblOperationContolKey'))== "PMIN" && 
+					WebUI.verifyElementNotVisible(findTestObject('Object Repository/Work Orders/WOBreakdownIcon'),FailureHandling.OPTIONAL))
+				  {					
 					
-					WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/OperationElements/StartWorkButton'))
+					AssignOperationAndVerify()
 					
+					StartWork()
 					
-					
-					
-				
-					WebUI.verifyElementPresent(findTestObject('Object Repository/Work Orders/Work Boards/OperationElements/ContinueToStartWork'),
-						2)
-				
-					WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/OperationElements/StartWorkYes'))
-				
+					WebUI.callTestCase(findTestCase('PartialConfirmation'), [:], FailureHandling.STOP_ON_FAILURE)
 					break
-					}
-					else {
-						
-						
-						WebUI.click(findTestObject('Object Repository/ConfirmationScreen/CloseWOPop-up'))
-						
-					}
-					
-					
-				
-						
-				
+		             }
+		             else	
+		             {
+			                 WebUI.click(findTestObject('Object Repository/ConfirmationScreen/CloseWOPop-up'))
+		             }
 			}
 			
 		
 			
 	
+}
+		
+WebUI.refresh()
+		
+WebUI.waitForElementNotPresent(findTestObject('Object Repository/Work Orders/Work Boards/UpdatingWO'), 60)
+		
+List<WebElement> wo = driver.findElements(By.xpath("//div[@class='d-flex align-items-center ml-1 pb-2']//img[@class='ml-1 ']"))
+		
+	
+for (WebElement1 operation : wo) {
+		
+				
+    if ( operation.getAttribute("data-original-title") == "NOT STARTED")
+	{
+				operation.click()
+				WebUI.waitForElementPresent(findTestObject('Object Repository/Work Orders/Work Boards/OperationElements/WOModal'), 60)
+				
+		
+		 if (WebUI.getText(findTestObject('Object Repository/MyTeamsWork/lblOperationContolKey'))== "PMIN" &&
+		WebUI.verifyElementPresent(findTestObject('Object Repository/Work Orders/WOBreakdownIcon'),
+			5,FailureHandling.OPTIONAL)) {
+		
+				StartWork()
+				WebUI.callTestCase(findTestCase('BreakdownConfirmation'), [:], FailureHandling.STOP_ON_FAILURE)
+				break;
+			
+			}
+			
+	}
+}
+public void StartWork ()
+		{
+			WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/OperationElements/StartWorkButton'))
+			
+			
+			
+			
+		
+			WebUI.verifyElementPresent(findTestObject('Object Repository/Work Orders/Work Boards/OperationElements/ContinueToStartWork'),
+				2)
+		
+			WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/OperationElements/StartWorkYes'))
 		}
-		
-		WebUI.callTestCase(findTestCase('PartialConfirmation'), [:], FailureHandling.STOP_ON_FAILURE)
-		
-		
+	
+public void AssignOperationAndVerify()
+		{
+			WebDriver driver =DriverFactory.getWebDriver()
+			WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/AssignmentElements/btnAssign'))
+			
+			WebUI.verifyElementPresent(findTestObject('Object Repository/Work Orders/Work Boards/AssignmentElements/xpathListOfAllPeopleToAssign'),2)
+			
+			
+			
+			
+			List<WebElement> People = driver.findElements(By.xpath("//li[@class='d-flex align-items-start selectPersons']"))
+			
+						for (WebElement1 person : People) {
+							
+						def	Name = person.findElement(By.xpath("//label[@class='flex-wrap personsName px-0']")).text
+						findTestObject('Object Repository/Work Orders/Work Boards/AssignmentElements/PSEUDOELEMENTS')
+						List<WebElement>  check = WebUI.findWebElements(findTestObject('Object Repository/Work Orders/Work Boards/AssignmentElements/PSEUDOELEMENTS'),2)
+						
+						for (WebElement1 p :check)
+						{
+							WebUI.executeJavaScript("arguments[0].click()", Arrays.asList(p))
+						   
+							   //('document.getElementById(\'checkFullyCompleted\').click()', [], FailureHandling.STOP_ON_FAILURE)
+						   break
+						}
+						
+						//WebUI.executeJavaScript('document.getElementById(\'0b40dabd-442e-47e1-a913-5d4190e987cf\').click()', [],
+								//	 FailureHandling.STOP_ON_FAILURE)
+								WebUI.verifyEqual(Name, WebUI.getText(findTestObject('Object Repository/Work Orders/Work Boards/AssignmentElements/AssignedPeople')))
+								WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/AssignmentElements/closeassignments'))
+							break
+						}
+			
+		}
 		
 		
 		

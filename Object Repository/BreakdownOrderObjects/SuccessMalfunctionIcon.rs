@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>ConfirmWorkBTN</name>
+   <name>SuccessMalfunctionIcon</name>
    <tag></tag>
-   <elementGuidId>7b6336e0-231a-462f-b7bd-32f36234cb03</elementGuidId>
+   <elementGuidId>406ce1ce-57f6-4ecf-a3f0-04926f6846c3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>BASIC</key>
+         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[@class='btn btn-primary']</value>
+         <value>//div[@class='col-1 my-auto px-0 textAlignCenter whiteBg']//img</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -43,7 +43,7 @@ import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 
 
 WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/ConfirmWorkBTN'))
-Confirmationdata('12', 'Partial Confirmation Comments Automation', 'Partial Confirmation')//Partial 
+Confirmationdata('12', 'Reshedule Remaining Comments Automation', 'Reshedule Remaining')
 
 //verify confirmation posted
 verifyConfirmation()
@@ -51,21 +51,19 @@ verifyConfirmation()
 def ConfirmationNumber = WebUI.getText(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/lblNoConfirmationsfeedback'))
 WebUI.verifyEqual(ConfirmationNumber, 1)
 
-    WebUI.verifyElementPresent(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/imgPartialFeedback'), 
-        10)
+    WebUI.verifyEqual(WebUI.getText(findTestObject('Object Repository/BreakdownOrderObjects/ResheduleRemainingFeedbackTab')) ,"Reschedule")
 
     //WebUI.callTestCase(findTestCase('WorkCompletedConfirmation'), [:], FailureHandling.STOP_ON_FAILURE)
     WorkCompletedConfirmation()
 //WebUI.callTestCase(findTestCase('WorkCompletedConfirmation'), [:], FailureHandling.STOP_ON_FAILURE)
 //WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/CloseWOPop-up'))
 
-
-
+	
 
 void WorkCompletedConfirmation() {
     WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/linkAddconfirmationfromfeedbacktab'))
 
-    Confirmationdata('24', 'Work will not be Completed Automation comments', 'Work Completed')
+    Confirmationdata('24', 'Work will not be Completed Automation comments', 'Work will not be Completed')
 	//RaiseFollowONwrAOP()
     verifyConfirmation()
 
@@ -74,9 +72,9 @@ void WorkCompletedConfirmation() {
 	
 	WebUI.verifyEqual(ConfirmationNumber2, 2)
 	
-           WebUI.verifyElementPresent(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/imgWorkCompletedFeedbackTab'), 
+           WebUI.verifyElementPresent(findTestObject('Object Repository/BreakdownOrderObjects/imgWorknotCompletedfeedback'), 
             10)
-		   
+		  	WebUI.verifyEqual( WebUI.getText(findTestObject('Object Repository/BreakdownOrderObjects/feedbackWorkNotCompletedLabel')),"Work will not be completed:")
 
         Signoff()
     
@@ -85,12 +83,8 @@ void WorkCompletedConfirmation() {
 void Signoff() {
 	
 	
-	if (GlobalVariable.BU =="Minas Rio")
-	{
-		TimeZone.setDefault(TimeZone.getTimeZone("America/Sao_Paulo"))
-	}
-	TimeZone.setDefault(TimeZone.getTimeZone("America/Sao_Paulo"))
-	//TimeZone.setDefault(TimeZone.getTimeZone("Europe/London"))
+
+
     WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/tabSignoff'))
 
     WebUI.setText(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/finalSignoffCommentsTXT'), 
@@ -157,6 +151,50 @@ void Confirmationdata(def number, def Comments, def type) {
     WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/DigitalSignature'))
 
     WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/btnConfirm'))
+	
+	//Validate the Malfunction Start time 
+	WebUI.verifyElementPresent(findTestObject('Object Repository/BreakdownOrderObjects/Date'),5,FailureHandling.STOP_ON_FAILURE)
+	WebUI.verifyElementPresent(findTestObject('Object Repository/BreakdownOrderObjects/time'),5,FailureHandling.STOP_ON_FAILURE)
+	
+	
+	WebUI.click(findTestObject('Object Repository/BreakdownOrderObjects/Date'))
+	
+	
+	
+	WebUI.click(findTestObject('Object Repository/BreakdownOrderObjects/time'))
+	
+	WebUI.click(findTestObject('Object Repository/BreakdownOrderObjects/SubmitButton'))
+	WebUI.verifyElementPresent(findTestObject('Object Repository/BreakdownOrderObjects/SuccessMalfunctionIcon'),5,FailureHandling.STOP_ON_FAILURE)
+	
+	WebUI.click(findTestObject('Object Repository/BreakdownOrderObjects/SubmitButton'))
+	
+	WebUI.verifyElementPresent(findTestObject('Object Repository/BreakdownOrderObjects/CatalogProfilediv'),5,FailureHandling.STOP_ON_FAILURE)
+	
+		WebUI.click(findTestObject('Object Repository/BreakdownOrderObjects/PlusBTN'))
+		
+		WebUI.click(findTestObject('Object Repository/BreakdownOrderObjects/ObjectPartInput'))
+		
+		
+		driver.findElement(By.xpath("//div[@style='max-height: 300px;']//li[@class='multiselect__element'][1]")).click()
+		WebUI.delay(2)
+		WebUI.click(findTestObject('Object Repository/BreakdownOrderObjects/DamageInput'))
+		WebUI.delay(2)
+		driver.findElement(By.xpath("//div[@style='max-height: 300px;']//li[@class='multiselect__element'][1]")).click()
+		WebUI.delay(2)
+		WebUI.click(findTestObject('Object Repository/BreakdownOrderObjects/CauseInput'))
+		WebUI.delay(2)
+		driver.findElement(By.xpath("//div[@style='max-height: 300px;']//li[@class='multiselect__element'][1]")).click()
+		WebUI.delay(2)
+		WebUI.click(findTestObject('Object Repository/BreakdownOrderObjects/ActivityInput'))
+		WebUI.delay(2)
+		driver.findElement(By.xpath("//div[@style='max-height: 300px;']//li[@class='multiselect__element'][2]")).click()
+	
+			WebUI.click(findTestObject('Object Repository/BreakdownOrderObjects/SubmitButton'))
+			WebUI.verifyElementPresent(findTestObject('Object Repository/BreakdownOrderObjects/SuccessMalfunctionIcon'),5,FailureHandling.STOP_ON_FAILURE)
+			WebUI.click(findTestObject('Object Repository/BreakdownOrderObjects/SubmitButton'))
+		
+	
+		
 }
 public void SetEndDate(def days) {
 	WebDriver driver = DriverFactory.getWebDriver()
@@ -217,6 +255,19 @@ def verifyConfirmation() {
 
     WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/accordionConfirmation'))
 }
+def verifyResheduleConfirmation() {
+	WebUI.verifyElementPresent(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/btnDone'), 60)
+ 
+	WebUI.verifyElementPresent(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/lblConfirmedSuccessfully'),
+		 10)
+ 
+   WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/btnDone'))
+	 
+	 
+	 WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/tabFeedback'))
+ 
+	 WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/accordionConfirmation'))
+ }
 
 void StartWork() {
 	

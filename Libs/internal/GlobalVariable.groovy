@@ -97,6 +97,11 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
+    public static Object BU
+     
+    /**
+     * <p></p>
+     */
     public static Object TestENV
      
 
@@ -123,6 +128,7 @@ public class GlobalVariable {
             SearchERPflocAM = selectedVariables['SearchERPflocAM']
             SearchERPwcCodeDescriprionAM = selectedVariables['SearchERPwcCodeDescriprionAM']
             SearchERPWONumberAM = selectedVariables['SearchERPWONumberAM']
+            BU = selectedVariables['BU']
             TestENV = selectedVariables['TestENV']
             
         } catch (Exception e) {

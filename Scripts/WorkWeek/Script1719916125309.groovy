@@ -28,15 +28,17 @@ import java.time.format.DateTimeFormatter
 
 public void ToggleSideMenu()
 {
-WebUI.click(findTestObject('Object Repository/Work Orders/Page_WEP  Home/sidebar-minimizerbtn'))
+WebUI.click(findTestObject('Object Repository/Work Orders/Page_WEP  Home/sidebarmax'))
 	WebDriver driver =DriverFactory.getWebDriver()
-	def aa= driver.findElement(By.xpath("(//li[@class='nav-item nav-dropdown']/a[@class='nav-link aa-primary nav-dropdown-toggle hide-before w-100 cursorPointer'])[1]"))
+	def aa= driver.findElement(By.xpath("(//a[@href='/WorkOrder/WorkOrderSapList'])[2]"))
 	aa.click()
 	
 }
+
+//(//li[@class='nav-item nav-dropdown']/a[@class='nav-link aa-primary nav-dropdown-toggle hide-before w-100 cursorPointer'])[1]
 ToggleSideMenu()
 
-WebUI.click(findTestObject('Object Repository/Work Orders/WorkWeek/a_Work Week'))
+//WebUI.click(findTestObject('Object Repository/Work Orders/WorkWeek/a_Work Week'))
 
 WebUI.waitForElementNotPresent(findTestObject('Object Repository/Work Orders/Work Boards/UpdatingWO'), 60)
 

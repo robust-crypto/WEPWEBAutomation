@@ -35,14 +35,17 @@ WebUI.click(findTestObject('Object Repository/Work Orders/Page_WEP  Home/sidebar
 	aa.click()
 	
 }
-ToggleSideMenu()
+//ToggleSideMenu()
 
 
 WebDriver driver =DriverFactory.getWebDriver()
 
 
-WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/a_Search ERP'))
+//WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/a_Search ERP'))
 
+WebDriver driver =DriverFactory.getWebDriver()
+def aa= driver.findElement(By.xpath("//a[@href='/workorder/WorkOrderSapSearchERPList']"))
+aa.click()
 
 
 
