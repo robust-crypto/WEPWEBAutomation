@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Search_btn btn-primary btn-icon btn-circle</name>
+   <tag></tag>
+   <elementGuidId>55f88c3d-dae1-4896-8dd7-e8ec82b12198</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-content']/div[2]/div/form/div/div[5]/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-primary.btn-icon.btn-circle</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>3b7735d8-bfff-427e-9a9c-53f8376a2788</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-primary btn-icon btn-circle</value>
+      <webElementGuid>eb2aeaae-c6d7-44d1-b8e1-619452f00771</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>title</name>
+      <type>Main</type>
+      <value>Add Shift Period</value>
+      <webElementGuid>8dc2f5c5-a16e-43f2-b361-bf383415c618</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/MasterData/ShiftPeriodDetails/00000000-0000-0000-0000-000000000000</value>
+      <webElementGuid>ede52f5f-14ff-4ba5-ae14-b244cb572b03</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-content&quot;)/div[@class=&quot;panel&quot;]/div[@class=&quot;panel-body&quot;]/form[@class=&quot;form-horizontal&quot;]/div[1]/div[@class=&quot;col-md-1 text-right&quot;]/a[@class=&quot;btn btn-primary btn-icon btn-circle&quot;]</value>
+      <webElementGuid>34e919bb-2f12-4ffe-8e86-310630d935af</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-content']/div[2]/div/form/div/div[5]/a</value>
+      <webElementGuid>2753099b-dab4-45a4-bcbc-405199155354</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Search'])[2]/following::a[1]</value>
+      <webElementGuid>03a10f2c-f77f-4808-a8e4-72b55af314a5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[2]/following::a[1]</value>
+      <webElementGuid>a3767615-f44e-4b6d-bef3-8cb33c961d14</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Actions'])[1]/preceding::a[1]</value>
+      <webElementGuid>45a0d29d-1636-4404-9c98-1e315fdea45a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Description'])[1]/preceding::a[1]</value>
+      <webElementGuid>5867ded6-af5c-4d21-acfd-19176d5d7480</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/MasterData/ShiftPeriodDetails/00000000-0000-0000-0000-000000000000')]</value>
+      <webElementGuid>6b3553d7-9e04-4abd-8b15-828e8898efe0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[5]/a</value>
+      <webElementGuid>39b1b138-36e0-43de-8553-badb4acdf006</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@title = 'Add Shift Period' and @href = '/MasterData/ShiftPeriodDetails/00000000-0000-0000-0000-000000000000']</value>
+      <webElementGuid>9fbc81a7-f6a8-464e-bdee-7632afdea666</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

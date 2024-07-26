@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Btn_EditBU</name>
+   <tag></tag>
+   <elementGuidId>e644c6ae-4bcc-4cf6-89bc-6e7aa48d26d9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//table[@id='dt-table']/tbody/tr/td/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-mint.btn-icon.btn-sm</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>8ba4bda6-7782-4cdd-816d-ba859878c588</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>btn btn-mint btn-icon btn-sm</value>
+      <webElementGuid>2bcfe1ef-9d7d-4d34-b29f-aa8dec1ce176</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>alt</name>
+      <type>Main</type>
+      <value>Edit</value>
+      <webElementGuid>81d7d22f-aabd-4dac-963c-59d63f3eb7c6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/MasterData/BusinessUnitDetails/6190da3d-c687-4a34-a94e-2714cc89d8a7</value>
+      <webElementGuid>a87cf96a-141a-4204-b96b-c827ec5caeb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;dt-table&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[@class=&quot;sorting_1&quot;]/a[@class=&quot;btn btn-mint btn-icon btn-sm&quot;]</value>
+      <webElementGuid>247f30be-d34c-476c-811f-75689b3bd1c6</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//table[@id='dt-table']/tbody/tr/td/a</value>
+      <webElementGuid>ba4b4d9d-440b-4c6b-ab06-03df788b9e61</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Active'])[3]/following::a[1]</value>
+      <webElementGuid>910deaf6-0199-4278-b63c-6a93bf0ae918</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Code'])[1]/following::a[1]</value>
+      <webElementGuid>edbd5c55-b5c8-4e3c-a5cd-35b6dff19572</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Automation IM 3'])[1]/preceding::a[1]</value>
+      <webElementGuid>a2984a37-b684-4cb3-a751-767f5d466f27</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='AIM 3'])[1]/preceding::a[1]</value>
+      <webElementGuid>8b289aff-1170-4cc5-9bd4-1bec38991daf</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/MasterData/BusinessUnitDetails/6190da3d-c687-4a34-a94e-2714cc89d8a7')]</value>
+      <webElementGuid>6ca4eab1-a7d5-4cb8-9f88-5f683f65f3f1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/a</value>
+      <webElementGuid>8d8d5f46-4e37-4189-8099-7482becb7055</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@alt = 'Edit' and @href = '/MasterData/BusinessUnitDetails/6190da3d-c687-4a34-a94e-2714cc89d8a7']</value>
+      <webElementGuid>c261119d-cdf6-4d50-8c1d-097b9bc75ce3</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

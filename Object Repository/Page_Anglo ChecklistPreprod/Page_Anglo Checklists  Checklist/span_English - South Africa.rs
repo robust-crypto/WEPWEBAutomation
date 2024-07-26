@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_English - South Africa</name>
+   <tag></tag>
+   <elementGuidId>c8dcd3eb-70d8-4746-a82d-0cf47fb45336</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#SelectedLanguageCultureID_chosen > a.chosen-single > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='SelectedLanguageCultureID_chosen']/a/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>a9653ac6-64eb-4629-97da-78e9707e1422</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>English - South Africa</value>
+      <webElementGuid>8dca41a9-9f35-49e5-8e76-1c879c6bac16</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;SelectedLanguageCultureID_chosen&quot;)/a[@class=&quot;chosen-single&quot;]/span[1]</value>
+      <webElementGuid>10d6accc-e79d-4f76-afc3-bffa37de27ed</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='SelectedLanguageCultureID_chosen']/a/span</value>
+      <webElementGuid>f21bb263-e165-49e2-9a7e-2c1e28ea0b04</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Language culture'])[1]/following::span[1]</value>
+      <webElementGuid>5eb5e74c-ed50-431b-a8a9-90f5078ee35a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='SAP version on release'])[1]/following::span[1]</value>
+      <webElementGuid>4457911e-b37d-4256-b77b-fff8c615a5b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Spanish - Chile'])[2]/preceding::span[1]</value>
+      <webElementGuid>ae1d0a0d-8149-4dfc-a5a5-162e0e4249af</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='English - South Africa'])[3]/preceding::span[1]</value>
+      <webElementGuid>a690a0da-7cd2-4cde-9cb8-64b06e8ab9e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[18]/div/div/a/span</value>
+      <webElementGuid>fc11db16-f224-4b9d-a94f-a6d7c5dd2369</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'English - South Africa' or . = 'English - South Africa')]</value>
+      <webElementGuid>860c95aa-e29b-4ec7-bda7-c4fe62a69a22</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

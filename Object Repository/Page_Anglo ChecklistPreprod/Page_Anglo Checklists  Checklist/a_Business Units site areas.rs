@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Business Units site areas</name>
+   <tag></tag>
+   <elementGuidId>82151850-8bdf-424a-b95c-59abdfd12770</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#menu-sub-busa > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='menu-sub-busa']/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>4efe7628-d14f-477c-a2f4-fa7302347cfa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/MasterData/BusinessUnitSiteAreaList</value>
+      <webElementGuid>169b23f0-9d12-4e7c-a6ca-67a5ab23969c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Business Units site areas</value>
+      <webElementGuid>dd898211-e840-47dc-b620-2fd1c211f47a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menu-sub-busa&quot;)/a[1]</value>
+      <webElementGuid>8dd2cff0-46f9-4cd5-941a-09a4c9fb4dde</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='menu-sub-busa']/a</value>
+      <webElementGuid>bb658ebd-5575-4d84-888d-229b169a84e4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Business Units site areas')]</value>
+      <webElementGuid>ede16723-e3ef-472e-a55f-3de9f522fced</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Business Units sites'])[1]/following::a[1]</value>
+      <webElementGuid>bd2f9c20-b9b3-4a9e-9bf5-dbe7795298e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Business Units'])[1]/following::a[2]</value>
+      <webElementGuid>2ca99013-6e9a-44af-a2d6-28e36e2e5f4b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Functional Areas'])[1]/preceding::a[1]</value>
+      <webElementGuid>886d4c22-bb2c-48a0-91e1-eebc12bf3173</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shift Periods'])[1]/preceding::a[2]</value>
+      <webElementGuid>75f2fac8-9e43-41ec-ab28-5ea13ffda47a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Business Units site areas']/parent::*</value>
+      <webElementGuid>3469b467-0965-4388-9c08-1710cb5a1d1a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/MasterData/BusinessUnitSiteAreaList')]</value>
+      <webElementGuid>94b3bcc9-f5c2-485c-a8d3-85e0c3416a42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[4]/ul/li[4]/a</value>
+      <webElementGuid>94f6c2bf-3a5b-4576-bbc2-234bde60ea60</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/MasterData/BusinessUnitSiteAreaList' and (text() = 'Business Units site areas' or . = 'Business Units site areas')]</value>
+      <webElementGuid>ff7c9969-9ab8-4f22-9abb-25c40b2271a8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

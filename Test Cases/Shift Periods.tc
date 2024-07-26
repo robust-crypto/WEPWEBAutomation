@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Creating a new shift period record</description>
+   <name>Shift Periods</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b4b2a412-131f-40b7-af50-3908669dd19f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_All Business Units</name>
+   <tag></tag>
+   <elementGuidId>1e68d856-d60e-41c3-a0f2-297f37de7b35</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='SelectedBusinessUnitID_chosen']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.chosen-single</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>3317a04a-ac6c-4a3f-90e2-b68acd65deba</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>chosen-single</value>
+      <webElementGuid>e29a61b0-2744-4651-9203-5a316c529cc2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>All Business Units</value>
+      <webElementGuid>f2384ff5-ec88-423f-9bf6-4d2888680b0e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;SelectedBusinessUnitID_chosen&quot;)/a[@class=&quot;chosen-single&quot;]</value>
+      <webElementGuid>a1834519-cc6b-4eb9-af5d-f7e2d506e3b1</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='SelectedBusinessUnitID_chosen']/a</value>
+      <webElementGuid>c080d07a-9d8b-49df-857e-a3418bc43474</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Business Units'])[1]/following::a[1]</value>
+      <webElementGuid>4ad39aa5-9acd-430b-b162-2bd58618417e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='The Description is required and cannot be empty'])[1]/following::a[1]</value>
+      <webElementGuid>62f03cb5-b226-4a55-8e7b-570835b28e57</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='All Business Units'])[3]/preceding::a[1]</value>
+      <webElementGuid>5aa33f85-c204-49f0-aab5-3a0f38202091</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[2]/div/div/a</value>
+      <webElementGuid>1c667b71-3490-42d6-97ab-20c035ddd2e5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'All Business Units' or . = 'All Business Units')]</value>
+      <webElementGuid>e2d378be-a3b6-43bd-825f-ce3d7e6d0d53</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

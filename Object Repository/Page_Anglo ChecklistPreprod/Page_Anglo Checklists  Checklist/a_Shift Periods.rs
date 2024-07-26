@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Shift Periods</name>
+   <tag></tag>
+   <elementGuidId>19c7e7bf-0d83-49d5-b454-6467abea24f1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='menu-sub-sp']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#menu-sub-sp > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>6e6e1689-9dbe-48e2-b62a-b8663995cac8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/MasterData/ShiftPeriodList</value>
+      <webElementGuid>49f194e8-0fb9-41aa-9c27-089e3e42e6c7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Shift Periods</value>
+      <webElementGuid>732e2aec-84ea-424a-a0f8-f5226ee9f178</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;menu-sub-sp&quot;)/a[1]</value>
+      <webElementGuid>ed9a5068-4b26-44b4-b71c-11eba89f1ab0</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='menu-sub-sp']/a</value>
+      <webElementGuid>b25ef23e-caec-42e2-bf8e-9991e33b2524</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Shift Periods')]</value>
+      <webElementGuid>9a786c8b-e288-4564-920c-156ea7fa9dae</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Functional Areas'])[1]/following::a[1]</value>
+      <webElementGuid>15303f8d-2876-49d8-abfe-c2c4b0b852f2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Business Units site areas'])[1]/following::a[2]</value>
+      <webElementGuid>48b70ec4-a583-4b8c-a5a2-c86e62fed019</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Shift Types'])[1]/preceding::a[1]</value>
+      <webElementGuid>cd6a5d0f-49a7-4d3e-a086-c5b60860d2c7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Shift Periods']/parent::*</value>
+      <webElementGuid>63a60ea0-289d-4e79-884b-cd74a1b5471a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/MasterData/ShiftPeriodList')]</value>
+      <webElementGuid>f9ff4371-fc21-44a5-affa-84b6fb185f6c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/ul/li[6]/a</value>
+      <webElementGuid>51ef6096-50df-46df-9ca9-4df967e87bdd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/MasterData/ShiftPeriodList' and (text() = 'Shift Periods' or . = 'Shift Periods')]</value>
+      <webElementGuid>3aeb06d2-c1b3-48ac-94f9-89692992d18b</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
