@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Search ERP</name>
+   <tag></tag>
+   <elementGuidId>11735324-5d2a-4f21-be40-379ed679b992</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='page-content']/nav/ul/li[2]/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>ff332645-b41e-4aa3-8e94-dda80689e39e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/workrequest/WorkRequestSapSearchERPList</value>
+      <webElementGuid>a70dc401-1219-48df-902e-e372d5dae203</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-link</value>
+      <webElementGuid>3d37aaf2-78f0-4eac-bc43-e10a032dd4ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Search ERP</value>
+      <webElementGuid>7ad88d71-a0cf-4466-bb0e-f7965444ab47</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;page-content&quot;)/nav[@class=&quot;navbar navbar-expand-lg navbar-light pb-0 align-items-end&quot;]/ul[@class=&quot;navbar-nav mr-auto&quot;]/li[@class=&quot;nav-item  mr-2&quot;]/a[@class=&quot;nav-link&quot;]</value>
+      <webElementGuid>b8414216-5a60-4faf-bb69-bfb6b2bfa4b4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='page-content']/nav/ul/li[2]/a</value>
+      <webElementGuid>d9db2377-219e-41aa-9fb4-26c511a5d97a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>(//a[contains(text(),'Search ERP')])[3]</value>
+      <webElementGuid>a52760d4-7861-4f91-8772-003ff934459e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Requests'])[2]/following::a[2]</value>
+      <webElementGuid>8f9ac6f2-b689-4e9c-a30b-983fd0aae3ea</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Home'])[1]/following::a[2]</value>
+      <webElementGuid>dbd6467a-b29c-4b64-8bae-02a60895b3e7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pending approval'])[2]/preceding::a[1]</value>
+      <webElementGuid>0b40ae1d-5d93-411c-8206-91c28035f522</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Raised'])[1]/preceding::a[2]</value>
+      <webElementGuid>b40220a0-a614-4a21-891b-72a2c91904f5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, '/workrequest/WorkRequestSapSearchERPList')]</value>
+      <webElementGuid>5116ceb6-110a-4b4f-b359-75880b0e2703</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//main/div/nav/ul/li[2]/a</value>
+      <webElementGuid>22e537de-1f0b-4257-87e0-0509dc88ea7d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/workrequest/WorkRequestSapSearchERPList' and (text() = 'Search ERP' or . = 'Search ERP')]</value>
+      <webElementGuid>d6df2862-8ed2-4058-86f1-6be79884e7d7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

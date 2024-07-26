@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="WorkOrdersAOP" time="35.255" tests="1" failures="0" errors="0">
+   <testsuite name="WorkOrdersAOP" tests="1" failures="0" errors="0" time="35.255" skipped="0" timestamp="03-06-2024T14:14:28" hostname="PulaneKumalo - 192.168.1.225" id="Test Suites/WorkOrders/WorkOrdersAOP">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\PulaneKumalo\\git\\222\\WEPWEBAutomation\\Reports\\20240603_141420\\WorkOrders\\WorkOrdersAOP\\20240603_141420"/>
+         <property name="logFiles" value="C:\\Users\\PulaneKumalo\\git\\222\\WEPWEBAutomation\\Reports\\20240603_141420\\WorkOrders\\WorkOrdersAOP\\20240603_141420\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="PulaneKumalo - 192.168.1.225"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="9.5.0.217"/>
+         <property name="browser" value="Chrome 125.0.0.0"/>
+         <property name="hostAddress" value="192.168.1.225"/>
+         <property name="sessionId" value="f8513f8f8bdfe8b8ca279a9ce030bb7f"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/Login Work Orders" time="35.06" classname="Test Cases/Login Work Orders" status="PASSED">
+         <system-out><![CDATA[03-06-2024T14:14:28 - [TEST_CASE][PASSED] - Test Cases/Login Work Orders: Test Cases/Login Work Orders
+
+03-06-2024T14:14:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-06-2024T14:14:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-06-2024T14:14:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-06-2024T14:14:32 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-06-2024T14:14:32 - [TEST_STEP][PASSED] - navigateToUrl(PreprodENV): Navigate to 'http://wep-preprod.ea.angloamerican.com' successfully
+
+03-06-2024T14:14:37 - [MESSAGE][PASSED] - Navigate to 'http://wep-preprod.ea.angloamerican.com' successfully
+
+03-06-2024T14:14:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-06-2024T14:14:38 - [MESSAGE][PASSED] - Current window maximized
+
+03-06-2024T14:14:38 - [TEST_STEP][PASSED] - for ([i = 0, i < 1, (i++)]): Object: 'Object Repository/Page_WEP  Home/a_Logout' is clicked on
+
+03-06-2024T14:14:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_Anglo EA Identity  Identity/input_Work Execution Platform_Username"), PlatsUsers[i]): Text 'Amoam' is set on object 'Object Repository/Page_Anglo EA Identity  Identity/input_Work Execution Platform_Username'
+
+03-06-2024T14:14:39 - [MESSAGE][PASSED] - Text 'Amoam' is set on object 'Object Repository/Page_Anglo EA Identity  Identity/input_Work Execution Platform_Username'
+
+03-06-2024T14:14:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Anglo EA Identity  Identity/button_Next")): Object: 'Object Repository/Page_Anglo EA Identity  Identity/button_Next' is clicked on
+
+03-06-2024T14:14:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Anglo EA Identity  Identity/button_Next' is clicked on
+
+03-06-2024T14:14:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_Anglo EA Identity  Identity/input_Work Execution Platform_Password"), "iGDxf8hSRT4="): Text ****** has been set on object 'Object Repository/Page_Anglo EA Identity  Identity/input_Work Execution Platform_Password'
+
+03-06-2024T14:14:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_Anglo EA Identity  Identity/input_Work Execution Platform_Password'
+
+03-06-2024T14:14:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Anglo EA Identity  Identity/button_Login")): Object: 'Object Repository/Page_Anglo EA Identity  Identity/button_Login' is clicked on
+
+03-06-2024T14:14:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Anglo EA Identity  Identity/button_Login' is clicked on
+
+03-06-2024T14:14:48 - [TEST_STEP][PASSED] - callTestCase(findTestCase("Work Orders"), [:], STOP_ON_FAILURE): Call Test Case 'Test Cases/Work Orders' successfully
+
+03-06-2024T14:14:48 - [TEST_CASE][PASSED] - Test Cases/Work Orders: Test Cases/Work Orders
+
+03-06-2024T14:14:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Work Orders/Page_WEP  Home/SideBar Minimizer")): Object: 'Object Repository/Work Orders/Page_WEP  Home/SideBar Minimizer' is clicked on
+
+03-06-2024T14:14:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Work Orders/Page_WEP  Home/SideBar Minimizer' is clicked on
+
+03-06-2024T14:14:51 - [TEST_STEP][PASSED] - driver = getWebDriver(): null
+
+03-06-2024T14:14:51 - [TEST_STEP][PASSED] - aa = driver.findElement(By.xpath("//li[@class='nav-item nav-dropdown'][1]/a[@class='nav-link aa-primary nav-dropdown-toggle hide-before w-100 cursorPointer']")): null
+
+03-06-2024T14:14:52 - [TEST_STEP][PASSED] - aa.click(): null
+
+03-06-2024T14:14:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Work Orders/Work Boards/a_Work Board")): Object: 'Object Repository/Work Orders/Work Boards/a_Work Board' is clicked on
+
+03-06-2024T14:14:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Work Orders/Work Boards/a_Work Board' is clicked on
+
+03-06-2024T14:14:58 - [TEST_STEP][PASSED] - waitForElementNotPresent(findTestObject("Object Repository/Work Orders/Work Boards/UpdatingWO"), 60): Web element with id: 'Object Repository/Work Orders/Work Boards/UpdatingWO' located by 'By.xpath: //div[@class='check-erp-top-text d-flex align-items-center']' is not present after '60' second(s)
+
+03-06-2024T14:15:01 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Work Orders/Work Boards/UpdatingWO' located by 'By.xpath: //div[@class='check-erp-top-text d-flex align-items-center']' is not present after '60' second(s)
+
+03-06-2024T14:15:01 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/Work Orders' successfully
+
+03-06-2024T14:15:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WEP  Home/ProfileMenu")): Object: 'Object Repository/Page_WEP  Home/ProfileMenu' is clicked on
+
+03-06-2024T14:15:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WEP  Home/ProfileMenu' is clicked on
+
+03-06-2024T14:15:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_WEP  Home/a_Logout")): Object: 'Object Repository/Page_WEP  Home/a_Logout' is clicked on
+
+03-06-2024T14:15:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_WEP  Home/a_Logout' is clicked on
+
+03-06-2024T14:15:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-06-2024T14:15:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-06-2024T14:14:28 - [TEST_SUITE][PASSED] - WorkOrdersAOP: Test Cases/Login Work Orders]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

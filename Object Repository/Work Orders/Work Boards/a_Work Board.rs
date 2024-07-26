@@ -6,12 +6,11 @@
    <elementGuidId>d6760a47-0533-46a3-95db-251669fcfc9a</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//a[@href='/WorkOrder/WorkOrderWorkBoardList']</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//a[contains(text(),'Work Board')]</value>
+         <key>CSS</key>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -23,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>a</value>
-      <webElementGuid>2466545e-3668-401b-bd02-c2740f2819a5</webElementGuid>
+      <webElementGuid>f33ae944-0b94-4949-b8be-a4b7dd9790b0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>nav-link</value>
-      <webElementGuid>a07c3bfa-08ca-43b0-941a-397ce2404989</webElementGuid>
+      <webElementGuid>76f7ba3e-6eae-4e47-b14e-f89377617fd3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +38,7 @@
       <name>href</name>
       <type>Main</type>
       <value>/WorkOrder/WorkOrderWorkBoardList</value>
-      <webElementGuid>3ca29209-550e-449d-a2f5-24c50a601f90</webElementGuid>
+      <webElementGuid>843988c2-71f6-466a-9854-4894beef8b6a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -49,7 +48,7 @@
       <value>
                                 Work Board
                             </value>
-      <webElementGuid>a6f9a6c4-1d70-4c12-84c6-88340574b177</webElementGuid>
+      <webElementGuid>c746accf-8d88-441c-a3f3-81cfafdda705</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -57,7 +56,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;sidebar-nav-id&quot;)/ul[@class=&quot;nav&quot;]/li[@class=&quot;nav-item nav-dropdown&quot;]/ul[@class=&quot;nav-dropdown-items&quot;]/li[@class=&quot;nav-item&quot;]/a[@class=&quot;nav-link&quot;]</value>
-      <webElementGuid>da3bb5b1-add2-49ab-a3e8-5468d61f05a0</webElementGuid>
+      <webElementGuid>8eba681b-da0a-49d1-860b-603362d4d9ac</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -65,7 +64,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//nav[@id='sidebar-nav-id']/ul/li[3]/ul/li/a</value>
-      <webElementGuid>712c3941-1ce2-4028-b39a-b895389e5605</webElementGuid>
+      <webElementGuid>cbf8a4d2-d06e-4388-937b-147eb4550f5a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -73,7 +72,7 @@
       <name>xpath:link</name>
       <type>Main</type>
       <value>//a[contains(text(),'Work Board')]</value>
-      <webElementGuid>507a3923-12e0-439f-9113-baeeaada2a83</webElementGuid>
+      <webElementGuid>9b196d9b-91be-462a-85f2-4312e30e2d25</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -81,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Catalog Code Groups'])[1]/following::a[2]</value>
-      <webElementGuid>487f6bc1-a5f0-404c-8e62-734afd42896f</webElementGuid>
+      <webElementGuid>18a53e41-07b3-4f6e-90e9-887b9aac5631</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Week'])[1]/preceding::a[1]</value>
-      <webElementGuid>090223db-12a7-4763-a650-48b9e003fd53</webElementGuid>
+      <webElementGuid>28031b09-f246-4d76-933b-f2121572f533</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -97,7 +96,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Work Board']/parent::*</value>
-      <webElementGuid>129fb9d2-d95f-4175-aa90-d7f5e548ac5a</webElementGuid>
+      <webElementGuid>9882a36a-5241-4a7c-b70c-05fee11d2698</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -105,7 +104,7 @@
       <name>xpath:href</name>
       <type>Main</type>
       <value>//a[contains(@href, '/WorkOrder/WorkOrderWorkBoardList')]</value>
-      <webElementGuid>a83dde83-c23a-4bae-9127-2e21eda9d4fa</webElementGuid>
+      <webElementGuid>1647895f-b07a-4b49-8a96-0fb91e25bf70</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -113,7 +112,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//li[3]/ul/li/a</value>
-      <webElementGuid>c513f131-96e7-407b-9810-74b69c50a14a</webElementGuid>
+      <webElementGuid>4942104b-4810-4fac-9884-e5900c34f1a5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +124,6 @@
                             ' or . = '
                                 Work Board
                             ')]</value>
-      <webElementGuid>f2478385-353f-4a03-99f5-2a0834270dbf</webElementGuid>
+      <webElementGuid>794761a8-33b4-4615-8a58-7570a5c4a134</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

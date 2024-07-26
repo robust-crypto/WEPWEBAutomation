@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>Thungela</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://wep-dev.thungela.com/'</initValue>
+      <name>PreprodENV</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['pulanedevt', 'asda']</initValue>
+      <name>PlatsUsers</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'12345'</initValue>
+      <name>Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'GA2 - Section Engineer : Outbye'</initValue>
+      <name>SearchERPwcCodeDescriprionAM</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'300103'</initValue>
+      <name>FlocSearhcERPAM</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

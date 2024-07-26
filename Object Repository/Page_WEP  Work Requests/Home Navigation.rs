@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Home Navigation</name>
+   <tag></tag>
+   <elementGuidId>cd4d190f-a256-4355-9298-0489ed0a8c0b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='sidebar-nav-id']/ul/li/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.nav-link.w-100.aa-primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>e3f344a0-e4fe-4405-ae71-3c6f64873b84</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-link w-100 aa-primary</value>
+      <webElementGuid>377bf2eb-0f52-43f7-9d21-7fe651819989</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>/</value>
+      <webElementGuid>079d014c-b772-4230-b55d-dd651281260c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+                         Home
+                    </value>
+      <webElementGuid>e2fc4fed-96e3-463f-ad7f-287e6636f01d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar-nav-id&quot;)/ul[@class=&quot;nav&quot;]/li[@class=&quot;nav-item nav-dropdown&quot;]/a[@class=&quot;nav-link w-100 aa-primary&quot;]</value>
+      <webElementGuid>f9814610-6632-4007-9c3d-f1081d9b281f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='sidebar-nav-id']/ul/li/a</value>
+      <webElementGuid>f37dbc6a-81c1-46d2-8b93-c75482c1d096</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Board'])[1]/preceding::a[2]</value>
+      <webElementGuid>4043f399-0ae2-4172-b294-fde9f7039b8d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Home']/parent::*</value>
+      <webElementGuid>f75fa34e-70ff-426e-8e55-5c06c79e1e2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '/')])[7]</value>
+      <webElementGuid>af963e0c-e066-4ead-a953-5b5364df7782</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//nav/ul/li/a</value>
+      <webElementGuid>3a4203e6-f001-4d59-ba3c-94c3f38c9a10</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = '/' and (text() = '
+                         Home
+                    ' or . = '
+                         Home
+                    ')]</value>
+      <webElementGuid>6528e6a3-7dc6-49c5-a7f2-55619b353d1a</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Work Request-POR</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8bc803a5-ce53-4cca-a7b0-949c8a51bbf8</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>70370ee8-0ed8-450e-92b5-15d671797c20</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>70370ee8-0ed8-450e-92b5-15d671797c20</id>
+      <masked>false</masked>
+      <name>wrNumber</name>
+   </variable>
+</TestCaseEntity>

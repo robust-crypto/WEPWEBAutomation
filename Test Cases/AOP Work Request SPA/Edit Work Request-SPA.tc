@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Work Request-SPA</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3fcfe83e-08c6-49e9-ab17-849535971f83</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>eca5d89f-bfb7-4052-b8be-0b5e12e10648</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>eca5d89f-bfb7-4052-b8be-0b5e12e10648</id>
+      <masked>false</masked>
+      <name>wrNumber</name>
+   </variable>
+</TestCaseEntity>

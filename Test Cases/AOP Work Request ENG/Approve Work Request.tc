@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Approve Work Request</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>1a6317cc-3a50-4b29-af91-6571c5a8b9c0</testCaseGuid>
+</TestCaseEntity>

@@ -12,6 +12,11 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
+    public static Object PreprodENV
+     
+    /**
+     * <p></p>
+     */
     public static Object PlatsUsers
      
     /**
@@ -22,27 +27,7 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object MaintenanceRequest
-     
-    /**
-     * <p></p>
-     */
-    public static Object IOBUser2
-     
-    /**
-     * <p></p>
-     */
-    public static Object Malfunction
-     
-    /**
-     * <p></p>
-     */
-    public static Object OperationRequest
-     
-    /**
-     * <p></p>
-     */
-    public static Object ProductionRequest
+    public static Object PortUsers
      
     /**
      * <p></p>
@@ -52,12 +37,47 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object PreprodENV
+    public static Object followOnWRtypes
      
     /**
      * <p></p>
      */
-    public static Object PortUsers
+    public static Object PortWRtypes
+     
+    /**
+     * <p></p>
+     */
+    public static Object PortFollowOnWRTypes
+     
+    /**
+     * <p></p>
+     */
+    public static Object SearchErpVerifyWCAM
+     
+    /**
+     * <p></p>
+     */
+    public static Object FlocSearhcERPAM
+     
+    /**
+     * <p></p>
+     */
+    public static Object SearchERPflocAM
+     
+    /**
+     * <p></p>
+     */
+    public static Object SearchERPwcCodeDescriprionAM
+     
+    /**
+     * <p></p>
+     */
+    public static Object SearchERPWONumberAM
+     
+    /**
+     * <p></p>
+     */
+    public static Object BU
      
     /**
      * <p></p>
@@ -71,16 +91,23 @@ public class GlobalVariable {
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
             selectedVariables += TestCaseMain.getParsedValues(RunConfiguration.getOverridingParameters(), selectedVariables)
     
+            PreprodENV = selectedVariables['PreprodENV']
             PlatsUsers = selectedVariables['PlatsUsers']
             Password = selectedVariables['Password']
-            MaintenanceRequest = selectedVariables['MaintenanceRequest']
-            IOBUser2 = selectedVariables['IOBUser2']
-            Malfunction = selectedVariables['Malfunction']
-            OperationRequest = selectedVariables['OperationRequest']
-            ProductionRequest = selectedVariables['ProductionRequest']
-            WRtypes = selectedVariables['WRtypes']
-            PreprodENV = selectedVariables['PreprodENV']
             PortUsers = selectedVariables['PortUsers']
+<<<<<<< HEAD
+            SearchErpVerifyWCAM = selectedVariables['SearchErpVerifyWCAM']
+            FlocSearhcERPAM = selectedVariables['FlocSearhcERPAM']
+            SearchERPflocAM = selectedVariables['SearchERPflocAM']
+            SearchERPwcCodeDescriprionAM = selectedVariables['SearchERPwcCodeDescriprionAM']
+            SearchERPWONumberAM = selectedVariables['SearchERPWONumberAM']
+            BU = selectedVariables['BU']
+=======
+            WRtypes = selectedVariables['WRtypes']
+            followOnWRtypes = selectedVariables['followOnWRtypes']
+            PortWRtypes = selectedVariables['PortWRtypes']
+            PortFollowOnWRTypes = selectedVariables['PortFollowOnWRTypes']
+>>>>>>> branch 'main' of https://github.com/robust-crypto/WEPWEBAutomation
             TestENV = selectedVariables['TestENV']
             
         } catch (Exception e) {
