@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>['Pulaneam', 'AMOAM']</initValue>
+      <initValue>['AMOAM', 'AMOAM']</initValue>
       <name>PlatsUsers</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
