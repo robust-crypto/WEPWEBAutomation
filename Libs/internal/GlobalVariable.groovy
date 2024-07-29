@@ -82,6 +82,11 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
+    public static Object LogedUser
+     
+    /**
+     * <p></p>
+     */
     public static Object TestENV
      
 
@@ -95,19 +100,17 @@ public class GlobalVariable {
             PlatsUsers = selectedVariables['PlatsUsers']
             Password = selectedVariables['Password']
             PortUsers = selectedVariables['PortUsers']
-<<<<<<< HEAD
+            WRtypes = selectedVariables['WRtypes']
+            followOnWRtypes = selectedVariables['followOnWRtypes']
+            PortWRtypes = selectedVariables['PortWRtypes']
+            PortFollowOnWRTypes = selectedVariables['PortFollowOnWRTypes']
             SearchErpVerifyWCAM = selectedVariables['SearchErpVerifyWCAM']
             FlocSearhcERPAM = selectedVariables['FlocSearhcERPAM']
             SearchERPflocAM = selectedVariables['SearchERPflocAM']
             SearchERPwcCodeDescriprionAM = selectedVariables['SearchERPwcCodeDescriprionAM']
             SearchERPWONumberAM = selectedVariables['SearchERPWONumberAM']
             BU = selectedVariables['BU']
-=======
-            WRtypes = selectedVariables['WRtypes']
-            followOnWRtypes = selectedVariables['followOnWRtypes']
-            PortWRtypes = selectedVariables['PortWRtypes']
-            PortFollowOnWRTypes = selectedVariables['PortFollowOnWRTypes']
->>>>>>> branch 'main' of https://github.com/robust-crypto/WEPWEBAutomation
+            LogedUser = selectedVariables['LogedUser']
             TestENV = selectedVariables['TestENV']
             
         } catch (Exception e) {
