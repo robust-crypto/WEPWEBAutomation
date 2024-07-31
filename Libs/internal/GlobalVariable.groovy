@@ -62,11 +62,6 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object DeBeersPreprod
-     
-    /**
-     * <p></p>
-     */
     public static Object DeBeersUsers
      
     /**
@@ -93,6 +88,11 @@ public class GlobalVariable {
      * <p></p>
      */
     public static Object DBRSFollowOnWorkRequestTypes
+     
+    /**
+     * <p></p>
+     */
+    public static Object DeBeersPreprod
      
     /**
      * <p></p>
@@ -126,13 +126,13 @@ public class GlobalVariable {
             WRtypes = selectedVariables['WRtypes']
             url = selectedVariables['url']
             followOnWRtypes = selectedVariables['followOnWRtypes']
-            DeBeersPreprod = selectedVariables['DeBeersPreprod']
             DeBeersUsers = selectedVariables['DeBeersUsers']
             MaintenanceDBRSAuto = selectedVariables['MaintenanceDBRSAuto']
             EquipmentFailureDBRSAuto = selectedVariables['EquipmentFailureDBRSAuto']
             ActivityReportDBRSAuto = selectedVariables['ActivityReportDBRSAuto']
             WorkRequestTypes = selectedVariables['WorkRequestTypes']
             DBRSFollowOnWorkRequestTypes = selectedVariables['DBRSFollowOnWorkRequestTypes']
+            DeBeersPreprod = selectedVariables['DeBeersPreprod']
             PreprodENV = selectedVariables['PreprodENV']
             PortUsers = selectedVariables['PortUsers']
             TestENV = selectedVariables['TestENV']

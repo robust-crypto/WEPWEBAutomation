@@ -6,11 +6,6 @@
    <defaultProfile>false</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>''</initValue>
-      <name>DeBeersPreprod</name>
-   </GlobalVariableEntity>
-   <GlobalVariableEntity>
-      <description></description>
       <initValue>['Samugk', 'Samuv']</initValue>
       <name>DeBeersUsers</name>
    </GlobalVariableEntity>
@@ -21,32 +16,37 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>findTestObject('Page_WEP  Home/div_Maintenance Work Request (M1)  Maintena_14c833')</initValue>
+      <initValue>findTestObject('Page_WEP Home/div_Maintenance Request (M1)  Maintenance Request-v')</initValue>
       <name>MaintenanceDBRSAuto</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>findTestObject('Page_WEP  Home/div_Equipment Failure (M2)  Equipment Failure (M2)')</initValue>
+      <initValue>findTestObject('Page_WEP Home/div_Equipment Failure (M2)  Equipment Failure-v')</initValue>
       <name>EquipmentFailureDBRSAuto</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>findTestObject('Page_WEP  Home/div_Activity Report (M3)  Activity Report')</initValue>
+      <initValue>findTestObject('Page_WEP  Work Requests/div_Activity Report (M3)  Activity Report-test')</initValue>
       <name>ActivityReportDBRSAuto</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>[findTestObject('Page_WEP Home DeBeers/div_Maintenance Work Request (M1)  Maintena_14c833'), findTestObject('Page_WEP  Home/div_Equipment Failure (M2)  Equipment Failure (M2)'), findTestObject('Page_WEP  Home/div_Activity Report (M3)  Activity Report')]</initValue>
+      <initValue>[findTestObject('Page_WEP Home/div_Maintenance Request (M1)  Maintenance Request-v'), findTestObject('Page_WEP Home/div_Equipment Failure (M2)  Equipment Failure-v'), findTestObject('Page_WEP  Work Requests/div_Activity Report (M3)  Activity Report-test')]</initValue>
       <name>WorkRequestTypes</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>[findTestObject('Page_WEP Home DeBeers/div_Maintenance Request (M1)  Maintenance Request'), findTestObject('Page_WEP Home DeBeers/div_Equipment Failure (M2)  Equipment Failure (M2)'), findTestObject('Page_WEP Home DeBeers/div_Activity Report (M3)  Activity Report')]</initValue>
+      <initValue>[findTestObject('Page_WEP Home DeBeers/div_Maintenance Work Request (M1)  Maintena_14c833'), findTestObject('Page_WEP Home DeBeers/div_Equipment Failure (M2)  Equipment Failure (M2)'), findTestObject('Page_WEP Home DeBeers/Page_WEP  Home/div_Activity Report (M3)  Activity Report')]</initValue>
       <name>DBRSFollowOnWorkRequestTypes</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
       <initValue>'https://wep-preprod.ea.angloamerican.com/'</initValue>
       <name>url</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'https://wep-preprod.ea.angloamerican.com/'</initValue>
+      <name>DeBeersPreprod</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

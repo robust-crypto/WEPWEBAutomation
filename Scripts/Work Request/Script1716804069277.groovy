@@ -33,18 +33,18 @@ for (int i = 0; i < 4; i++) {
     WebUI.click(GlobalVariable.WorkRequestTypes[i])
 
     if (i == 0) {
-        WebUI.click(findTestObject('Page_WEP Home DeBeers/button_NEXT_1' //malfunction request
+        WebUI.click(findTestObject('null' //malfunction request
                 ))
 
         WebUI.click(GlobalVariable.WorkRequestTypes[i])
     } else if (i == 1) {
-        WebUI.click(findTestObject('Page_WEP Home DeBeers/button_NEXT_1'))
+        WebUI.click(findTestObject('null'))
 
         WebUI.click(findTestObject('Page_WEP Home DeBeers/i_Malfunction start date and time_fa fa-calendar cl'))
 
         WebUI.click(findTestObject('Page_WEP Home DeBeers/Page_WEP  Home/td_30'))
 
-        WebUI.click(findTestObject('Object Repository/Page_WEP Home DeBeers/button_NEXT_1'))
+        WebUI.click(findTestObject('null'))
     }
     
     WebUI.click(findTestObject('Object Repository/Page_WEP Home DeBeers/button_DRILL DOWN DRILL'))
@@ -76,9 +76,9 @@ for (int i = 0; i < 4; i++) {
             break
     }
     
-    WebUI.click(findTestObject('Page_WEP Home DeBeers/Page_WEP  Home/button_NEXT-3'))
+    WebUI.click(findTestObject('Page_WEP Home DeBeers/button_NEXT-3'))
 
-    WebUI.click(findTestObject('Object Repository/Page_WEP Home DeBeers/button_NEXT_1'))
+    WebUI.click(findTestObject('null'))
 
     WebUI.click(findTestObject('Object Repository/Page_WEP Home DeBeers/div_Medium  Medium'))
 
@@ -100,7 +100,7 @@ for (int i = 0; i < 4; i++) {
     aa.sendKeys(FutureDateTime)
 
     //WebUI.click(findTestObject('Object Repository/Page_WEP Home DeBeers/td_27'))
-    WebUI.click(findTestObject('Page_WEP Home DeBeers/button_NEXT_1'))
+    WebUI.click(findTestObject('null'))
 
     //WebUI.click(findTestObject('Object Repository/Page_WEP Home DeBeers/button_ACKNOWLEDGE'))
     WebUI.click(findTestObject('Object Repository/Page_WEP Home DeBeers/button_SUBMIT'))
