@@ -3,18 +3,18 @@
    <description></description>
    <name>button_NEXT</name>
    <tag></tag>
-   <elementGuidId>c944ca84-745c-4281-9f0d-bb583693f78d</elementGuidId>
+   <elementGuidId>8430680c-ceed-40db-b16b-47df7ab206af</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='nextbtn']</value>
+         <value>(//button[@type='button'])[19]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>#nextbtn</value>
+         <value>button.btn.btn-primary.px-5.font-weight-bold</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2a15fdbb-7b68-4240-8970-cecdd8c35900</webElementGuid>
+      <webElementGuid>4e4c0f98-9e02-4c38-afc4-0acd9e2f2987</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>0d8065e8-4836-4cb8-93d5-6975c44055ec</webElementGuid>
+      <webElementGuid>8801d473-9b53-4df5-bc47-3da6e15f7b82</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>id</name>
       <type>Main</type>
       <value>nextbtn</value>
-      <webElementGuid>a9a6857a-e5ee-4a30-93c3-2a5fd51c9e11</webElementGuid>
+      <webElementGuid>ae028b8f-7c21-44d6-9884-eac02b91c233</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary px-5 font-weight-bold</value>
-      <webElementGuid>a82449e5-6f1a-4962-b8fa-cbb5718b7c27</webElementGuid>
+      <webElementGuid>0c7309b9-59c4-40df-955a-911a5265c94b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,23 +55,23 @@
       <name>text</name>
       <type>Main</type>
       <value>NEXT</value>
-      <webElementGuid>2fc42886-387c-4f7f-a41e-690739d40f78</webElementGuid>
+      <webElementGuid>4f8eb04b-53e5-484f-aa40-528d6bd89499</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;nextbtn&quot;)</value>
-      <webElementGuid>2f7e354a-90d6-407f-a9f4-c410c0993454</webElementGuid>
+      <value>id(&quot;vueAppContainer1&quot;)/div[@class=&quot;card h-100&quot;]/div[@class=&quot;form-horizontal mar-top flex-column d-flex h-100 justify-content-start&quot;]/div[@class=&quot;card-body h-100 d-flex flex-column pt-0 px-0&quot;]/div[@class=&quot;d-flex flex-column justify-content-end&quot;]/div[@class=&quot;d-flex flex-row border-top pt-2 px-3&quot;]/div[@class=&quot;d-flex flex-row justify-content-end&quot;]/button[@class=&quot;btn btn-primary px-5 font-weight-bold&quot;]</value>
+      <webElementGuid>55f419a7-e558-44f5-830c-811984b21af9</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//button[@id='nextbtn']</value>
-      <webElementGuid>dfda48d0-cdcc-4f70-8fb8-5563aa555c7c</webElementGuid>
+      <value>(//button[@type='button'])[19]</value>
+      <webElementGuid>0c99e4a7-2896-4ffa-8701-9cdec9e42628</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='vueAppContainer1']/div[2]/div/div/div[3]/div/div[2]/button</value>
-      <webElementGuid>9d450db4-96e8-4738-92b1-62121920c5d1</webElementGuid>
+      <webElementGuid>4a81a956-ea76-413b-af50-389ff645528a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,15 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BACK'])[1]/following::button[1]</value>
-      <webElementGuid>cc1bafce-3aa2-4aab-b946-e010d50cf9f1</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact number'])[1]/following::button[2]</value>
-      <webElementGuid>22fa1bd1-4900-4cac-9f4b-45e1883a2ab7</webElementGuid>
+      <webElementGuid>53c088c5-5ada-4178-aebf-53ffd29680a6</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit_Booking'])[1]/preceding::button[1]</value>
-      <webElementGuid>eeee2a83-17dc-4e08-a82d-a36c92993e67</webElementGuid>
+      <webElementGuid>509557aa-d8d3-453f-921c-7d220b90a65e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Request'])[1]/preceding::button[2]</value>
-      <webElementGuid>518093d6-db0a-4c55-b314-b01ff1819bee</webElementGuid>
+      <webElementGuid>b91a7f72-596c-4d1d-ba57-0e1643029b0f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,15 +111,39 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='NEXT']/parent::*</value>
-      <webElementGuid>c375f313-7a39-43be-aaf7-3fb757712b66</webElementGuid>
+      <webElementGuid>306445fa-baa1-41d8-810b-61a32dd8426b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div[2]/button</value>
-      <webElementGuid>56386560-b8ad-4f4d-aec0-a484cf5930b4</webElementGuid>
+      <value>//div[2]/button</value>
+      <webElementGuid>b6782986-4057-4104-bcc5-040eec529c42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'NEXT' or . = 'NEXT')]</value>
+      <webElementGuid>28fc28fb-a3b8-4662-89de-653d38058fc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//button[@id='nextbtn']</value>
+      <webElementGuid>1786eee5-4358-4b61-a77d-e39eb6243f9e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Contact number'])[1]/following::button[2]</value>
+      <webElementGuid>3b9ec47b-c134-46a2-87f4-022066ed6cde</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,6 +151,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and @id = 'nextbtn' and (text() = 'NEXT' or . = 'NEXT')]</value>
-      <webElementGuid>0ad6409f-0b8a-4db6-9b80-a8da9a419c56</webElementGuid>
+      <webElementGuid>9c1915a1-219a-4f35-b706-edfd115ab2cd</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,13 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+DeBeers work requests,Chrome 126.0.0.0,,,05-07-2024 04:09:35,05-07-2024 04:10:32,"57,282s",FAILED
+,,,,,,,
+Test Cases/M1 DeBeers,Chrome 126.0.0.0,,,05-07-2024 04:09:35,05-07-2024 04:10:32,"56,750s",FAILED
+"openBrowser("""")",Chrome 126.0.0.0,,,05-07-2024 04:09:36,05-07-2024 04:09:41,"5,211s",PASSED
+"navigateToUrl(""https://identity-preprod.ea.angloamerican.com/Account/Login?AppCode=WEP-PreProd&ReturnUrl=https://wep-preprod.ea.angloamerican.com/Account/LoginRedirect"")",Chrome 126.0.0.0,,,05-07-2024 04:09:41,05-07-2024 04:09:46,"4,617s",PASSED
+maximizeWindow(),Chrome 126.0.0.0,,,05-07-2024 04:09:46,05-07-2024 04:09:46,"0,226s",PASSED
+"click(findTestObject(""Object Repository/Page_Anglo EA Identity  Identity/input_Work Execution Platform_Username""))",Chrome 126.0.0.0,,,05-07-2024 04:09:46,05-07-2024 04:09:49,"2,279s",PASSED
+"setText(findTestObject(""Object Repository/Page_Anglo EA Identity  Identity/input_Work Execution Platform_Username""), ""samugk"")",Chrome 126.0.0.0,,,05-07-2024 04:09:49,05-07-2024 04:09:50,"1,125s",PASSED
+"click(findTestObject(""Object Repository/Page_Anglo EA Identity  Identity/button_Next""))",Chrome 126.0.0.0,,,05-07-2024 04:09:50,05-07-2024 04:09:50,"0,544s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_Anglo EA Identity  Identity/input_Work Execution Platform_Password""), ""iGDxf8hSRT4="")",Chrome 126.0.0.0,,,05-07-2024 04:09:50,05-07-2024 04:09:51,"1,094s",PASSED
+"click(findTestObject(""Object Repository/Page_Anglo EA Identity  Identity/button_Login""))",Chrome 126.0.0.0,,,05-07-2024 04:09:51,05-07-2024 04:10:00,"8,985s",PASSED
+"click(findTestObject(""Object Repository/Page_WEP  Home/i_Malfunction start date and time_fa fa-calendar""))",Chrome 126.0.0.0,,,05-07-2024 04:10:00,05-07-2024 04:10:32,"31,686s",FAILED

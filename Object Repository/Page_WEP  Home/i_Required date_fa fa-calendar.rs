@@ -3,7 +3,7 @@
    <description></description>
    <name>i_Required date_fa fa-calendar</name>
    <tag></tag>
-   <elementGuidId>55cd9e59-59bc-4fe0-bf0a-ad42158fbfb9</elementGuidId>
+   <elementGuidId>2d8c93d2-ba05-4d15-84cb-c1a8daf37f9b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>i</value>
-      <webElementGuid>f7715a1b-a01e-4f13-9e08-2aaec3b1d334</webElementGuid>
+      <webElementGuid>ebaf0f80-25c3-4d49-9de8-b7768d219b29</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -31,7 +31,7 @@
       <name>class</name>
       <type>Main</type>
       <value>fa fa-calendar</value>
-      <webElementGuid>fa074c31-be0d-469e-8203-dca7c8225530</webElementGuid>
+      <webElementGuid>2dcc4e5b-9922-4d5b-954d-e79accf8d0bd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -39,7 +39,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;vueAppContainer1&quot;)/div[@class=&quot;card h-100&quot;]/div[@class=&quot;form-horizontal mar-top flex-column d-flex h-100 justify-content-start&quot;]/div[@class=&quot;card-body h-100 d-flex flex-column pt-0 px-0&quot;]/div[@class=&quot;flex-column px-3 justify-content-start align-items-start&quot;]/div[@class=&quot;d-flex col-8 pl-0 align-items-center mt-1 aa-outlines-blue&quot;]/label[@class=&quot;date-icon d-flex align-items-center pr-2 mb-0&quot;]/i[@class=&quot;fa fa-calendar&quot;]</value>
-      <webElementGuid>0e44db29-9dbd-4544-97df-ec1778d55863</webElementGuid>
+      <webElementGuid>103fda4a-25ce-4837-af8c-6288c1796623</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='vueAppContainer1']/div[2]/div/div/div[2]/div/label/i</value>
-      <webElementGuid>56ad1bf0-8f1d-4402-be11-e6e67519b67f</webElementGuid>
+      <webElementGuid>2a7ee102-c179-4d0b-ac22-01936e6a5f98</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -55,6 +55,6 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//label/i</value>
-      <webElementGuid>03dbc31b-38a6-4325-b627-369d3da6442e</webElementGuid>
+      <webElementGuid>29bb2954-9100-4fe7-836c-22c75708e01c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

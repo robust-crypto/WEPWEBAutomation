@@ -11,7 +11,11 @@
    <modifiedEdition>FREE</modifiedEdition>
    <modifiedVersion>9.5.0</modifiedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
+<<<<<<< HEAD
    <projectFileLocation>C:\Users\PulaneKumalo\git\222\WEPWEBAutomation\WEP WEB.prj</projectFileLocation>
+=======
+   <projectFileLocation>C:\Users\SamukelisiweSibiya\git\WEPWEBAutomation\WEP WEB.prj</projectFileLocation>
+>>>>>>> branch 'main' of https://github.com/robust-crypto/WEPWEBAutomation
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

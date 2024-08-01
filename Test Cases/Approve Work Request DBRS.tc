@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Approve Work Request DBRS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>20f01850-fe8c-4a8c-9c2e-2e74a23f82f6</testCaseGuid>
+</TestCaseEntity>
