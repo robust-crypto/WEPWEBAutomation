@@ -29,10 +29,15 @@ import java.time.format.DateTimeFormatter
 
 //WebUI.click(findTestObject('Object Repository/Work Orders/Page_WEP  Home/sidebar-minimizerbtn'))
 WebDriver driver =DriverFactory.getWebDriver()
-def aa= driver.findElement(By.xpath("//a[@href='/workorder/TeamWorkBoardList']"))
-aa.click()
+//def aa= driver.findElement(By.xpath("//a[@href='/workorder/TeamWorkBoardList']"))
+//aa.click()
 
-//WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/a_My Teams Work'))
+WebUI.click(findTestObject('Object Repository/Work Orders/Page_WEP  Home/sidebarmax'))
+WebUI.delay(5)
+	
+def aa= driver.findElement(By.xpath("//li[@class='nav-item nav-dropdown'][2]/a[@class='nav-link aa-primary nav-dropdown-toggle hide-before w-100 cursorPointer']"))
+aa.click()
+WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/a_My Teams Work'))
 
 WebUI.waitForElementNotPresent(findTestObject('Object Repository/Work Orders/Work Boards/UpdatingWO'), 60)
 
@@ -41,9 +46,7 @@ WebUI.verifyElementPresent(findTestObject('Object Repository/MyTeamsWork/pop-upx
 
 def bb =  WebUI.getText(findTestObject('Object Repository/MyTeamsWork/lblContinue'))
 
-//WebUI.verifyEqual(bb, "Would you like to continue?")
-WebUI.verifyElementPresent(findTestObject('Object Repository/MyTeamsWork/btnSaveAssignment'), 10, FailureHandling.STOP_ON_FAILURE)
-
+WebUI.verifyEqual(bb, "Would you like to continue?")
 
 WebUI.click(findTestObject('Object Repository/MyTeamsWork/btnSaveAssignment'))
 

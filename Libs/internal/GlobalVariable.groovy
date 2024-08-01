@@ -12,40 +12,12 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
-    public static Object PreprodENV
-     
-    /**
-     * <p></p>
-     */
-    public static Object PlatsUsers
+    public static Object DeBeersUsers
      
     /**
      * <p></p>
      */
     public static Object Password
-     
-    /**
-     * <p></p>
-     */
-    public static Object PortUsers
-     
-    /**
-     * <p></p>
-     */
-    public static Object WRtypes
-     
-    /**
-     * <p></p>
-     */
-    public static Object followOnWRtypes
-     
-    /**
-     * <p></p>
-     */
-<<<<<<< HEAD
-    public static Object PortWRtypes
-=======
-    public static Object DeBeersUsers
      
     /**
      * <p></p>
@@ -75,13 +47,42 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
+    public static Object url
+     
+    /**
+     * <p></p>
+     */
     public static Object DeBeersPreprod
      
     /**
      * <p></p>
      */
     public static Object PreprodENV
->>>>>>> branch 'main' of https://github.com/robust-crypto/WEPWEBAutomation
+     
+    /**
+     * <p></p>
+     */
+    public static Object PlatsUsers
+     
+    /**
+     * <p></p>
+     */
+    public static Object PortUsers
+     
+    /**
+     * <p></p>
+     */
+    public static Object WRtypes
+     
+    /**
+     * <p></p>
+     */
+    public static Object followOnWRtypes
+     
+    /**
+     * <p></p>
+     */
+    public static Object PortWRtypes
      
     /**
      * <p></p>
@@ -135,28 +136,17 @@ public class GlobalVariable {
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
             selectedVariables += TestCaseMain.getParsedValues(RunConfiguration.getOverridingParameters(), selectedVariables)
     
-            PreprodENV = selectedVariables['PreprodENV']
-            PlatsUsers = selectedVariables['PlatsUsers']
-            Password = selectedVariables['Password']
-<<<<<<< HEAD
-=======
-            MaintenanceRequest = selectedVariables['MaintenanceRequest']
-            IOBUser2 = selectedVariables['IOBUser2']
-            Malfunction = selectedVariables['Malfunction']
-            OperationRequest = selectedVariables['OperationRequest']
-            ProductionRequest = selectedVariables['ProductionRequest']
-            WRtypes = selectedVariables['WRtypes']
-            url = selectedVariables['url']
-            followOnWRtypes = selectedVariables['followOnWRtypes']
             DeBeersUsers = selectedVariables['DeBeersUsers']
+            Password = selectedVariables['Password']
             MaintenanceDBRSAuto = selectedVariables['MaintenanceDBRSAuto']
             EquipmentFailureDBRSAuto = selectedVariables['EquipmentFailureDBRSAuto']
             ActivityReportDBRSAuto = selectedVariables['ActivityReportDBRSAuto']
             WorkRequestTypes = selectedVariables['WorkRequestTypes']
             DBRSFollowOnWorkRequestTypes = selectedVariables['DBRSFollowOnWorkRequestTypes']
+            url = selectedVariables['url']
             DeBeersPreprod = selectedVariables['DeBeersPreprod']
             PreprodENV = selectedVariables['PreprodENV']
->>>>>>> branch 'main' of https://github.com/robust-crypto/WEPWEBAutomation
+            PlatsUsers = selectedVariables['PlatsUsers']
             PortUsers = selectedVariables['PortUsers']
             WRtypes = selectedVariables['WRtypes']
             followOnWRtypes = selectedVariables['followOnWRtypes']
