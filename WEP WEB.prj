@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Project>
+<<<<<<< HEAD
    <description></description>
    <name>WEP WEB</name>
    <tag></tag>
@@ -33,3 +34,38 @@
    <timeStampInProperties>false</timeStampInProperties>
    <type>WEBUI</type>
 </Project>
+=======
+	<description></description>
+	<name>WEP WEB</name>
+	<tag></tag>
+	<UUID>8c9e8033-a921-4fe2-9abc-8ab57130a9e9</UUID>
+	<createdEdition>FREE</createdEdition>
+	<createdVersion>9.4.0</createdVersion>
+	<freeLicense>true</freeLicense>
+	<migratedVersion>5.9.0</migratedVersion>
+	<modifiedEdition>FREE</modifiedEdition>
+	<modifiedVersion>9.5.0</modifiedVersion>
+	<pageLoadTimeout>0</pageLoadTimeout>
+	<projectFileLocation>C:\Users\SamukelisiweSibiya\git\WEPWEBAutomation\WEP WEB.prj</projectFileLocation>
+	<sourceContent>
+		<sourceFolderList>
+			<sourceFolderConfiguration>
+				<url>Include/scripts/groovy</url>
+			</sourceFolderConfiguration>
+		</sourceFolderList>
+		<systemFolderList>
+			<systemFolderConfiguration>
+				<url>Include/scripts/groovy</url>
+			</systemFolderConfiguration>
+			<systemFolderConfiguration>
+				<url>Include/features</url>
+			</systemFolderConfiguration>
+			<systemFolderConfiguration>
+				<url>Include/config</url>
+			</systemFolderConfiguration>
+		</systemFolderList>
+	</sourceContent>
+	<timeStampInProperties>false</timeStampInProperties>
+	<type>WEBUI</type>
+</Project>
+>>>>>>> branch 'main' of https://github.com/robust-crypto/WEPWEBAutomation.git

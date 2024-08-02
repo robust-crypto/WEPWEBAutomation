@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_o funcionamento defeituoso  o funcionamento defeituoso</name>
+   <tag></tag>
+   <elementGuidId>3a115a87-2a20-4c75-aeb6-f4d56568f4e7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='vueAppContainer1']/div[2]/div/div/div/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.w-100.pb-2.border-bottom</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>df8c01eb-c3ab-4f0b-a9ec-94639937a571</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-100  pb-2 border-bottom</value>
+      <webElementGuid>b590ef0e-6972-4325-aaab-703d2737d41c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>o funcionamento defeituoso  o funcionamento defeituoso  </value>
+      <webElementGuid>8e492eb2-4a51-49a0-a7da-7b4f2c7defbf</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vueAppContainer1&quot;)/div[@class=&quot;card h-100&quot;]/div[@class=&quot;form-horizontal mar-top flex-column d-flex h-100 justify-content-start&quot;]/div[@class=&quot;card-body h-100 d-flex flex-column pt-0 px-0&quot;]/div[@class=&quot;overflow-auto anglo-scrollbar&quot;]/div[@class=&quot;wiz-list mt-2&quot;]/div[@class=&quot;d-flex px-3 col-12 justify-content-center c-pointer pt-2 pb-0&quot;]/div[@class=&quot;w-100  pb-2 border-bottom&quot;]</value>
+      <webElementGuid>8cab9bab-fbe7-4e87-a3e6-fcd3aa88bcfd</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vueAppContainer1']/div[2]/div/div/div/div[2]/div/div</value>
+      <webElementGuid>760d2f9a-b133-4fa1-898e-1e5e2cc6d813</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Por favor selecione o tipo de requisição de trabalho'])[1]/following::div[3]</value>
+      <webElementGuid>8856baeb-28a2-4726-9331-03c0aa0659c1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Qual o tipo de trabalho requerido?'])[1]/following::div[5]</value>
+      <webElementGuid>b6bfa55d-d04d-4461-b169-998b8b6244fc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[2]/div/div</value>
+      <webElementGuid>f1c505a1-204a-4ff5-a4f4-d798592d3323</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'o funcionamento defeituoso  o funcionamento defeituoso  ' or . = 'o funcionamento defeituoso  o funcionamento defeituoso  ')]</value>
+      <webElementGuid>e2eb133f-92d9-49fe-ba6d-a58abaf14d1c</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

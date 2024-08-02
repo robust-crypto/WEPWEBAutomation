@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_GKEST - MAIN G01 Electrical  Instrument_cc8d92</name>
+   <tag></tag>
+   <elementGuidId>56d7b539-4092-4baf-8522-82a5375a84bb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='vueAppContainer1']/div[2]/div/div/div[2]/div[4]/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>c2594394-7870-4f56-b383-f38ddd0571f6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-12 px-0</value>
+      <webElementGuid>569a4a55-d5ce-4e7f-a1e4-e3b77f741854</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>GKEST - MAIN G01 Electrical &amp; Instrumentation MWC</value>
+      <webElementGuid>f6602113-f442-4d54-845f-5fecf4f74ab5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vueAppContainer1&quot;)/div[@class=&quot;card h-100&quot;]/div[@class=&quot;form-horizontal mar-top flex-column d-flex h-100 justify-content-start&quot;]/div[@class=&quot;card-body h-100 d-flex flex-column pt-0 px-0&quot;]/div[@class=&quot;overflow-auto px-3&quot;]/div[@class=&quot;d-flex wiz-list-item c-pointer border-bottom&quot;]/div[@class=&quot;col-12 px-0&quot;]</value>
+      <webElementGuid>5cb1ae99-3b68-4a26-92c2-de3c5f28dd6d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vueAppContainer1']/div[2]/div/div/div[2]/div[4]/div</value>
+      <webElementGuid>2df9b941-5d0a-4266-801b-80800868f666</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Gahcho Kué Contractors'])[1]/following::div[2]</value>
+      <webElementGuid>dcc3c97c-7d13-4b2d-9615-9c2ab760c5e3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='G01'])[3]/following::div[2]</value>
+      <webElementGuid>cd08cd7a-76c6-4d29-94da-12fc9b12d579</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[4]/div</value>
+      <webElementGuid>79fae123-4897-4308-8265-10f0775b6d46</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'GKEST - MAIN G01 Electrical &amp; Instrumentation MWC' or . = 'GKEST - MAIN G01 Electrical &amp; Instrumentation MWC')]</value>
+      <webElementGuid>46ba949d-83f0-4902-a782-39978a1d5392</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

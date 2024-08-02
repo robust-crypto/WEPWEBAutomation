@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Please see the recent Work Requests for_c5b380</name>
+   <tag></tag>
+   <elementGuidId>2a5737a3-d8b2-435d-bfe7-0f89cb080b5a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='vueAppContainer1']/div[2]/div/div/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.overflow-auto.flex-column.pl-3.pr-3.mt-1.position-relative.flex-grow-1</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>41e00383-45de-47ac-9ad1-4c3eeec89c14</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>overflow-auto flex-column pl-3 pr-3 mt-1 position-relative flex-grow-1</value>
+      <webElementGuid>f572ae07-e5e9-40f7-b4cc-2f3f8a519c0c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vueAppContainer1&quot;)/div[@class=&quot;card h-100&quot;]/div[@class=&quot;form-horizontal mar-top flex-column d-flex h-100 justify-content-start&quot;]/div[@class=&quot;card-body h-100 d-flex flex-column pt-0 px-0&quot;]/div[@class=&quot;overflow-auto flex-column pl-3 pr-3 mt-1 position-relative flex-grow-1&quot;]</value>
+      <webElementGuid>b0db9a12-a799-4d1f-8d22-de09c9af05a3</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vueAppContainer1']/div[2]/div/div/div[2]</value>
+      <webElementGuid>4d9a8c77-d1b0-4e7d-99b3-9525834e51bc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please see the recent Work Requests for the selected Functional Location or equipment.'])[1]/following::div[1]</value>
+      <webElementGuid>a49018dc-e8d5-4585-a7b5-eb3f29f7f2ef</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Existing Work Requests'])[1]/following::div[3]</value>
+      <webElementGuid>192569fd-5264-455e-82e5-3341617c94a6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='No Work Request were found'])[1]/preceding::div[1]</value>
+      <webElementGuid>541ef48c-c9fd-43d0-b5da-b279c8a86f8b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BACK'])[1]/preceding::div[2]</value>
+      <webElementGuid>e6954974-5c1f-4f9a-93f7-2f21e72667bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div[2]</value>
+      <webElementGuid>bbf99f20-a9c0-43e9-867c-2bc1c5da38c5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

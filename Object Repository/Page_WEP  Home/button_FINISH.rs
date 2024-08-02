@@ -3,18 +3,18 @@
    <description></description>
    <name>button_FINISH</name>
    <tag></tag>
-   <elementGuidId>0ade766d-f0a5-473e-84ca-e25df76ad0db</elementGuidId>
+   <elementGuidId>3a9efb3a-54f9-4c28-a7a4-f403855249d3</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[13]</value>
+         <value>(//button[@type='button'])[11]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.next.btn.btn-primary.px-5.font-weight-bold</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>2182be6e-3647-41a3-9aa1-ef23982d0d9f</webElementGuid>
+      <webElementGuid>f2cd29da-d220-45a1-b29d-2f1eb6eb4107</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>4b287219-3a91-4430-9b2d-5d46bad5a241</webElementGuid>
+      <webElementGuid>20f7b090-109f-44b4-9cbc-bc0f97d42eaf</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>data-dismiss</name>
       <type>Main</type>
       <value>modal</value>
-      <webElementGuid>87ef488b-c94b-4fbe-8144-5ac28e02ad24</webElementGuid>
+      <webElementGuid>ad8bf390-6024-451f-908e-69cd5842aab8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -47,7 +47,7 @@
       <name>aria-label</name>
       <type>Main</type>
       <value>Close</value>
-      <webElementGuid>427f2218-94cf-4d46-b723-b383a4af6d49</webElementGuid>
+      <webElementGuid>b0764fdc-8a87-46a0-b541-c653b227d53a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,7 +55,7 @@
       <name>class</name>
       <type>Main</type>
       <value>next btn btn-primary px-5 font-weight-bold</value>
-      <webElementGuid>aba17cde-4a64-4bc7-9904-01b96031cc87</webElementGuid>
+      <webElementGuid>a11b8aa5-8324-4021-8f99-e16910639a22</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <name>text</name>
       <type>Main</type>
       <value>FINISH</value>
-      <webElementGuid>14e717c4-722c-45b9-aa7c-7c96382de12b</webElementGuid>
+      <webElementGuid>41611993-ff2e-4a01-a1cb-dc251a2bc03f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -71,15 +71,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;vueAppContainer1&quot;)/div[@class=&quot;card h-100&quot;]/div[@class=&quot;form-horizontal mar-top flex-column d-flex h-100 justify-content-start&quot;]/div[@class=&quot;card-body h-100 d-flex flex-column pt-0 px-0&quot;]/div[@class=&quot;d-flex flex-grow-1 flex-column justify-content-end mt-2&quot;]/div[@class=&quot;d-flex flex-row border-top px-3 pt-3&quot;]/div[@class=&quot;d-flex flex-row justify-content-end&quot;]/button[@class=&quot;next btn btn-primary px-5 font-weight-bold&quot;]</value>
-      <webElementGuid>56d7fc7f-d38b-4aa6-979d-dbab2ea3eb36</webElementGuid>
+      <webElementGuid>6b24681a-c1e8-43a6-bb69-1dc2497d67c8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[13]</value>
-      <webElementGuid>edb3181a-ea26-4d5a-98dd-1059ca4227a9</webElementGuid>
+      <value>(//button[@type='button'])[11]</value>
+      <webElementGuid>79b210c2-9b83-4a69-a045-560a32fe21e7</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='vueAppContainer1']/div[2]/div/div/div[3]/div/div[2]/button</value>
-      <webElementGuid>d1be7b14-7a12-44d5-8638-04db9410a782</webElementGuid>
+      <webElementGuid>17391338-043b-4356-a2ed-bd20cf67b5eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BACK'])[1]/following::button[1]</value>
-      <webElementGuid>bb475760-2e5f-44a2-a7d6-47f2433bbef2</webElementGuid>
+      <webElementGuid>33424f5a-3a85-4961-afd8-777cfb72810c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Your Work Request number is'])[1]/following::button[2]</value>
-      <webElementGuid>cdf54a43-1889-4ca6-94aa-772f63c61e8f</webElementGuid>
+      <webElementGuid>36ed85f4-9d13-4ab7-9eb8-19c61a4c3343</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit_Booking'])[1]/preceding::button[1]</value>
-      <webElementGuid>125758c0-1821-4d5d-8915-b8daa3bf9a57</webElementGuid>
+      <webElementGuid>6dd10232-af8e-4ceb-b855-07d8b846977d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,7 +119,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Request'])[1]/preceding::button[2]</value>
-      <webElementGuid>f30aefdf-e940-46d3-bdf2-956305181c51</webElementGuid>
+      <webElementGuid>8816eb36-6790-4945-8ec9-fbdbe104fc53</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -127,15 +127,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='FINISH']/parent::*</value>
-      <webElementGuid>67d1ad62-6f78-4b1b-b1f9-883738b0c4dc</webElementGuid>
+      <webElementGuid>24d6f9d8-bbd8-4879-a04a-7416260ce888</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div[2]/button</value>
-      <webElementGuid>e921fa45-f133-4f02-b8be-72bcf5520502</webElementGuid>
+      <value>//div[2]/button</value>
+      <webElementGuid>f9c75b2e-5c22-4523-b3f4-8118574e1b01</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -143,6 +143,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = 'FINISH' or . = 'FINISH')]</value>
-      <webElementGuid>d4443082-c166-4b1c-be59-cf123d19bf1c</webElementGuid>
+      <webElementGuid>5718e3fe-e075-4d12-96c4-90f7ad4b1e6f</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

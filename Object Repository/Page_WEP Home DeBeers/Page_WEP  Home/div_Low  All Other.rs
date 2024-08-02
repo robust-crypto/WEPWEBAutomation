@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Low  All Other</name>
+   <tag></tag>
+   <elementGuidId>02a5f987-8c9c-48aa-9208-8b2debfd7862</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='vueAppContainer1']/div[2]/div/div/div[2]/div[3]/div[2]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value></value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>1547fc42-e398-4393-829c-57318431c907</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-8 col-md-10</value>
+      <webElementGuid>29690395-7e4d-4b9f-98b3-d6f6d118f65d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Low  All Other</value>
+      <webElementGuid>89e59f8d-b5b7-451c-b5ec-4591635ccfed</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vueAppContainer1&quot;)/div[@class=&quot;card h-100&quot;]/div[@class=&quot;form-horizontal mar-top flex-column d-flex h-100 justify-content-start&quot;]/div[@class=&quot;card-body h-100 d-flex flex-column pt-0 px-0&quot;]/div[@class=&quot;overflow-auto px-3&quot;]/div[@class=&quot;d-flex wiz-list-item c-pointer py-2&quot;]/div[@class=&quot;col-8 col-md-10&quot;]</value>
+      <webElementGuid>5f1bd8b1-9aa9-46da-a0f0-bc5d07a1c063</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vueAppContainer1']/div[2]/div/div/div[2]/div[3]/div[2]</value>
+      <webElementGuid>90ce601b-fa56-4588-8c23-ca1f8ebd6f8a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Low'])[3]/following::div[1]</value>
+      <webElementGuid>21d39c82-2649-411a-a50e-caa1c553030e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Less Than Significant Impact'])[1]/following::div[6]</value>
+      <webElementGuid>53cb5d07-7f45-4ef3-9488-bcacacb51f5b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div[3]/div[2]</value>
+      <webElementGuid>012e880b-7b49-4bb7-810b-9ee1885f8f4c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Low  All Other' or . = 'Low  All Other')]</value>
+      <webElementGuid>f94f6811-b0e9-4d73-8cf4-5ff7ad168e48</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

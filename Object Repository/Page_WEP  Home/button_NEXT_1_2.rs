@@ -3,7 +3,7 @@
    <description></description>
    <name>button_NEXT_1_2</name>
    <tag></tag>
-   <elementGuidId>6969da3d-5336-46e4-a11a-2db635b82254</elementGuidId>
+   <elementGuidId>7aff5e40-6edf-4228-b72a-257830b59c4b</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
@@ -14,7 +14,7 @@
          <value>#nextbtndescription</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>b00d4089-dc27-4008-8ff6-ccb56d4fa16b</webElementGuid>
+      <webElementGuid>be68af47-534f-4f19-b5fa-757ecfc67272</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a394de6b-3987-42cc-b225-acec235573d8</webElementGuid>
+      <webElementGuid>28d1e422-9fda-4d7b-8fb9-7253808b52da</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>next btn btn-primary px-5 font-weight-bold</value>
-      <webElementGuid>f9738670-4b43-45a3-89a0-a07a5411c614</webElementGuid>
+      <webElementGuid>b053e892-3fef-49ac-95fe-712d11499172</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>id</name>
       <type>Main</type>
       <value>nextbtndescription</value>
-      <webElementGuid>63349d5a-37f7-4c0a-b72e-0a512bfd8ffc</webElementGuid>
+      <webElementGuid>010f3507-ee24-4241-92b8-5f59ca748b63</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -55,7 +55,7 @@
       <name>text</name>
       <type>Main</type>
       <value>NEXT</value>
-      <webElementGuid>0d195311-0ea6-4394-9935-f0c36d043ce8</webElementGuid>
+      <webElementGuid>83354f81-81d0-4cdd-970a-6644a4cafee3</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -63,7 +63,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;nextbtndescription&quot;)</value>
-      <webElementGuid>2caeea06-d923-425f-8414-5059e86e99e4</webElementGuid>
+      <webElementGuid>a4de4d15-7617-4406-b1d4-b2b504b73a34</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='nextbtndescription']</value>
-      <webElementGuid>a53f943a-3d4e-4de3-bc67-24c19beb09e1</webElementGuid>
+      <webElementGuid>a0f05f54-b492-4b75-9f32-34bc62a74e1c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='vueAppContainer1']/div[2]/div/div/div[3]/div/div[2]/button</value>
-      <webElementGuid>ea236bf5-736e-4fe7-98c6-145f8f110812</webElementGuid>
+      <webElementGuid>e2c6aaf6-fd49-4a3f-b90b-464d1af0d08a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='BACK'])[1]/following::button[1]</value>
-      <webElementGuid>38a3abae-afe6-4e95-b84d-11037d947c1a</webElementGuid>
+      <webElementGuid>8531acf9-1e9c-4c12-9d53-b2962fb8ca56</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,7 +95,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Upload a photo'])[1]/following::button[2]</value>
-      <webElementGuid>ab95d0af-a2e9-457c-a707-5df0d825d4f6</webElementGuid>
+      <webElementGuid>b9c47194-09fc-4634-b58a-16c80cb02857</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,7 +103,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit_Booking'])[1]/preceding::button[1]</value>
-      <webElementGuid>a40927c5-eaea-46a5-8a4f-e752666e8d33</webElementGuid>
+      <webElementGuid>637bf8de-acb4-454b-8a7f-b5355b793cea</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -111,7 +111,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Request'])[1]/preceding::button[2]</value>
-      <webElementGuid>33f89f57-414b-4cf8-8d17-7bf53df6e408</webElementGuid>
+      <webElementGuid>50b12db9-f510-4401-bd9d-32304be150d9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -119,15 +119,15 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='NEXT']/parent::*</value>
-      <webElementGuid>bfb0704b-a5fc-4530-b551-50b60ed158d8</webElementGuid>
+      <webElementGuid>f6f93b29-934c-439c-ab1c-e39563192180</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//div[3]/div/div[2]/button</value>
-      <webElementGuid>2cc35f31-3a83-47f4-bea0-e02c8616467d</webElementGuid>
+      <value>//div[2]/button</value>
+      <webElementGuid>b3dc8d19-4ccb-4b77-a826-57c7700ffec2</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -135,6 +135,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and @id = 'nextbtndescription' and (text() = 'NEXT' or . = 'NEXT')]</value>
-      <webElementGuid>69687f20-7912-4fc8-96e4-06327f5ebfcd</webElementGuid>
+      <webElementGuid>f3a117cd-fb2e-464b-b63d-a34136205b04</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

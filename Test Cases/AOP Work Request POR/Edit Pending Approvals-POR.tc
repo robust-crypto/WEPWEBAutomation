@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Edit Pending Approvals-POR</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ba67374a-4e4f-470d-a4cb-72086ca40cb9</testCaseGuid>
+</TestCaseEntity>

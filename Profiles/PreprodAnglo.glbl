@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalVariableEntities>
+   <description></description>
+   <name>PreprodAnglo</name>
+   <tag></tag>
+   <defaultProfile>false</defaultProfile>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'wep-preprod.ea.angloamerican.com'</initValue>
+      <name>PreprodENV</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>['pulaneiob', 'pulaneiob']</initValue>
+      <name>PlatsUsers</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'12345'</initValue>
+      <name>Password</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Amoiob'</initValue>
+      <name>PortUsers</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'Work Centre - TL - Tumela Lower SEM'</initValue>
+      <name>SearchErpVerifyWCAM</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'70010202'</initValue>
+      <name>FlocSearhcERPAM</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'70010202 - Tumela Lower 1 Shaft UG'</initValue>
+      <name>SearchERPflocAM</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'TL - TUMELA LOWER SEM'</initValue>
+      <name>SearchERPwcCodeDescriprionAM</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'4011243675'</initValue>
+      <name>SearchERPWONumberAM</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>BU</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>LogedUser</name>
+   </GlobalVariableEntity>
+</GlobalVariableEntities>

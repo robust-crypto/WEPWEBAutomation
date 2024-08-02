@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Reject wr DBRS</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>25622a07-9d98-41c1-a161-8ec83564d2cf</testCaseGuid>
+</TestCaseEntity>

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[contains(text(),'RAISE FOLLOW ON WORK REQUEST')]</value>
+         <value>(//button[@class='btn btn-outline-primary px-5 font-weight-bold'])[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

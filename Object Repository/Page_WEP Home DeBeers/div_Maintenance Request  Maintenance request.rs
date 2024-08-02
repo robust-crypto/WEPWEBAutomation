@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Maintenance Request  Maintenance request</name>
+   <tag></tag>
+   <elementGuidId>6dbbaf44-5b59-4fbd-8d20-dcf94b5517a5</elementGuidId>
+   <imagePath></imagePath>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='vueAppContainer1']/div[2]/div/div/div/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Maintenance Request  Maintenance request  ' or . = 'Maintenance Request  Maintenance request  ')]</value>
+      </entry>
+      <entry>
+         <key>IMAGE</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.w-100.pb-2.border-bottom</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>a81e96e3-8095-4622-8f20-8789b0c0695f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-100  pb-2 border-bottom</value>
+      <webElementGuid>4c8cbef1-e67b-411b-bcdf-2dc73efbb7d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Maintenance Request  Maintenance request  </value>
+      <webElementGuid>b74d0218-18b1-44e9-b514-9849af147b8c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vueAppContainer1&quot;)/div[@class=&quot;card h-100&quot;]/div[@class=&quot;form-horizontal mar-top flex-column d-flex h-100 justify-content-start&quot;]/div[@class=&quot;card-body h-100 d-flex flex-column pt-0 px-0&quot;]/div[@class=&quot;overflow-auto anglo-scrollbar&quot;]/div[@class=&quot;wiz-list mt-2&quot;]/div[@class=&quot;d-flex px-3 col-12 justify-content-center c-pointer pt-2 pb-0&quot;]/div[@class=&quot;w-100  pb-2 border-bottom&quot;]</value>
+      <webElementGuid>b42b7fe2-2422-4560-9e13-cf13ed8e009e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vueAppContainer1']/div[2]/div/div/div/div[2]/div/div</value>
+      <webElementGuid>9e170150-888f-4e60-a690-7d5d12c9212c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please select Work request Type.'])[1]/following::div[3]</value>
+      <webElementGuid>911be0a4-a8b6-49d0-8168-e12788b2fb5d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='What type of work is required?'])[1]/following::div[5]</value>
+      <webElementGuid>e753c51e-d4ae-4d60-8e1b-a68bb87d2437</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/div[2]/div/div/div/div[2]/div/div</value>
+      <webElementGuid>1ccfa97d-73d6-4f77-9bb1-b6ddac819f3f</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Maintenance Request  Maintenance request  ' or . = 'Maintenance Request  Maintenance request  ')]</value>
+      <webElementGuid>a5404588-d07e-44f0-9f29-76113008a219</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

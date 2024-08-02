@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[18]</value>
+         <value>(//button[@type='button'])[25]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>f42f9ad6-c14a-4880-a79c-ae372a1453e5</webElementGuid>
+      <webElementGuid>10f9222d-6f1f-4c4f-9973-dea82a3d1e41</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>a40eab30-5b83-49b2-a692-003bfb1efa83</webElementGuid>
+      <webElementGuid>7779a6d7-8e39-419f-875c-478d0564295a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary px-5 font-weight-bold</value>
-      <webElementGuid>24a29adf-3636-4987-9e38-20ebd6266d45</webElementGuid>
+      <webElementGuid>b2e90dcd-581c-404e-8ad3-a31d0ae650cd</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value>SUBMIT</value>
-      <webElementGuid>6a8af7f8-58b6-4131-b580-d6017307014c</webElementGuid>
+      <webElementGuid>ce7fdfd2-354b-4098-96fc-bc2d0c758e0c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,10 +55,82 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;vueApprovalBulk&quot;)/div[@class=&quot;card h-100&quot;]/div[@class=&quot;form-horizontal mar-top flex-column d-flex h-100 justify-content-start&quot;]/div[@class=&quot;card-body h-100 d-flex flex-column px-0&quot;]/div[@class=&quot;d-flex flex-grow-1 flex-column justify-content-end mt-2&quot;]/div[@class=&quot;d-flex flex-row pt-3 px-3 border-top&quot;]/div[@class=&quot;d-flex flex-row justify-content-between w-100&quot;]/button[@class=&quot;btn btn-primary px-5 font-weight-bold&quot;]</value>
-      <webElementGuid>7a59662e-55b8-4a8b-9d92-098c8087c77c</webElementGuid>
+      <webElementGuid>5ab987cb-26f3-41bc-83d5-a53c8569a485</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>(//button[@type='button'])[25]</value>
+      <webElementGuid>57f85cc0-e490-4478-96a6-3217a64264f3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vueApprovalBulk']/div/div/div/div[2]/div/div/button[2]</value>
+      <webElementGuid>706596ce-c103-4638-a4eb-94b9bb5634d8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='BACK'])[1]/following::button[1]</value>
+      <webElementGuid>2f71dc13-2e4e-4e85-b66d-7b25ae07546a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Reason for rejection'])[2]/following::button[2]</value>
+      <webElementGuid>fdf68310-c738-4202-8fa3-69bb3cb67f64</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pending Approval'])[1]/preceding::button[1]</value>
+      <webElementGuid>26561a0d-6a8d-489d-aed9-6c619c9b21dc</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status:'])[1]/preceding::button[1]</value>
+      <webElementGuid>d6915610-467c-4b57-a983-73c74ba83c0a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='SUBMIT']/parent::*</value>
+      <webElementGuid>900f7c0f-3da7-42d1-a0c4-55d7a9410ef9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/div/div[2]/div/div/button[2]</value>
+      <webElementGuid>7644a725-feef-4a97-9122-17a849eebead</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//button[@type = 'button' and (text() = 'SUBMIT' or . = 'SUBMIT')]</value>
+      <webElementGuid>30ffac15-de97-4c24-acf6-96ed6e4acd58</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
@@ -68,65 +140,9 @@
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
-      <type>Main</type>
-      <value>//div[@id='vueApprovalBulk']/div/div/div/div[2]/div/div/button[2]</value>
-      <webElementGuid>fc25e759-bee4-422e-a3b8-773e5c3fe710</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='BACK'])[1]/following::button[1]</value>
-      <webElementGuid>5bd9eeb3-60d6-425d-a7bd-0570e989a76f</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Comments'])[4]/following::button[2]</value>
       <webElementGuid>54dbd41c-502e-4393-a4de-4b3581dd664a</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Pending Approval'])[1]/preceding::button[1]</value>
-      <webElementGuid>c5ac9c34-354c-4d62-ba6d-550e4402aa29</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Status:'])[1]/preceding::button[1]</value>
-      <webElementGuid>d39fe01f-0b3a-4447-acf5-a571567b24f4</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:neighbor</name>
-      <type>Main</type>
-      <value>//*/text()[normalize-space(.)='SUBMIT']/parent::*</value>
-      <webElementGuid>0938af3a-b61a-4012-b8dc-18b0e93b8306</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:position</name>
-      <type>Main</type>
-      <value>//div[2]/div/div/div/div/div/div[2]/div/div/button[2]</value>
-      <webElementGuid>caed672c-4ff9-41f5-9dd9-9f80bc7496b6</webElementGuid>
-   </webElementXpaths>
-   <webElementXpaths>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>xpath:customAttributes</name>
-      <type>Main</type>
-      <value>//button[@type = 'button' and (text() = 'SUBMIT' or . = 'SUBMIT')]</value>
-      <webElementGuid>7523838b-fbb5-4966-9d0a-619a0561ba8d</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Maintenance Work Request (M1)  Maintena_14c833</name>
+   <tag></tag>
+   <elementGuidId>89841040-cf88-4516-89d7-c49b19046611</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='vueAppContainer1']/div[2]/div/div/div/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.w-100.pb-2.border-bottom</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>13d60bef-823f-4a8c-aa72-dede5d734c7c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>w-100  pb-2 border-bottom</value>
+      <webElementGuid>0fc03d96-7616-46e6-96a2-dd9d80aca136</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Maintenance Work Request (M1)  Maintenance Work Request  </value>
+      <webElementGuid>ac045f5a-dd96-422e-ac79-f7a9516864d2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vueAppContainer1&quot;)/div[@class=&quot;card h-100&quot;]/div[@class=&quot;form-horizontal mar-top flex-column d-flex h-100 justify-content-start&quot;]/div[@class=&quot;card-body h-100 d-flex flex-column pt-0 px-0&quot;]/div[@class=&quot;overflow-auto anglo-scrollbar&quot;]/div[@class=&quot;wiz-list mt-2&quot;]/div[@class=&quot;d-flex px-3 col-12 justify-content-center c-pointer pt-2 pb-0&quot;]/div[@class=&quot;w-100  pb-2 border-bottom&quot;]</value>
+      <webElementGuid>99177033-66d4-405c-8860-9e00dae2fc4e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vueAppContainer1']/div[2]/div/div/div/div[2]/div/div</value>
+      <webElementGuid>e1fd8076-56a8-4842-b4ee-9cd231606581</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please select Work request Type.'])[1]/following::div[3]</value>
+      <webElementGuid>03d45b07-f833-4df2-a9fb-5e06e4d18ccd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='What type of work is required?'])[1]/following::div[5]</value>
+      <webElementGuid>ddc25ed2-53e9-44a6-9f5e-95dd7d6cb306</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div[2]/div/div</value>
+      <webElementGuid>68b2554c-0068-4859-bcdf-198cd6b5fab6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'Maintenance Work Request (M1)  Maintenance Work Request  ' or . = 'Maintenance Work Request (M1)  Maintenance Work Request  ')]</value>
+      <webElementGuid>58435bf3-97ee-444b-9bd0-cf12610aa5da</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

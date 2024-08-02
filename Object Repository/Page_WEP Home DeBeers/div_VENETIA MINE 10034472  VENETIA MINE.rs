@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_VENETIA MINE 10034472  VENETIA MINE</name>
+   <tag></tag>
+   <elementGuidId>54b34e4b-de2f-4a32-81b4-b289afc64e7a</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='vueAppContainer1']/div[2]/div/div/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.flex-grow-1.pl-0.pr-3</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>4b3e3e50-9b27-4b2a-9f94-835293e3509d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>flex-grow-1 pl-0 pr-3</value>
+      <webElementGuid>8a2c1eb1-54a1-4862-802a-7b1d0aa6e377</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>VENETIA MINE 10034472  VENETIA MINE </value>
+      <webElementGuid>46efb0df-405f-4d08-887f-be2f8b110c58</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vueAppContainer1&quot;)/div[@class=&quot;card h-100&quot;]/div[@class=&quot;form-horizontal mar-top flex-column d-flex h-100 justify-content-start&quot;]/div[@class=&quot;card-body h-100 d-flex flex-column pt-0 px-0&quot;]/div[@class=&quot;overflow-auto mx-3 anglo-scrollbar&quot;]/div[@class=&quot;d-flex wiz-list-item c-pointer py-2&quot;]/div[@class=&quot;flex-grow-1 pl-0 pr-3&quot;]</value>
+      <webElementGuid>70940e32-468e-418d-bcfb-4db2d6900573</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vueAppContainer1']/div[2]/div/div/div[2]/div/div</value>
+      <webElementGuid>67ce0600-7948-4237-88dd-f2fe604abe82</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Equipment'])[2]/following::div[5]</value>
+      <webElementGuid>73dcebbb-9ab5-4dbb-af9b-bf24a0152e9c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Raise New SAP Work Request'])[1]/following::div[14]</value>
+      <webElementGuid>bc7018b1-413f-4053-a184-72155dda663d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div[2]/div/div</value>
+      <webElementGuid>41cbca9d-749c-42ff-92fe-0f8c17f8fc3e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'VENETIA MINE 10034472  VENETIA MINE ' or . = 'VENETIA MINE 10034472  VENETIA MINE ')]</value>
+      <webElementGuid>9b0c61ba-80b8-4321-85a0-40d0ec552872</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -10,7 +10,7 @@
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[contains(text(),'CONFIRM WORK')]</value>
+         <value>//button[@class='btn btn-primary']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//a[contains(text(),'Feedback')]</value>
+         <value>//a[@href='#summary']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

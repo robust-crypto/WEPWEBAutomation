@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>label_Maintenance Request_custom-control-label cursorPointer</name>
+   <tag></tag>
+   <elementGuidId>4977e661-ef27-49ac-82b2-8e83764df1e8</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='vueAppContainer1']/div[2]/div/div/div/div[2]/div/div/div/div/label</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>label.custom-control-label.cursorPointer</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>label</value>
+      <webElementGuid>8a0f7d0a-9075-4e15-9c49-ae5a23195ec8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>for</name>
+      <type>Main</type>
+      <value>followOnWorkRequestID</value>
+      <webElementGuid>131c7642-c15f-4005-a659-ff6b81088f31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>custom-control-label cursorPointer</value>
+      <webElementGuid>b6c82c5b-554a-4737-a01b-f19f119727a3</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vueAppContainer1&quot;)/div[@class=&quot;card h-100&quot;]/div[@class=&quot;form-horizontal mar-top flex-column d-flex h-100 justify-content-start&quot;]/div[@class=&quot;card-body h-100 d-flex flex-column pt-0 px-0&quot;]/div[@class=&quot;overflow-auto anglo-scrollbar&quot;]/div[@class=&quot;wiz-list mt-2&quot;]/div[@class=&quot;d-flex px-3 col-12 justify-content-center c-pointer pt-2 pb-0&quot;]/div[@class=&quot;w-100  pb-2 border-bottom&quot;]/div[1]/div[@class=&quot;custom-control custom-checkbox mb-2&quot;]/label[@class=&quot;custom-control-label cursorPointer&quot;]</value>
+      <webElementGuid>16fdd0d7-7bf0-4352-9359-b05003b890a8</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vueAppContainer1']/div[2]/div/div/div/div[2]/div/div/div/div/label</value>
+      <webElementGuid>db447197-0461-4417-b27e-106a98bf5df7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div/div/label</value>
+      <webElementGuid>c9eb51f8-f128-46dd-87b4-a70258cd8754</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

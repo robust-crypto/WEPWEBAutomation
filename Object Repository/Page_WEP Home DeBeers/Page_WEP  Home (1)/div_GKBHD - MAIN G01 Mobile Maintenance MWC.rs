@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_GKBHD - MAIN G01 Mobile Maintenance MWC</name>
+   <tag></tag>
+   <elementGuidId>4636c27b-d05c-4b98-8ede-dc458de2e443</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='vueAppContainer1']/div[2]/div/div/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-12.px-0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>d547af25-2eed-470a-920e-1eaa28104d9f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-12 px-0</value>
+      <webElementGuid>522c8d6c-f799-41c2-a846-cf225ceb9879</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>GKBHD - MAIN G01 Mobile Maintenance MWC</value>
+      <webElementGuid>3dded95b-9af2-4d70-a59e-8dc3296084d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vueAppContainer1&quot;)/div[@class=&quot;card h-100&quot;]/div[@class=&quot;form-horizontal mar-top flex-column d-flex h-100 justify-content-start&quot;]/div[@class=&quot;card-body h-100 d-flex flex-column pt-0 px-0&quot;]/div[@class=&quot;overflow-auto px-3&quot;]/div[@class=&quot;d-flex wiz-list-item c-pointer border-bottom&quot;]/div[@class=&quot;col-12 px-0&quot;]</value>
+      <webElementGuid>299544c7-3a71-4a17-a63b-f32b15f03809</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vueAppContainer1']/div[2]/div/div/div[2]/div/div</value>
+      <webElementGuid>59832920-d250-4ae8-bdf3-dfdee6b15989</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Work Centers'])[1]/following::div[5]</value>
+      <webElementGuid>dc9ef33a-3b62-4d40-8710-dc95994bd43e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Raise New SAP Work Request'])[1]/following::div[14]</value>
+      <webElementGuid>78d7516f-b40d-4f55-b227-5dd5b47b5e2d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div[2]/div/div</value>
+      <webElementGuid>75da911c-b7b2-4b31-8da0-f8bde00ee818</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'GKBHD - MAIN G01 Mobile Maintenance MWC' or . = 'GKBHD - MAIN G01 Mobile Maintenance MWC')]</value>
+      <webElementGuid>64c3bb15-a75b-4ced-b6f3-83e14ae6655e</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

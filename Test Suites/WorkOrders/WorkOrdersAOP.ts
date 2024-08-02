@@ -15,7 +15,11 @@
       <guid>e99f8f06-d929-440a-9b5f-dc0a141d65b7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Login Work Orders</testCaseId>
+<<<<<<< HEAD
+      <testCaseId>Test Cases/WorkOrders/Login Work Orders</testCaseId>
+=======
+      <testCaseId>Test Cases/AOP Test Cases/Login Work Orders</testCaseId>
+>>>>>>> branch 'main' of https://github.com/robust-crypto/WEPWEBAutomation
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>['Pulaneam', 'AMOAM']</initValue>
+      <initValue>['AMOAM', 'AMOAM']</initValue>
       <name>PlatsUsers</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -21,7 +21,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'Amoiob'</initValue>
+      <initValue>['Amoiob', 'Pulaneaop']</initValue>
       <name>PortUsers</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -33,5 +33,15 @@
       <description></description>
       <initValue>[findTestObject('Work Requests/div_Maintenance Request  Maintenance request'), findTestObject('Work Requests/div_Malfunction  Malfunction')]</initValue>
       <name>followOnWRtypes</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[findTestObject('Work Requests/Page_WEP  Principal/div_o funcionamento defeituoso  o funcionamento defeituoso'), findTestObject('Work Requests/Page_WEP  Principal/div_Pedido de manuteno  Pedido de manuteno'), findTestObject('Page_WEP  Home/div_Operations Request  Operations Request'), findTestObject('Work Requests/div_Production Request  Production Request')]</initValue>
+      <name>PortWRtypes</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>[findTestObject('Work Requests/Page_WEP  Principal/div_o funcionamento defeituoso  o funcionamento defeituoso'), findTestObject('Work Requests/Page_WEP  Principal/div_Pedido de manuteno  Pedido de manuteno')]</initValue>
+      <name>PortFollowOnWRTypes</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

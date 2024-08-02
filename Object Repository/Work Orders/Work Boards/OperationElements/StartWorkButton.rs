@@ -7,11 +7,10 @@
    <selectorCollection>
       <entry>
          <key>BASIC</key>
-         <value></value>
       </entry>
       <entry>
          <key>XPATH</key>
-         <value>//button[contains(text(),'START WORK')]</value>
+         <value>//button[@class='btn btn-primary']</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

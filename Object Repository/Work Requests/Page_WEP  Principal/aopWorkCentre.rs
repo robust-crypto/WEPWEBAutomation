@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>aopWorkCentre</name>
+   <tag></tag>
+   <elementGuidId>567bfef1-4297-4e7c-8c78-6040d9c4c699</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='vueAppContainer1']/div[2]/div/div/div[2]/div/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.col-12.px-0</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>e872ea21-a11c-4b46-ad31-053deed1ec31</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>col-12 px-0</value>
+      <webElementGuid>ca324c9e-4aa8-4d9e-966d-cb5710f8ca46</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>AAI11S40 - MAIN O01 MINA - APOIO SERVIÇOS DE INFRAESTRUTURA</value>
+      <webElementGuid>14d700fd-ef2e-4352-83ab-8fbb7c6883ce</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vueAppContainer1&quot;)/div[@class=&quot;card h-100&quot;]/div[@class=&quot;form-horizontal mar-top flex-column d-flex h-100 justify-content-start&quot;]/div[@class=&quot;card-body h-100 d-flex flex-column pt-0 px-0&quot;]/div[@class=&quot;overflow-auto px-3&quot;]/div[@class=&quot;d-flex wiz-list-item c-pointer border-bottom&quot;]/div[@class=&quot;col-12 px-0&quot;]</value>
+      <webElementGuid>2cd1dd5f-8f31-48b2-b3d7-c07d50b94127</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vueAppContainer1']/div[2]/div/div/div[2]/div/div</value>
+      <webElementGuid>684c6e01-037e-4ed5-8fb0-7da0325c1182</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Centros de trabalho'])[1]/following::div[5]</value>
+      <webElementGuid>d9df57e5-c58f-43fe-b171-266f8736e0b4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Crie nova requisição de trabalho SAP'])[1]/following::div[14]</value>
+      <webElementGuid>5605751b-54b6-4a35-8129-6249eb3606fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/div/div[2]/div/div/div[2]/div/div</value>
+      <webElementGuid>63ae2bbf-aef7-4aac-bb6b-74d863ea7a2c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'AAI11S40 - MAIN O01 MINA - APOIO SERVIÇOS DE INFRAESTRUTURA' or . = 'AAI11S40 - MAIN O01 MINA - APOIO SERVIÇOS DE INFRAESTRUTURA')]</value>
+      <webElementGuid>a679b4f1-4ce9-4ff0-835d-f7d0db8e0776</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

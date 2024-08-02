@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_My Work Requests_fa fa-plus</name>
+   <tag></tag>
+   <elementGuidId>9576e1e0-8371-4ea1-a80b-b2b4e6d781fb</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ui-view']/div/div/div/div/div[2]/div[2]/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.fa.fa-plus</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>60d01617-60ff-47d6-913e-756ef33db8d5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>fa fa-plus</value>
+      <webElementGuid>11ce0617-1c7f-4911-8fa8-a2bfeecddfd9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ui-view&quot;)/div[@class=&quot;animated fadeIn px-0 py-4&quot;]/div[@class=&quot;row mx-lg-n1&quot;]/div[@class=&quot;col-md-6 pl-3 mb-3&quot;]/div[@class=&quot;panel h-100 d-flex flex-column px-2 bg-white position-relative&quot;]/div[@class=&quot;d-flex justify-content-between align-items-center mt-2 pb-2&quot;]/div[@class=&quot;p-1&quot;]/a[@class=&quot;btn btn-primary btn-icon btn-circle rounded-circle&quot;]/i[@class=&quot;fa fa-plus&quot;]</value>
+      <webElementGuid>5c4eebd5-256d-4b7e-838e-24cf44789dc7</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ui-view']/div/div/div/div/div[2]/div[2]/a/i</value>
+      <webElementGuid>d9256cd4-689f-4ea4-af35-70a8c112dfa4</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/a/i</value>
+      <webElementGuid>e218980b-fbe7-4964-852d-4c2f5168b4e1</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
