@@ -18,9 +18,9 @@ DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.w
 DriverCleanerCollector.getInstance().addDriverCleaner(new com.kms.katalon.core.testng.keyword.internal.TestNGDriverCleaner())
 
 
-RunConfiguration.setExecutionSettingFile('C:\\Users\\SETHAB~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\Checklists Master Data\\Equipment Groups\\20240722_073302\\execution.properties')
+RunConfiguration.setExecutionSettingFile('C:\\Users\\SETHAB~1\\AppData\\Local\\Temp\\Katalon\\Test Cases\\AOP Work Request\\Login Work Request\\20240722_141736\\execution.properties')
 
 TestCaseMain.beforeStart()
 
-        TestCaseMain.runTestCase('Test Cases/Checklists Master Data/Equipment Groups', new TestCaseBinding('Test Cases/Checklists Master Data/Equipment Groups',[:]), FailureHandling.STOP_ON_FAILURE , false)
+        TestCaseMain.runTestCase('Test Cases/AOP Work Request/Login Work Request', new TestCaseBinding('Test Cases/AOP Work Request/Login Work Request',[:]), FailureHandling.STOP_ON_FAILURE , false)
     

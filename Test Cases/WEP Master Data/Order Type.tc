@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>Login Work Request</name>
+   <name>Order Type</name>
    <tag></tag>
    <comment></comment>
    <recordOption>OTHER</recordOption>
-   <testCaseGuid>8f113d14-d0cd-4977-a10d-9135a56e2b5f</testCaseGuid>
+   <testCaseGuid>2e6dd64d-8fa9-444b-afc9-5831d4161424</testCaseGuid>
 </TestCaseEntity>

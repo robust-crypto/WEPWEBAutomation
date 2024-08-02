@@ -24,14 +24,13 @@ WebUI.navigateToUrl(GlobalVariable.PreprodENV)
 WebUI.maximizeWindow()
 
 for (int i = 0; i < 2; i++) {
-    WebUI.setText(findTestObject('Page_Anglo EA Identity  Identity/input_Work Execution Platform_Username'), GlobalVariable.PlatsUsers[
-        i])
+    WebUI.setText(findTestObject('Work Requests/input_Work Execution Platform_Username'), GlobalVariable.PlatsUsers[i])
 
     WebUI.click(findTestObject('Page_Anglo EA Identity  Identity/button_Next'))
 
-    WebUI.setEncryptedText(findTestObject('Page_Anglo EA Identity  Identity/input_Work Execution Platform_Password'), 'iGDxf8hSRT4=')
+    WebUI.setEncryptedText(findTestObject('Work Requests/input_Work Execution Platform_Password'), 'iGDxf8hSRT4=')
 
-    WebUI.click(findTestObject('Page_Anglo EA Identity  Identity/button_Login'))
+    WebUI.click(findTestObject('Work Requests/button_Login'))
 
     WebUI.callTestCase(findTestCase('AOP Work Request/Raise Work Request'), [:], FailureHandling.STOP_ON_FAILURE)
 

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Email Templates_nav-icon icon-layers aa-primary</name>
+   <tag></tag>
+   <elementGuidId>2fd7987e-04c0-492b-b36e-512705a245af</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//nav[@id='sidebar-nav-id']/ul/li[3]/a/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.nav-icon.icon-layers.aa-primary</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>8239d52c-20cc-4a8a-bbf1-7e57a1d5f327</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>nav-icon icon-layers aa-primary</value>
+      <webElementGuid>ccfa7c58-4001-496c-937b-e9942ebb0c7b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;sidebar-nav-id&quot;)/ul[@class=&quot;nav&quot;]/li[@class=&quot;nav-item nav-dropdown&quot;]/a[@class=&quot;nav-link nav-dropdown-toggle hide-before w-100 aa-primary&quot;]/i[@class=&quot;nav-icon icon-layers aa-primary&quot;]</value>
+      <webElementGuid>257a91f5-fb75-426d-aa15-7a23b025496d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//nav[@id='sidebar-nav-id']/ul/li[3]/a/i</value>
+      <webElementGuid>4739dfe9-d546-460e-9b6b-0509bc563530</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a/i</value>
+      <webElementGuid>ecb3e8c6-a6e9-4ca1-b5a7-a585cce70fef</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

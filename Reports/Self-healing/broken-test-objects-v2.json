@@ -29,6 +29,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_Anglo Checklists  Checklist/i_Search_pli-plus_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Work Requests/button_FINISH",
+      "brokenLocator": "button.next.btn.btn-primary.px-5.font-weight-bold",
+      "brokenLocatorMethod": "CSS",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[13]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Work Requests/button_FINISH_XPATH.png"
     }
   ]
 }

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>i_Modified Date_icons font-1xl d-block mt-1_c32464</name>
+   <tag></tag>
+   <elementGuidId>ff5b590e-1a7c-4839-b7a0-0cc744408d5b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ui-view']/div/div/div[2]/div/table/tbody/tr/td/button[2]/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.icons.font-1xl.d-block.mt-1.cui-trash</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>b761f7a9-8d9b-4943-83d3-caefce56de19</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>icons font-1xl d-block mt-1 cui-trash</value>
+      <webElementGuid>b946027d-1ae2-44b8-9402-a181dc1c64ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ui-view&quot;)/div[@class=&quot;animated fadeIn&quot;]/div[@class=&quot;card&quot;]/div[@class=&quot;card-body&quot;]/div[@class=&quot;table-responsive-lg&quot;]/table[@class=&quot;table table-hover&quot;]/tbody[1]/tr[1]/td[1]/button[@class=&quot;btn btn-danger btn-icon btn-sm btnRemove&quot;]/i[@class=&quot;icons font-1xl d-block mt-1 cui-trash&quot;]</value>
+      <webElementGuid>dacf192f-a77c-4ba9-81fc-cf6d9e7d0f76</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ui-view']/div/div/div[2]/div/table/tbody/tr/td/button[2]/i</value>
+      <webElementGuid>b0568897-459e-4dd7-99d9-c610b5261c31</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/button[2]/i</value>
+      <webElementGuid>05bb9ded-857d-4835-9a84-c9056c9f46fb</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
