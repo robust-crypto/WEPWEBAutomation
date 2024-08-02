@@ -18,24 +18,19 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
 import org.openqa.selenium.By as By
-import com.kms.katalon.core.webui.driver.DriverFactory as DriverFactory
-import java.util.Date
+import java.util.Date as Date
 import org.openqa.selenium.WebElement as WebElement
 import org.openqa.selenium.WebDriver as WebDriver
 import org.openqa.selenium.chrome.ChromeDriver as WebElement
-import java.time.LocalDateTime
-import java.time.format.DateTimeFormatter
+import java.time.LocalDateTime as LocalDateTime
+import java.time.format.DateTimeFormatter as DateTimeFormatter
 
 WebUI.openBrowser('')
 
 WebUI.navigateToUrl(GlobalVariable.PreprodENV)
 
 //WebUI.maximizeWindow()
-
-
-for (int i = 0; i < 1; i++)
-	
-	 {
+for (int i = 0; i < 1; i++) {
     WebUI.setText(findTestObject('Object Repository/Page_Anglo EA Identity  Identity/input_Work Execution Platform_Username'), 
         GlobalVariable.PlatsUsers[i])
 
@@ -45,26 +40,12 @@ for (int i = 0; i < 1; i++)
         'iGDxf8hSRT4=')
 
     WebUI.click(findTestObject('Object Repository/Page_Anglo EA Identity  Identity/button_Login'))
-  
 
-	
-	
-
-WebUI.callTestCase(findTestCase('WorkBoard'), [:], FailureHandling.STOP_ON_FAILURE)
-	
-  //WebUI.callTestCase(findTestCase('WorkWeek'), [:], FailureHandling.STOP_ON_FAILURE)
-   
-   
-  //WebUI.callTestCase(findTestCase('MyTeamsWork'), [:], FailureHandling.STOP_ON_FAILURE)
-  //WebUI.callTestCase(findTestCase('SearchERPWO'), [:], FailureHandling.STOP_ON_FAILURE)
-	//WebUI.callTestCase(findTestCase('BulkSignoff'), [:], FailureHandling.STOP_ON_FAILURE)
-	
-//WebUI.click(findTestObject('Object Repository/Page_WEP  Home/ProfileMenu'))
-
-//WebUI.click(findTestObject('Object Repository/Page_WEP  Home/a_Logout'))
- 
+    WebUI.callTestCase(findTestCase('WorkBoard'), [:], FailureHandling.STOP_ON_FAILURE) //WebUI.callTestCase(findTestCase('WorkWeek'), [:], FailureHandling.STOP_ON_FAILURE)
+    //WebUI.callTestCase(findTestCase('MyTeamsWork'), [:], FailureHandling.STOP_ON_FAILURE)
+    //WebUI.callTestCase(findTestCase('SearchERPWO'), [:], FailureHandling.STOP_ON_FAILURE)
+    //WebUI.callTestCase(findTestCase('BulkSignoff'), [:], FailureHandling.STOP_ON_FAILURE)
+    //WebUI.click(findTestObject('Object Repository/Page_WEP  Home/ProfileMenu'))
+    //WebUI.click(findTestObject('Object Repository/Page_WEP  Home/a_Logout'))
 }
-//WebUI.closeBrowser()
-
-
 
