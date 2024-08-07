@@ -12,17 +12,57 @@ public class GlobalVariable {
     /**
      * <p></p>
      */
+    public static Object DeBeersUsers
+     
+    /**
+     * <p></p>
+     */
+    public static Object Password
+     
+    /**
+     * <p></p>
+     */
+    public static Object MaintenanceDBRSAuto
+     
+    /**
+     * <p></p>
+     */
+    public static Object EquipmentFailureDBRSAuto
+     
+    /**
+     * <p></p>
+     */
+    public static Object ActivityReportDBRSAuto
+     
+    /**
+     * <p></p>
+     */
+    public static Object WorkRequestTypes
+     
+    /**
+     * <p></p>
+     */
+    public static Object DBRSFollowOnWorkRequestTypes
+     
+    /**
+     * <p></p>
+     */
+    public static Object url
+     
+    /**
+     * <p></p>
+     */
+    public static Object DeBeersPreprod
+     
+    /**
+     * <p></p>
+     */
     public static Object PreprodENV
      
     /**
      * <p></p>
      */
     public static Object PlatsUsers
-     
-    /**
-     * <p></p>
-     */
-    public static Object Password
      
     /**
      * <p></p>
@@ -91,9 +131,17 @@ public class GlobalVariable {
 			selectedVariables += TestCaseMain.getGlobalVariables(RunConfiguration.getExecutionProfile())
             selectedVariables += TestCaseMain.getParsedValues(RunConfiguration.getOverridingParameters(), selectedVariables)
     
+            DeBeersUsers = selectedVariables['DeBeersUsers']
+            Password = selectedVariables['Password']
+            MaintenanceDBRSAuto = selectedVariables['MaintenanceDBRSAuto']
+            EquipmentFailureDBRSAuto = selectedVariables['EquipmentFailureDBRSAuto']
+            ActivityReportDBRSAuto = selectedVariables['ActivityReportDBRSAuto']
+            WorkRequestTypes = selectedVariables['WorkRequestTypes']
+            DBRSFollowOnWorkRequestTypes = selectedVariables['DBRSFollowOnWorkRequestTypes']
+            url = selectedVariables['url']
+            DeBeersPreprod = selectedVariables['DeBeersPreprod']
             PreprodENV = selectedVariables['PreprodENV']
             PlatsUsers = selectedVariables['PlatsUsers']
-            Password = selectedVariables['Password']
             PortUsers = selectedVariables['PortUsers']
             WRtypes = selectedVariables['WRtypes']
             followOnWRtypes = selectedVariables['followOnWRtypes']
