@@ -11,7 +11,7 @@
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>['pulaneam', 'AMOAM']</initValue>
+      <initValue>['pulaneiob', 'pulaneiob']</initValue>
       <name>PlatsUsers</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
@@ -53,5 +53,10 @@
       <description></description>
       <initValue>''</initValue>
       <name>BU</name>
+   </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>''</initValue>
+      <name>LogedUser</name>
    </GlobalVariableEntity>
 </GlobalVariableEntities>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_Raise New SAP Work Request_wrd-componen_bcd314 (1)</name>
+   <tag></tag>
+   <elementGuidId>46a74b0b-6148-4e37-9663-5f9ec9a74337</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='vueAppContainer1']/div</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>div.wrd-component-loader.pending-approval-loader.med-z-index</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>ed7a26ff-ab10-417e-8425-21c82eda81d7</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wrd-component-loader pending-approval-loader med-z-index</value>
+      <webElementGuid>91b08ead-28b4-46eb-9081-25b6998752eb</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;vueAppContainer1&quot;)/div[@class=&quot;wrd-component-loader pending-approval-loader med-z-index&quot;]</value>
+      <webElementGuid>659fb5b1-eed0-4e72-acd8-2cb2baba008f</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='vueAppContainer1']/div</value>
+      <webElementGuid>b97d7d92-26b8-41ab-b07a-b5b28b9af288</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Raise New SAP Work Request'])[1]/following::div[4]</value>
+      <webElementGuid>d60b794c-10fe-46b7-9966-b156e5bef1b0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='VIEW_ALL 0'])[1]/following::div[8]</value>
+      <webElementGuid>1bb92e6c-eb27-49be-b4dd-0b1dac583531</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='What type of work is required?'])[1]/preceding::div[2]</value>
+      <webElementGuid>6c554a51-59c0-4570-8eeb-1d13a66f4d42</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Please select Work request Type.'])[1]/preceding::div[4]</value>
+      <webElementGuid>e972fcbd-39f7-4995-bdc1-c7542e1551a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[4]/div/div/div[2]/div/div/div</value>
+      <webElementGuid>a1d28977-9871-4dc4-9115-8c72d76bcdff</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -28,7 +28,7 @@ import java.time.format.DateTimeFormatter
 
 public void ToggleSideMenu()
 {
-WebUI.click(findTestObject('Object Repository/Work Orders/Page_WEP  Home/sidebarmax'))
+//WebUI.click(findTestObject('Object Repository/Work Orders/Page_WEP  Home/sidebarmax'))
 	WebDriver driver =DriverFactory.getWebDriver()
 	def aa= driver.findElement(By.xpath("(//a[@href='/WorkOrder/WorkOrderSapList'])[2]"))
 	aa.click()
@@ -39,35 +39,27 @@ WebUI.click(findTestObject('Object Repository/Work Orders/Page_WEP  Home/sidebar
 ToggleSideMenu()
 
 //WebUI.click(findTestObject('Object Repository/Work Orders/WorkWeek/a_Work Week'))
-
+WebUI.maximizeWindow()
 WebUI.waitForElementNotPresent(findTestObject('Object Repository/Work Orders/Work Boards/UpdatingWO'), 60)
 
 WebUI.click(findTestObject('Object Repository/Work Orders/WorkWeek/tglOperationWorkWeek'))
+WebUI.delay(5)
 
 WebDriver driver =DriverFactory.getWebDriver()
 
 
-List<WebElement> elements = driver.findElements(By.xpath("//img[@class='mt-1 col-1 px-0']"))
-
-
-	for (WebElement1 item : elements) {
-	
-		if ( item.getAttribute("data-original-title") == "NOT STARTED")
-		{ WebUI.delay(5)
+List<WebElement1> wwo = driver.findElements(By.xpath
+	("//div[@class='list-group-item d-flex accordionSublist px-1 row mr-0 ml-0 w-100 mt-1 pb-0 center cursorPointer']//img[@class='mt-1 col-1 px-0']"))
+for (WebElement1 o : wwo) {
+	if ( o.getAttribute("data-original-title") == "NOT STARTED")
+		{ WebUI.delay(10)	
+			o.click()
 			
-			
-			
-			
-			
-			
-			
-			
-			item.click()
-			//WebUI.executeJavaScript('document.getElementById(\'checkFullyCompleted\').click()', [], FailureHandling.STOP_ON_FAILURE)
-			
-			WebUI.waitForElementPresent(findTestObject('Object Repository/Work Orders/Work Boards/OperationElements/WOModal'), 10)
+			WebUI.verifyElementPresent(findTestObject('Object Repository/Work Orders/Work Boards/OperationElements/WOModal'), 
+				10,FailureHandling.STOP_ON_FAILURE)
 		
-			if (WebUI.getText(findTestObject('Object Repository/MyTeamsWork/lblOperationContolKey'))== "PMIN") {
+			if (WebUI.getText(findTestObject('Object Repository/MyTeamsWork/lblOperationContolKey'))== "PMIN" &&
+				WebUI.verifyElementNotVisible(findTestObject('Object Repository/Work Orders/WOBreakdownIcon'),FailureHandling.OPTIONAL)){
 						
 					
 					WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/OperationElements/StartWorkButton'))
@@ -83,7 +75,7 @@ List<WebElement> elements = driver.findElements(By.xpath("//img[@class='mt-1 col
 				
 					break
 					}
-					else if (WebUI.getText(findTestObject('Object Repository/MyTeamsWork/lblOperationContolKey'))== "PMES") {
+					else  {
 						
 						
 						WebUI.click(findTestObject('Object Repository/ConfirmationScreen/CloseWOPop-up'))
@@ -99,23 +91,8 @@ List<WebElement> elements = driver.findElements(By.xpath("//img[@class='mt-1 col
 		
 
 	}
-	//WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/OperationElements/tabOperationWO'))
 	
-	//driver.findElement(By.xpath("//a[@id='mainoperations-tab']")).click()
-	//List<WebElement> operations = driver.findElements(By.xpath("//ul[@class='row nav nav-tabs remoBorderBottom']//img[@data-toggle='tooltip']"))
-	
-	
-	//for (WebElement1 op : operations) {
-	//	if ( op.getAttribute("data-original-title") == "NOT STARTED")
-		//{
-			
-			//op.click()
-			//break
-			
-	//	}
-		
-	//}
-	WebUI.callTestCase(findTestCase('WorkOrders/PartialConfirmation'), [:], FailureHandling.STOP_ON_FAILURE)
+	WebUI.callTestCase(findTestCase('WorkOrders/PartialConfirmation'), [:], FailureHandling.CONTINUE_ON_FAILURE)
 	
 	
 	

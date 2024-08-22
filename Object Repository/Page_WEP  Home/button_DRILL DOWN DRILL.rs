@@ -3,18 +3,18 @@
    <description></description>
    <name>button_DRILL DOWN DRILL</name>
    <tag></tag>
-   <elementGuidId>e106076e-9659-4bbf-8ebb-70a1904f451f</elementGuidId>
+   <elementGuidId>e65f72c8-b8d0-4e83-a90e-b7bd5f47e705</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//button[@type='button'])[12]</value>
+         <value>(//button[@type='button'])[10]</value>
       </entry>
       <entry>
          <key>CSS</key>
          <value>button.btn.btn-outline-primary.ml-2.d-flex</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>CSS</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <smartLocatorEnabled>false</smartLocatorEnabled>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
@@ -23,7 +23,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>e0aaf6e8-714d-407f-9268-f2f318be6a2f</webElementGuid>
+      <webElementGuid>8acfaa08-6745-4578-ba01-d591d7a3fb43</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -31,7 +31,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d18766ab-8981-4047-84e9-69e0fcca7b88</webElementGuid>
+      <webElementGuid>57437a39-b0f3-4826-8501-d268d87c78b8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -39,7 +39,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-outline-primary ml-2 d-flex</value>
-      <webElementGuid>eb23102e-c855-4f6a-8b69-0e5c1665242c</webElementGuid>
+      <webElementGuid>744fd561-74d0-42bd-aa27-6aa89fe98f64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,7 +47,7 @@
       <name>text</name>
       <type>Main</type>
       <value> DRILL DOWN DRILL</value>
-      <webElementGuid>d1a732be-46ed-4198-a803-c9d7e5dff20a</webElementGuid>
+      <webElementGuid>e133e143-4481-4478-9020-1eeb9cf9e57c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -55,15 +55,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;vueAppContainer1&quot;)/div[@class=&quot;card h-100&quot;]/div[@class=&quot;form-horizontal mar-top flex-column d-flex h-100 justify-content-start&quot;]/div[@class=&quot;card-body h-100 d-flex flex-column pt-0 px-0&quot;]/div[@class=&quot;mt-2 px-3&quot;]/div[@class=&quot;border-top border-bottom&quot;]/div[@class=&quot;w-100 py-3&quot;]/div[@class=&quot;flex-column mt-2&quot;]/div[@class=&quot;d-flex align-items-center mt-1&quot;]/button[@class=&quot;btn btn-outline-primary ml-2 d-flex&quot;]</value>
-      <webElementGuid>48401b25-3d65-4844-b7ea-be9019966ec1</webElementGuid>
+      <webElementGuid>946404cb-09e8-401d-9ca7-03ada3e4b8bb</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>(//button[@type='button'])[12]</value>
-      <webElementGuid>d8041ae3-2846-4a84-8725-dec2529fdbb3</webElementGuid>
+      <value>(//button[@type='button'])[10]</value>
+      <webElementGuid>c7c64d38-ce79-4240-b40c-5a905ec073c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='vueAppContainer1']/div[2]/div/div/div[2]/div[2]/div/div/div/button</value>
-      <webElementGuid>44c03286-b91c-470a-9e10-0775aad57733</webElementGuid>
+      <webElementGuid>00c825c0-5249-4848-9244-187cd4bf0142</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -79,7 +79,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Search by description, sort code or plant identifier'])[1]/following::button[1]</value>
-      <webElementGuid>fae1b665-4b16-4251-96bf-1d7b2be87afa</webElementGuid>
+      <webElementGuid>45a6e8e1-a15d-4d75-8ff8-4a84367a76b9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -87,7 +87,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/div/div/button</value>
-      <webElementGuid>7482e597-8b39-40ad-bc56-c37f8cb49a80</webElementGuid>
+      <webElementGuid>d96cbf72-bbb4-42c7-a574-30cd867d06ff</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -95,6 +95,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and (text() = ' DRILL DOWN DRILL' or . = ' DRILL DOWN DRILL')]</value>
-      <webElementGuid>4f4ac899-9d00-448a-8f62-20ad597434fd</webElementGuid>
+      <webElementGuid>6c1f9df2-bf26-4063-953c-3213389a46da</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -43,7 +43,7 @@ import org.openqa.selenium.JavascriptExecutor as JavascriptExecutor
 
 
 WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/ConfirmWorkBTN'))
-Confirmationdata('12', 'Partial Confirmation Comments Automation', 'Partial Confirmation')//Partial 
+Confirmationdata('24', 'Partial Confirmation Comments Automation', 'Partial Confirmation')//Partial 
 
 //verify confirmation posted
 verifyConfirmation()
@@ -77,18 +77,25 @@ void WorkCompletedConfirmation() {
            WebUI.verifyElementPresent(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/imgWorkCompletedFeedbackTab'), 
             10)
 		   
-
+if( GlobalVariable.LogedUser=="pulaneam")
+{
         Signoff()
+}
+
+else
+{
+	
+	WebUI.click(findTestObject('Object Repository/ConfirmationScreen/CloseWOPop-up'))
+	
+}
+
     
 }
 
 void Signoff() {
 	
 	
-	if (GlobalVariable.BU =="Minas Rio")
-	{
-		TimeZone.setDefault(TimeZone.getTimeZone("America/Sao_Paulo"))
-	}
+	
 	TimeZone.setDefault(TimeZone.getTimeZone("America/Sao_Paulo"))
 	//TimeZone.setDefault(TimeZone.getTimeZone("Europe/London"))
     WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/tabSignoff'))
@@ -137,7 +144,7 @@ void Confirmationdata(def number, def Comments, def type) {
 		
        
     }
-    
+	WebUI.clearText(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/ActualWork'))
     WebUI.setText(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/ActualWork'), number)
 	
 	
@@ -148,7 +155,8 @@ void Confirmationdata(def number, def Comments, def type) {
 	 WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/ReasonCodeDropdown'))
 	if(WebUI.verifyElementPresent(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/ReasonCodeDropdownOption'),5,FailureHandling.OPTIONAL))
 	{
-		WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/ReasonCodeDropdownOption'))
+		WebUI.click(findTestObject('Object Repository/Work Orders/Work Boards/ConfirmationScreen/ReasonCodeDropdownOption'),FailureHandling.OPTIONAL)
+		
 		
 	}
 		
